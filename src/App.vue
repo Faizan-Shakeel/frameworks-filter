@@ -23,11 +23,11 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  h1
-  {
-    text-align: center;
-    font-family: "Adobe Caslon Pro";
-    color: #b6c7ff;
-  }
+  /*h1*/
+  /*{*/
+    /*text-align: center;*/
+    /*font-family: "Adobe Caslon Pro";*/
+    /*color: #b6c7ff;*/
+  /*}*/
 
 </style>

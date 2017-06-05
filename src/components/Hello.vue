@@ -119,6 +119,42 @@
           Please check individual results for most important criteria for your project.
         </p>
       </span>
+
+      <span id="info-app-size">
+        <p>
+          Please note that 'Total Percentage' shows the overall result, which doesn't necessarily mean that the higher the percentage the higher the suitability.
+        </p>
+        <p>
+          Please check individual results for most important criteria for your project.
+        </p>
+      </span>
+
+      <span id="info-learning-curve">
+        <p>
+          Please note that 'Total Percentage' shows the overall result, which doesn't necessarily mean that the higher the percentage the higher the suitability.
+        </p>
+        <p>
+          Please check individual results for most important criteria for your project.
+        </p>
+      </span>
+
+      <span id="info-standards-complaint">
+        <p>
+          Please note that 'Total Percentage' shows the overall result, which doesn't necessarily mean that the higher the percentage the higher the suitability.
+        </p>
+        <p>
+          Please check individual results for most important criteria for your project.
+        </p>
+      </span>
+
+      <!--<span id="info-architecture">-->
+        <!--<p>-->
+          <!--Please note that 'Total Percentage' shows the overall result, which doesn't necessarily mean that the higher the percentage the higher the suitability.-->
+        <!--</p>-->
+        <!--<p>-->
+          <!--Please check individual results for most important criteria for your project.-->
+        <!--</p>-->
+      <!--</span>-->
     </div>
 
     <nav class="navbar navbar-default navbar-static-top">
@@ -144,7 +180,7 @@
         <form class="">
           <div class="form-group">
             <label for="scalability">Scalability</label>
-            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltip-test" data-tooltip-content="#info-scalability"></span>
+            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-scalability"></span>
             <select v-model="scalability" class="form-control" id="scalability" v-on:change="frameworkFilter('scalability', scalability)">
               <option>Not Important</option>
               <option>Moderately Important</option>
@@ -153,7 +189,7 @@
           </div>
           <div class="form-group">
             <label for="modularity">Modularity</label>
-            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltip-test" data-tooltip-content="#info-modularity"></span>
+            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-modularity"></span>
             <select v-model="modularity" class="form-control" id="modularity" v-on:change="frameworkFilter('modularity', modularity)">
               <option>Not Important</option>
               <option>Moderately Important</option>
@@ -162,7 +198,7 @@
           </div>
           <div class="form-group">
             <label for="backwardscompatibility">Backwards Compatibility</label>
-            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltip-test" data-tooltip-content="#info-backwards-compatibility"></span>
+            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-backwards-compatibility"></span>
             <select v-model="backwardsCompatibility" class="form-control" id="backwardscompatibility" v-on:change="frameworkFilter('backwardsCompatibility', backwardsCompatibility)">
               <option>Not Important</option>
               <option>Moderately Important</option>
@@ -171,7 +207,7 @@
           </div>
           <div class="form-group">
             <label for="testability">Testability</label>
-            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltip-test" data-tooltip-content="#info-testability"></span>
+            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-testability"></span>
             <select v-model="testability" class="form-control" id="testability" v-on:change="frameworkFilter('testability', testability)">
               <option>Not Important</option>
               <option>Moderately Important</option>
@@ -180,7 +216,7 @@
           </div>
           <div class="form-group">
             <label for="support">Support</label>
-            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltip-test" data-tooltip-content="#info-support"></span>
+            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-support"></span>
             <select v-model="support" class="form-control" id="support" v-on:change="frameworkFilter('support', support)">
               <option>Not Important</option>
               <option>Moderately Important</option>
@@ -189,7 +225,7 @@
           </div>
           <div class="form-group">
             <label for="future">Future</label>
-            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltip-test" data-tooltip-content="#info-future"></span>
+            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-future"></span>
             <select v-model="future" class="form-control" id="future" v-on:change="frameworkFilter('future', future)">
               <option>Not Important</option>
               <option>Moderately Important</option>
@@ -198,7 +234,7 @@
           </div>
           <div class="form-group">
             <label for="performance">Performance</label>
-            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltip-test" data-tooltip-content="#info-performance"></span>
+            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-performance"></span>
             <select v-model="performance" class="form-control" id="performance" v-on:change="frameworkFilter('performance', performance)">
               <option>Not Important</option>
               <option>Moderately Important</option>
@@ -207,7 +243,7 @@
           </div>
           <div class="form-group">
             <label for="customizability">Customizability</label>
-            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltip-test" data-tooltip-content="#info-customizability"></span>
+            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-customizability"></span>
             <select v-model="customizability" class="form-control" id="customizability" v-on:change="frameworkFilter('customizability', customizability)">
               <option>Not Important</option>
               <option>Moderately Important</option>
@@ -216,7 +252,7 @@
           </div>
           <div class="form-group">
             <label for="readability">Readability</label>
-            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltip-test" data-tooltip-content="#info-readability"></span>
+            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-readability"></span>
             <select v-model="readability" class="form-control" id="readability" v-on:change="frameworkFilter('readability', readability)">
               <option>Not Important</option>
               <option>Moderately Important</option>
@@ -225,7 +261,7 @@
           </div>
           <div class="form-group">
             <label for="frameworkSize">Framework Size</label>
-            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltip-test" data-tooltip-content="#info-framework-size"></span>
+            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-framework-size"></span>
             <select v-model="frameworkSize" class="form-control" id="frameworkSize" v-on:change="frameworkFilter('frameworkSize', frameworkSize)">
               <option>Not Important</option>
               <option>Moderately Important</option>
@@ -234,7 +270,7 @@
           </div>
           <div class="form-group">
             <label for="timeInHand">Time in hand</label>
-            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltip-test" data-tooltip-content="#info-time-in-hand"></span>
+            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-time-in-hand"></span>
             <select v-model="timeInHand" class="form-control" id="timeInHand" v-on:change="frameworkFilter('timeInHand', timeInHand)">
               <option>No Time Constraint</option>
               <option>Routine</option>
@@ -243,12 +279,48 @@
           </div>
           <div class="form-group">
             <label for="language">Language</label>
-            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltip-test" data-tooltip-content="#info-language"></span>
+            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-language"></span>
             <select v-model="language" class="form-control" id="language" v-on:change="frameworkFilter('language'+language, language)">
               <option>ES6</option>
               <option>TypeScript</option>
             </select>
           </div>
+          <div class="form-group">
+            <label for="appSize">App Size</label>
+            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-app-size"></span>
+            <select v-model="appSize" class="form-control" id="appSize" v-on:change="frameworkFilter('appSize', appSize)">
+              <option>Small</option>
+              <option>Medium</option>
+              <option>Big</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="learningCurve">Learning Curve</label>
+            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-learning-curve"></span>
+            <select v-model="learningCurve" class="form-control" id="learningCurve" v-on:change="frameworkFilter('learningCurve', learningCurve)">
+              <option>Not Important</option>
+              <option>Moderately Important</option>
+              <option>Very Important</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="standardsComplaint">Standards Complaint</label>
+            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-standards-complaint"></span>
+            <select v-model="standardsComplaint" class="form-control" id="standardsComplaint" v-on:change="frameworkFilter('standardsComplaint', standardsComplaint)">
+              <option>Not Important</option>
+              <option>Moderately Important</option>
+              <option>Very Important</option>
+            </select>
+          </div>
+          <!--<div class="form-group">-->
+            <!--<label for="architecture">Architecture</label>-->
+            <!--<span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-architecture"></span>-->
+            <!--<select v-model="architecture" class="form-control" id="architecture" v-on:change="frameworkFilter('architecture', architecture)">-->
+              <!--<option>Not Important</option>-->
+              <!--<option>Moderately Important</option>-->
+              <!--<option>Very Important</option>-->
+            <!--</select>-->
+          <!--</div>-->
         </form>
       </div>
 
@@ -261,13 +333,13 @@
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingOne">
               <h4 class="panel-title">
-                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="test-accordion-style">
                   Angular 2
                   <span class="total-percentage">
                     {{this.totalPercentageAngular}}%
                   </span>
-                  <!--<span class="glyphicon glyphicon-info-sign total-percentage-notification tooltip-test" title="Please note that 'Total Percentage' shows the overall result, which doesn't necessarily mean that the higher the percentage the higher the suitability. Please check individual results for most important criteria for your project."></span>-->
-                  <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltip-test" data-tooltip-content="#check-individual-results"></span>
+                  <!--<span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" title="Please note that 'Total Percentage' shows the overall result, which doesn't necessarily mean that the higher the percentage the higher the suitability. Please check individual results for most important criteria for your project."></span>-->
+                  <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#check-individual-results"></span>
                 </a>
               </h4>
             </div>
@@ -347,6 +419,30 @@
                       {{this.angularLanguagePercentage}}%
                     </td>
                   </tr>
+                  <tr>
+                    <th>App Size</th>
+                    <td class="col-sm-4 col-md-4 col-lg-1">
+                      {{this.angularAppSizePercentage}}%
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Learning Curve</th>
+                    <td class="col-sm-4 col-md-4 col-lg-1">
+                      {{this.angularLearningCurvePercentage}}%
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Standards Complaint</th>
+                    <td class="col-sm-4 col-md-4 col-lg-1">
+                      {{this.angularStandardsComplaintPercentage}}%
+                    </td>
+                  </tr>
+                  <!--<tr>-->
+                    <!--<th>Architecture</th>-->
+                    <!--<td class="col-sm-4 col-md-4 col-lg-1">-->
+                      <!--{{this.angularArchitecturePercentage}}%-->
+                    <!--</td>-->
+                  <!--</tr>-->
                   </tbody>
                 </table>
               </div>
@@ -440,6 +536,30 @@
                       {{this.reactLanguagePercentage}}%
                     </td>
                   </tr>
+                  <tr>
+                    <th>App Size</th>
+                    <td class="col-sm-4 col-md-4 col-lg-1">
+                      {{this.reactAppSizePercentage}}%
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Learning Curve</th>
+                    <td class="col-sm-4 col-md-4 col-lg-1">
+                      {{this.reactLearningCurvePercentage}}%
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Standards Complaint</th>
+                    <td class="col-sm-4 col-md-4 col-lg-1">
+                      {{this.reactStandardsComplaintPercentage}}%
+                    </td>
+                  </tr>
+                  <!--<tr>-->
+                    <!--<th>Architecture</th>-->
+                    <!--<td class="col-sm-4 col-md-4 col-lg-1">-->
+                      <!--{{this.reactArchitecturePercentage}}%-->
+                    <!--</td>-->
+                  <!--</tr>-->
                   </tbody>
                 </table>
 
@@ -534,6 +654,30 @@
                       {{this.vueLanguagePercentage}}%
                     </td>
                   </tr>
+                  <tr>
+                    <th>App Size</th>
+                    <td class="col-sm-4 col-md-4 col-lg-1">
+                      {{this.vueAppSizePercentage}}%
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Learning Curve</th>
+                    <td class="col-sm-4 col-md-4 col-lg-1">
+                      {{this.vueLearningCurvePercentage}}%
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Standards Complaint</th>
+                    <td class="col-sm-4 col-md-4 col-lg-1">
+                      {{this.vueStandardsComplaintPercentage}}%
+                    </td>
+                  </tr>
+                  <!--<tr>-->
+                    <!--<th>Architecture</th>-->
+                    <!--<td class="col-sm-4 col-md-4 col-lg-1">-->
+                      <!--{{this.reactArchitecturePercentage}}%-->
+                    <!--</td>-->
+                  <!--</tr>-->
                   </tbody>
                 </table>
 
@@ -562,7 +706,7 @@
 //      $(".tooltip").tooltipster();
 
       $(function () {
-        $('.tooltip-test').tooltipster({
+        $('.tooltips').tooltipster({
 //          theme: 'tooltipster-shadow',
           theme: ['tooltipster-shadow', 'tooltipster-shadow-customized'],
           delay: 0,
@@ -593,8 +737,12 @@
         frameworkSize: this.frameworkSize,
         timeInHand: this.timeInHand,
         language: this.language,
+        appSize: this.appSize,
+        learningCurve: this.learningCurve,
+        standardsComplaint: this.standardsComplaint,
+//        architecture: this.architecture,
 
-        totalCriteria: 13,
+        totalCriteria: 16,
         totalPercentageAngular: 0,
         totalPercentageReact: 0,
         totalPercentageVue: 0,
@@ -611,6 +759,10 @@
         angularFrameworkSizePercentage: 0,
         angularTimeInHandPercentage: 0,
         angularLanguagePercentage: 0,
+        angularAppSizePercentage: 0,
+        angularLearningCurvePercentage: 0,
+        angularStandardsComplaintPercentage: 0,
+//        angularArchitecturePercentage: 0,
 
         reactScalabilityPercentage: 0,
         reactModularityPercentage: 0,
@@ -624,6 +776,11 @@
         reactFrameworkSizePercentage: 0,
         reactTimeInHandPercentage: 0,
         reactLanguagePercentage: 0,
+        reactAppSizePercentage: 0,
+        reactLearningCurvePercentage: 0,
+        reactStandardsComplaintPercentage: 0,
+//        reactArchitecturePercentage: 0,
+
 
         vueScalabilityPercentage: 0,
         vueModularityPercentage: 0,
@@ -637,6 +794,10 @@
         vueFrameworkSizePercentage: 0,
         vueTimeInHandPercentage: 0,
         vueLanguagePercentage: 0,
+        vueAppSizePercentage: 0,
+        vueLearningCurvePercentage: 0,
+        vueStandardsComplaintPercentage: 0,
+//        vueArchitecturePercentage: 0,
 
         frameworksData:
           {
@@ -728,6 +889,27 @@
               languageTypeScript:
                 {
                   strength: "Available",
+                  goalMet: 1,
+                  score: 0,
+                  percentage: 0
+                },
+              appSize:
+                {
+                  strength: "Available",
+                  goalMet: 1,
+                  score: 0,
+                  percentage: 0
+                },
+              learningCurve:
+                {
+                  strength: "Not Available",
+                  goalMet: 1,
+                  score: 0,
+                  percentage: 0
+                },
+              standardsComplaint:
+                {
+                  strength: "Not Available",
                   goalMet: 1,
                   score: 0,
                   percentage: 0
@@ -827,6 +1009,27 @@
                   score: 0,
                   percentage: 0
                 },
+              appSize:
+                {
+                  strength: "Available",
+                  goalMet: 1,
+                  score: 0,
+                  percentage: 0
+                },
+              learningCurve:
+                {
+                  strength: "Partially Available",
+                  goalMet: 1,
+                  score: 0,
+                  percentage: 0
+                },
+              standardsComplaint:
+                {
+                  strength: "Not Available",
+                  goalMet: 1,
+                  score: 0,
+                  percentage: 0
+                },
               meanTotalScore: 0,
               totalPercentage: 0
             },
@@ -916,6 +1119,27 @@
                   percentage: 0
                 },
               languageTypeScript:
+                {
+                  strength: "Available",
+                  goalMet: 1,
+                  score: 0,
+                  percentage: 0
+                },
+              appSize:
+                {
+                  strength: "Available",
+                  goalMet: 1,
+                  score: 0,
+                  percentage: 0
+                },
+              learningCurve:
+                {
+                  strength: "Available",
+                  goalMet: 1,
+                  score: 0,
+                  percentage: 0
+                },
+              standardsComplaint:
                 {
                   strength: "Available",
                   goalMet: 1,
@@ -1023,6 +1247,18 @@
           {
             this.angularLanguagePercentage = currentCriteriaPercentage;
           }
+          else if (currentCriteria === "appSize")
+          {
+            this.angularAppSizePercentage = currentCriteriaPercentage;
+          }
+          else if (currentCriteria === "learningCurve")
+          {
+            this.angularLearningCurvePercentage = currentCriteriaPercentage;
+          }
+          else if (currentCriteria === "standardsComplaint")
+          {
+            this.angularStandardsComplaintPercentage = currentCriteriaPercentage;
+          }
         }
         else if (currentFramework === "React")
         {
@@ -1077,6 +1313,18 @@
           else if (currentCriteria === "languageTypeScript")
           {
             this.reactLanguagePercentage = currentCriteriaPercentage;
+          }
+          else if (currentCriteria === "appSize")
+          {
+            this.reactAppSizePercentage = currentCriteriaPercentage;
+          }
+          else if (currentCriteria === "learningCurve")
+          {
+            this.reactLearningCurvePercentage = currentCriteriaPercentage;
+          }
+          else if (currentCriteria === "standardsComplaint")
+          {
+            this.reactStandardsComplaintPercentage = currentCriteriaPercentage;
           }
         }
         else if (currentFramework === "Vue")
@@ -1133,8 +1381,19 @@
           {
             this.vueLanguagePercentage = currentCriteriaPercentage;
           }
+          else if (currentCriteria === "appSize")
+          {
+            this.vueAppSizePercentage = currentCriteriaPercentage;
+          }
+          else if (currentCriteria === "learningCurve")
+          {
+            this.vueLearningCurvePercentage = currentCriteriaPercentage;
+          }
+          else if (currentCriteria === "standardsComplaint")
+          {
+            this.vueStandardsComplaintPercentage = currentCriteriaPercentage;
+          }
         }
-
 
       },
 
@@ -1198,11 +1457,11 @@
         let criteriaStrength = selectedCriteriaData['strength'];
         let criteriaGoalMet = selectedCriteriaData['goalMet'];
 
-        if ((userSelection === "Not Important") || (userSelection === "No Time Constraint"))
+        if ((userSelection === "Not Important") || (userSelection === "No Time Constraint") || (userSelection === "Small"))
         {
           criteriaGoalMet = 1;
         }
-        else if ((userSelection === "Moderately Important") || (userSelection === "Routine"))
+        else if ((userSelection === "Moderately Important") || (userSelection === "Routine") || (userSelection === "Medium"))
         {
           if (criteriaStrength === "Not Available")
           {
@@ -1217,7 +1476,7 @@
             criteriaGoalMet = 2;
           }
         }
-        else if ((userSelection === "Very Important") || (userSelection === "Urgent") || (userSelection === "ES6") || (userSelection === "TypeScript"))
+        else if ((userSelection === "Very Important") || (userSelection === "Urgent") || (userSelection === "ES6") || (userSelection === "TypeScript") || (userSelection === "Big"))
         {
           if (criteriaStrength === "Not Available")
           {
@@ -1265,6 +1524,7 @@
   /*margin: 0 auto;*/
   /*}*/
 
+
   .whole-page
   {
     width: 95%;
@@ -1274,36 +1534,38 @@
   .total-percentage
   {
     float: right;
-    color: deeppink;
+    color: darkgreen;
     cursor: default;
   }
 
   .total-percentage-notification
   {
     float: right;
-    color: black;
+    color: darkgray;
     margin-right: 10px;
     cursor: default;
+    font-size: medium;
   }
 
 
-  h1, h2 {
-    font-weight: normal;
-  }
+  /*h1, h2 {*/
+    /*font-weight: normal;*/
+  /*}*/
 
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
+  /*ul {*/
+    /*list-style-type: none;*/
+    /*padding: 0;*/
+  /*}*/
 
-  li {
-    display: inline-block;
-    margin: 0 10px;
-  }
+  /*li {*/
+    /*display: inline-block;*/
+    /*margin: 0 10px;*/
+  /*}*/
 
-  a {
-    color: #42b983;
-  }
+  /*a {*/
+    /*color: #42b983;*/
+    /*text-decoration: none;*/
+  /*}*/
 
   .tooltipster-sidetip.tooltipster-shadow.tooltipster-shadow-customized .tooltipster-content {
     font-size: 16px;
@@ -1316,5 +1578,13 @@
   }
 
   .tooltip_templates { display: none; }
+
+  .panel-heading a{
+    text-decoration: none;
+    color: deepskyblue;
+  }
+  /*{*/
+    /*text-decoration: none;*/
+  /*}*/
 
 </style>
