@@ -1,6 +1,6 @@
 <template>
 
-  <div class="hello-container">
+  <div class="filter-container">
 
     <div class="tooltip_templates">
       <span id="check-individual-results">
@@ -167,13 +167,41 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Request Framework</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#myModal">Recommend Framework</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div>
     </nav>
 
-    <!--<div class="hello-container container-fluid">-->
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="static">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title text-center" id="myModalLabel">Recommend Framework for Comparison</h4>
+          </div>
+          <form action="https://formspree.io/faizan.sg@gmail.com" method="post">
+            <div class="modal-body">
+                <div class="form-group">
+                  <label for="frameworkName">Framework Name</label>
+                  <input v-model="recommendedFrameworkByUser" type="text" class="form-control" id="frameworkName" placeholder="Framework Name" name="Framework Name">
+                </div>
+                <div class="form-group">
+                  <label for="optionalMessage">Message (Optional)</label>
+                  <textarea v-model="emailFormOptionalMessage" class="form-control" rows="3" id="optionalMessage" placeholder="Message" name="Message"></textarea>
+                </div>
+              <input type="hidden" name="_subject" :value="recommendedFrameworkByUser" />
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-success" data-dismiss="modal" v-on:click="sendMail(recommendedFrameworkByUser, emailFormOptionalMessage)">Submit Recommendation</button>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
 
     <div class="row whole-page">
       <div class="col-sm-6 col-md-6 col-lg-6">
@@ -349,97 +377,97 @@
                   <tbody>
                   <tr>
                     <th>Scalability</th>
-                    <td class="col-sm-4 col-md-4 col-lg-1">
+                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
                       {{this.angularScalabilityPercentage}}%
                     </td>
                   </tr>
                   <tr>
                     <th>Modularity</th>
-                    <td class="col-sm-4 col-md-4 col-lg-1">
+                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
                       {{this.angularModularityPercentage}}%
                     </td>
                   </tr>
                   <tr>
                     <th>Backwards Compatibility</th>
-                    <td class="col-sm-4 col-md-4 col-lg-1">
+                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
                       {{this.angularBackwardsCompatibilityPercentage}}%
                     </td>
                   </tr>
                   <tr>
                     <th>Testability</th>
-                    <td class="col-sm-4 col-md-4 col-lg-1">
+                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
                       {{this.angularTestabilityPercentage}}%
                     </td>
                   </tr>
                   <tr>
                     <th>Support</th>
-                    <td class="col-sm-4 col-md-4 col-lg-1">
+                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
                       {{this.angularSupportPercentage}}%
                     </td>
                   </tr>
                   <tr>
                     <th>Future</th>
-                    <td class="col-sm-4 col-md-4 col-lg-1">
+                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
                       {{this.angularFuturePercentage}}%
                     </td>
                   </tr>
                   <tr>
                     <th>Performance</th>
-                    <td class="col-sm-4 col-md-4 col-lg-1">
+                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
                       {{this.angularPerformancePercentage}}%
                     </td>
                   </tr>
                   <tr>
                     <th>Customizability</th>
-                    <td class="col-sm-4 col-md-4 col-lg-1">
+                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
                       {{this.angularCustomizabilityPercentage}}%
                     </td>
                   </tr>
                   <tr>
                     <th>Readability</th>
-                    <td class="col-sm-4 col-md-4 col-lg-1">
+                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
                       {{this.angularReadabilityPercentage}}%
                     </td>
                   </tr>
                   <tr>
                     <th>Framework Size</th>
-                    <td class="col-sm-4 col-md-4 col-lg-1">
+                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
                       {{this.angularFrameworkSizePercentage}}%
                     </td>
                   </tr>
                   <tr>
                     <th>Time in hand</th>
-                    <td class="col-sm-4 col-md-4 col-lg-1">
+                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
                       {{this.angularTimeInHandPercentage}}%
                     </td>
                   </tr>
                   <tr>
                     <th>Language</th>
-                    <td class="col-sm-4 col-md-4 col-lg-1">
+                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
                       {{this.angularLanguagePercentage}}%
                     </td>
                   </tr>
                   <tr>
                     <th>App Size</th>
-                    <td class="col-sm-4 col-md-4 col-lg-1">
+                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
                       {{this.angularAppSizePercentage}}%
                     </td>
                   </tr>
                   <tr>
                     <th>Learning Curve</th>
-                    <td class="col-sm-4 col-md-4 col-lg-1">
+                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
                       {{this.angularLearningCurvePercentage}}%
                     </td>
                   </tr>
                   <tr>
                     <th>Standards Complaint</th>
-                    <td class="col-sm-4 col-md-4 col-lg-1">
+                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
                       {{this.angularStandardsComplaintPercentage}}%
                     </td>
                   </tr>
                   <!--<tr>-->
                     <!--<th>Architecture</th>-->
-                    <!--<td class="col-sm-4 col-md-4 col-lg-1">-->
+                    <!--<td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">-->
                       <!--{{this.angularArchitecturePercentage}}%-->
                     <!--</td>-->
                   <!--</tr>-->
@@ -538,25 +566,25 @@
                   </tr>
                   <tr>
                     <th>App Size</th>
-                    <td class="col-sm-4 col-md-4 col-lg-1">
+                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
                       {{this.reactAppSizePercentage}}%
                     </td>
                   </tr>
                   <tr>
                     <th>Learning Curve</th>
-                    <td class="col-sm-4 col-md-4 col-lg-1">
+                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
                       {{this.reactLearningCurvePercentage}}%
                     </td>
                   </tr>
                   <tr>
                     <th>Standards Complaint</th>
-                    <td class="col-sm-4 col-md-4 col-lg-1">
+                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
                       {{this.reactStandardsComplaintPercentage}}%
                     </td>
                   </tr>
                   <!--<tr>-->
                     <!--<th>Architecture</th>-->
-                    <!--<td class="col-sm-4 col-md-4 col-lg-1">-->
+                    <!--<td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">-->
                       <!--{{this.reactArchitecturePercentage}}%-->
                     <!--</td>-->
                   <!--</tr>-->
@@ -656,25 +684,25 @@
                   </tr>
                   <tr>
                     <th>App Size</th>
-                    <td class="col-sm-4 col-md-4 col-lg-1">
+                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
                       {{this.vueAppSizePercentage}}%
                     </td>
                   </tr>
                   <tr>
                     <th>Learning Curve</th>
-                    <td class="col-sm-4 col-md-4 col-lg-1">
+                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
                       {{this.vueLearningCurvePercentage}}%
                     </td>
                   </tr>
                   <tr>
                     <th>Standards Complaint</th>
-                    <td class="col-sm-4 col-md-4 col-lg-1">
+                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
                       {{this.vueStandardsComplaintPercentage}}%
                     </td>
                   </tr>
                   <!--<tr>-->
                     <!--<th>Architecture</th>-->
-                    <!--<td class="col-sm-4 col-md-4 col-lg-1">-->
+                    <!--<td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">-->
                       <!--{{this.reactArchitecturePercentage}}%-->
                     <!--</td>-->
                   <!--</tr>-->
@@ -690,12 +718,7 @@
       <!--Accordion End-->
 
     </div>
-
-
-
-
   </div>
-
 
 </template>
 
@@ -703,7 +726,17 @@
   export default {
     beforeMount(){
 
-//      $(".tooltip").tooltipster();
+//      $('#myModal').modal({
+//        backdrop: 'static'
+//      });
+
+
+//      $(function () {
+//        $('#myModal').on('hidden.bs.modal', function (e) {
+//          toastr.success('Thank you for the recommendation.', 'Email Sent', {timeOut: 5000})
+//        });
+//      });
+
 
       $(function () {
         $('.tooltips').tooltipster({
@@ -714,17 +747,13 @@
           side: "left"
         });
       })
-
-
-
-//      $(function () {
-//        $('[data-toggle="tooltip"]').tooltip()
-//      })
     },
 
     name: 'hello',
     data () {
       return {
+        recommendedFrameworkByUser: this.recommendedFrameworkByUser,
+        emailFormOptionalMessage: this.emailFormOptionalMessage,
         scalability: this.scalability,
         modularity: this.modularity,
         backwardsCompatibility: this.backwardsCompatibility,
@@ -1509,8 +1538,24 @@
           console.API = console;
         }
         console.API.clear();
-      }
+      },
 
+      sendMail: function (recommendedFrameworkByUser, optionalMessage) {
+        $.ajax({
+          url: "https://formspree.io/faizan.sg@gmail.com",
+          method: "POST",
+          data:
+            {
+              'Recommended Framework': recommendedFrameworkByUser,
+              'Message': optionalMessage,
+          },
+          dataType: "json"
+        });
+
+        $('#myModal').on('hidden.bs.modal', function (e) {
+          toastr.success('Thank you for the recommendation.', 'Email Sent', {timeOut: 10000})
+        });
+      }
     }
   }
 </script>
@@ -1518,7 +1563,7 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
 
-  /*.hello-container*/
+  /*.filter-container*/
   /*{*/
   /*width: 95%;*/
   /*margin: 0 auto;*/
@@ -1547,26 +1592,6 @@
     font-size: medium;
   }
 
-
-  /*h1, h2 {*/
-    /*font-weight: normal;*/
-  /*}*/
-
-  /*ul {*/
-    /*list-style-type: none;*/
-    /*padding: 0;*/
-  /*}*/
-
-  /*li {*/
-    /*display: inline-block;*/
-    /*margin: 0 10px;*/
-  /*}*/
-
-  /*a {*/
-    /*color: #42b983;*/
-    /*text-decoration: none;*/
-  /*}*/
-
   .tooltipster-sidetip.tooltipster-shadow.tooltipster-shadow-customized .tooltipster-content {
     font-size: 16px;
     /*letter-spacing: 1.5px;*/
@@ -1583,8 +1608,5 @@
     text-decoration: none;
     color: deepskyblue;
   }
-  /*{*/
-    /*text-decoration: none;*/
-  /*}*/
 
 </style>

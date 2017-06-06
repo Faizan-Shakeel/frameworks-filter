@@ -2,7 +2,9 @@
   <div id="app">
     <!--<img src="./assets/logo.png">-->
     <!--<h1>Frameworks Filter</h1>-->
+
     <hello></hello>
+
   </div>
 </template>
 
@@ -23,11 +25,5 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  /*h1*/
-  /*{*/
-    /*text-align: center;*/
-    /*font-family: "Adobe Caslon Pro";*/
-    /*color: #b6c7ff;*/
-  /*}*/
 
 </style>
