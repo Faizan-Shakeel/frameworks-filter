@@ -9,7 +9,7 @@
 </template>
 
 <script>
-  import Hello from './components/Hello'
+  import Hello from './components/Framework-Filter'
 
   export default {
     name: 'app',

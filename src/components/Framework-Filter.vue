@@ -165,9 +165,9 @@
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#" data-toggle="modal" data-target="#myModal">Recommend Framework</a></li>
+            <li class=""><a href="#" data-toggle="modal" data-target="#myModal">Recommend Framework</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div>
@@ -191,7 +191,7 @@
                   <label for="optionalMessage">Message (Optional)</label>
                   <textarea v-model="emailFormOptionalMessage" class="form-control" rows="3" id="optionalMessage" placeholder="Message" name="Message"></textarea>
                 </div>
-              <input type="hidden" name="_subject" :value="recommendedFrameworkByUser" />
+              <!--<input type="hidden" name="_subject" value="Test Subject Change" />-->
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -725,18 +725,6 @@
 <script>
   export default {
     beforeMount(){
-
-//      $('#myModal').modal({
-//        backdrop: 'static'
-//      });
-
-
-//      $(function () {
-//        $('#myModal').on('hidden.bs.modal', function (e) {
-//          toastr.success('Thank you for the recommendation.', 'Email Sent', {timeOut: 5000})
-//        });
-//      });
-
 
       $(function () {
         $('.tooltips').tooltipster({
@@ -1548,6 +1536,7 @@
             {
               'Recommended Framework': recommendedFrameworkByUser,
               'Message': optionalMessage,
+              _subject: recommendedFrameworkByUser
           },
           dataType: "json"
         });
