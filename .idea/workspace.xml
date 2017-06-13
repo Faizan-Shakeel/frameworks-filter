@@ -20,8 +20,8 @@
       <file leaf-file-name="Framework-Filter.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Framework-Filter.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="723">
-              <caret line="3082" column="0" lean-forward="true" selection-start-line="3082" selection-start-column="0" selection-end-line="3082" selection-end-column="0" />
+            <state relative-caret-position="277">
+              <caret line="377" column="0" lean-forward="false" selection-start-line="377" selection-start-column="0" selection-end-line="377" selection-end-column="0" />
               <folding>
                 <element signature="e#7163#7170#1" expanded="true" />
               </folding>
@@ -60,9 +60,9 @@
       <find>send</find>
       <find>hello-container</find>
       <find>request</find>
-      <find>request</find>
       <find>Request Framework</find>
       <find>recommen</find>
+      <find>vcen</find>
     </findStrings>
     <replaceStrings>
       <replace>score: 0</replace>
@@ -308,7 +308,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100096000" />
+    <option name="totallyTimeSpent" value="100577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="1400" extended-state="0" />
@@ -749,8 +749,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Framework-Filter.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="3082" column="0" lean-forward="true" selection-start-line="3082" selection-start-column="0" selection-end-line="3082" selection-end-column="0" />
+        <state relative-caret-position="277">
+          <caret line="377" column="0" lean-forward="false" selection-start-line="377" selection-start-column="0" selection-end-line="377" selection-end-column="0" />
           <folding>
             <element signature="e#7163#7170#1" expanded="true" />
           </folding>
