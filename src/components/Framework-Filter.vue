@@ -365,267 +365,161 @@
                   <span class="total-percentage">
                     {{this.totalPercentageAngular}}%
                   </span>
-                  <!--<span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" title="Please note that 'Total Percentage' shows the overall result, which doesn't necessarily mean that the higher the percentage the higher the suitability. Please check individual results for most important criteria for your project."></span>-->
                   <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#check-individual-results"></span>
                 </a>
               </h4>
             </div>
             <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
               <div class="panel-body">
-                <table class="table table-striped table-hover">
+                <table class="table table-striped table-hover test-table-style">
                   <tbody>
                   <tr>
                     <th>Scalability</th>
-                    <td class="col-xs-1 col-sm-2 col-md-5 col-lg-3">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="angularScalabilityLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="angularScalabilityMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="angularScalabilityHigh">
-                        </div>
+                    <td class="col-xs-1 col-sm-2 col-md-5 col-lg-5">
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularScalabilityLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularScalabilityMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularScalabilityHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Modularity</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="angularModularityLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="angularModularityMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="angularModularityHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularModularityLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularModularityMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularModularityHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Backwards Compatibility</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="angularBackwardsCompatibilityLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="angularBackwardsCompatibilityMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="angularBackwardsCompatibilityHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularBackwardsCompatibilityLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularBackwardsCompatibilityMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularBackwardsCompatibilityHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Testability</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="angularTestabilityLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="angularTestabilityMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="angularTestabilityHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularTestabilityLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularTestabilityMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularTestabilityHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Support</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="angularSupportLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="angularSupportMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="angularSupportHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularSupportLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularSupportMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularSupportHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Future</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="angularFutureLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="angularFutureMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="angularFutureHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularFutureLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularFutureMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularFutureHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Performance</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="angularPerformanceLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="angularPerformanceMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="angularPerformanceHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularPerformanceLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularPerformanceMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularPerformanceHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Customizability</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="angularCustomizabilityLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="angularCustomizabilityMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="angularCustomizabilityHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularCustomizabilityLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularCustomizabilityMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularCustomizabilityHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Readability</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="angularReadabilityLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="angularReadabilityMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="angularReadabilityHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularReadabilityLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularReadabilityMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularReadabilityHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Framework Size</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="angularFrameworkSizeLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="angularFrameworkSizeMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="angularFrameworkSizeHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularFrameworkSizeLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularFrameworkSizeMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularFrameworkSizeHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Time in hand</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="angularTimeInHandLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="angularTimeInHandMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="angularTimeInHandHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularTimeInHandLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularTimeInHandMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularTimeInHandHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Language</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="angularLanguageLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="angularLanguageMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="angularLanguageHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularLanguageLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularLanguageMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularLanguageHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>App Size</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="angularAppSizeLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="angularAppSizeMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="angularAppSizeHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularAppSizeLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularAppSizeMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularAppSizeHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Learning Curve</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="angularLearningCurveLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="angularLearningCurveMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="angularLearningCurveHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularLearningCurveLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularLearningCurveMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularLearningCurveHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Standards Complaint</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="angularStandardsComplaintLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="angularStandardsComplaintMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="angularStandardsComplaintHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularStandardsComplaintLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularStandardsComplaintMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularStandardsComplaintHigh"></div>
                       </div>
                     </td>
                   </tr>
@@ -658,256 +552,151 @@
                   <tbody>
                   <tr>
                     <th>Scalability</th>
-                    <td class="col-xs-1 col-sm-2 col-md-5 col-lg-3">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="reactScalabilityLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="reactScalabilityMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="reactScalabilityHigh">
-                        </div>
+                    <td class="col-xs-1 col-sm-2 col-md-5 col-lg-5">
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactScalabilityLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactScalabilityMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactScalabilityHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Modularity</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="reactModularityLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="reactModularityMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="reactModularityHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactModularityLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactModularityMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactModularityHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Backwards Compatibility</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="reactBackwardsCompatibilityLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="reactBackwardsCompatibilityMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="reactBackwardsCompatibilityHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactBackwardsCompatibilityLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactBackwardsCompatibilityMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactBackwardsCompatibilityHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Testability</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="reactTestabilityLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="reactTestabilityMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="reactTestabilityHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactTestabilityLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactTestabilityMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactTestabilityHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Support</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="reactSupportLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="reactSupportMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="reactSupportHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactSupportLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactSupportMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactSupportHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Future</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="reactFutureLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="reactFutureMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="reactFutureHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactFutureLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactFutureMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactFutureHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Performance</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="reactPerformanceLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="reactPerformanceMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="reactPerformanceHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactPerformanceLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactPerformanceMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactPerformanceHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Customizability</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="reactCustomizabilityLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="reactCustomizabilityMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="reactCustomizabilityHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactCustomizabilityLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactCustomizabilityMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactCustomizabilityHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Readability</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="reactReadabilityLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="reactReadabilityMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="reactReadabilityHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactReadabilityLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactReadabilityMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactReadabilityHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Framework Size</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="reactFrameworkSizeLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="reactFrameworkSizeMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="reactFrameworkSizeHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactFrameworkSizeLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactFrameworkSizeMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactFrameworkSizeHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Time in hand</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="reactTimeInHandLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="reactTimeInHandMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="reactTimeInHandHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactTimeInHandLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactTimeInHandMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactTimeInHandHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Language</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="reactLanguageLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="reactLanguageMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="reactLanguageHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactLanguageLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactLanguageMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactLanguageHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>App Size</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="reactAppSizeLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="reactAppSizeMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="reactAppSizeHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactAppSizeLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactAppSizeMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactAppSizeHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Learning Curve</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="reactLearningCurveLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="reactLearningCurveMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="reactLearningCurveHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactLearningCurveLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactLearningCurveMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactLearningCurveHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Standards Complaint</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="reactStandardsComplaintLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="reactStandardsComplaintMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="reactStandardsComplaintHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactStandardsComplaintLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactStandardsComplaintMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactStandardsComplaintHigh"></div>
                       </div>
                     </td>
                   </tr>
@@ -941,256 +730,151 @@
                   <tbody>
                   <tr>
                     <th>Scalability</th>
-                    <td class="col-xs-1 col-sm-2 col-md-5 col-lg-3">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="vueScalabilityLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="vueScalabilityMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="vueScalabilityHigh">
-                        </div>
+                    <td class="col-xs-1 col-sm-2 col-md-5 col-lg-5">
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueScalabilityLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueScalabilityMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueScalabilityHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Modularity</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="vueModularityLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="vueModularityMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="vueModularityHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueModularityLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueModularityMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueModularityHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Backwards Compatibility</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="vueBackwardsCompatibilityLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="vueBackwardsCompatibilityMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="vueBackwardsCompatibilityHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueBackwardsCompatibilityLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueBackwardsCompatibilityMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueBackwardsCompatibilityHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Testability</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="vueTestabilityLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="vueTestabilityMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="vueTestabilityHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueTestabilityLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueTestabilityMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueTestabilityHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Support</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="vueSupportLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="vueSupportMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="vueSupportHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueSupportLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueSupportMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueSupportHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Future</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="vueFutureLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="vueFutureMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="vueFutureHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueFutureLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueFutureMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueFutureHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Performance</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="vuePerformanceLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="vuePerformanceMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="vuePerformanceHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vuePerformanceLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vuePerformanceMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vuePerformanceHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Customizability</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="vueCustomizabilityLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="vueCustomizabilityMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="vueCustomizabilityHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueCustomizabilityLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueCustomizabilityMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueCustomizabilityHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Readability</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="vueReadabilityLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="vueReadabilityMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="vueReadabilityHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueReadabilityLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueReadabilityMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueReadabilityHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Framework Size</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="vueFrameworkSizeLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="vueFrameworkSizeMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="vueFrameworkSizeHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueFrameworkSizeLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueFrameworkSizeMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueFrameworkSizeHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Time in hand</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="vueTimeInHandLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="vueTimeInHandMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="vueTimeInHandHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueTimeInHandLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueTimeInHandMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueTimeInHandHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Language</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="vueLanguageLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="vueLanguageMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="vueLanguageHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueLanguageLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueLanguageMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueLanguageHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>App Size</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="vueAppSizeLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="vueAppSizeMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="vueAppSizeHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueAppSizeLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueAppSizeMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueAppSizeHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Learning Curve</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="vueLearningCurveLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="vueLearningCurveMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="vueLearningCurveHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueLearningCurveLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueLearningCurveMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueLearningCurveHigh"></div>
                       </div>
                     </td>
                   </tr>
                   <tr>
                     <th>Standards Complaint</th>
                     <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="vueStandardsComplaintLow">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="vueStandardsComplaintMid">
-                        </div>
-                      </div>
-                      <div class="progress progress-bar-vertical">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="vueStandardsComplaintHigh">
-                        </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueStandardsComplaintLow"></div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueStandardsComplaintMid"></div>
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueStandardsComplaintHigh"></div>
                       </div>
                     </td>
                   </tr>
@@ -1846,21 +1530,21 @@
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.angularScalabilityLow = 'height: 33%;';
-              this.angularScalabilityMid = 'height: 0%;';
-              this.angularScalabilityHigh = 'height: 0%;';
+              this.angularScalabilityLow = 'width: 33%;';
+              this.angularScalabilityMid = 'width: 0%;';
+              this.angularScalabilityHigh = 'width: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.angularScalabilityLow = 'height: 33%;';
-              this.angularScalabilityMid = 'height: 66%;';
-              this.angularScalabilityHigh = 'height: 0%;';
+              this.angularScalabilityLow = 'width: 33%;';
+              this.angularScalabilityMid = 'width: 33%;';
+              this.angularScalabilityHigh = 'width: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.angularScalabilityLow = 'height: 33%;';
-              this.angularScalabilityMid = 'height: 66%;';
-              this.angularScalabilityHigh = 'height: 100%;';
+              this.angularScalabilityLow = 'width: 33%;';
+              this.angularScalabilityMid = 'width: 33%;';
+              this.angularScalabilityHigh = 'width: 34%;';
             }
 
           }
@@ -1868,315 +1552,315 @@
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.angularModularityLow = 'height: 33%;';
+              this.angularModularityLow = 'width: 33%;';
               this.angularModularityMid = 'height: 0%;';
               this.angularModularityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.angularModularityLow = 'height: 33%;';
-              this.angularModularityMid = 'height: 66%;';
+              this.angularModularityLow = 'width: 33%;';
+              this.angularModularityMid = 'width: 33%;';
               this.angularModularityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.angularModularityLow = 'height: 33%;';
-              this.angularModularityMid = 'height: 66%;';
-              this.angularModularityHigh = 'height: 100%;';
+              this.angularModularityLow = 'width: 33%;';
+              this.angularModularityMid = 'width: 33%;';
+              this.angularModularityHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "backwardsCompatibility")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.angularBackwardsCompatibilityLow = 'height: 33%;';
+              this.angularBackwardsCompatibilityLow = 'width: 33%;';
               this.angularBackwardsCompatibilityMid = 'height: 0%;';
               this.angularBackwardsCompatibilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.angularBackwardsCompatibilityLow = 'height: 33%;';
-              this.angularBackwardsCompatibilityMid = 'height: 66%;';
+              this.angularBackwardsCompatibilityLow = 'width: 33%;';
+              this.angularBackwardsCompatibilityMid = 'width: 33%;';
               this.angularBackwardsCompatibilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.angularBackwardsCompatibilityLow = 'height: 33%;';
-              this.angularBackwardsCompatibilityMid = 'height: 66%;';
-              this.angularBackwardsCompatibilityHigh = 'height: 100%;';
+              this.angularBackwardsCompatibilityLow = 'width: 33%;';
+              this.angularBackwardsCompatibilityMid = 'width: 33%;';
+              this.angularBackwardsCompatibilityHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "testability")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.angularTestabilityLow = 'height: 33%;';
+              this.angularTestabilityLow = 'width: 33%;';
               this.angularTestabilityMid = 'height: 0%;';
               this.angularTestabilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.angularTestabilityLow = 'height: 33%;';
-              this.angularTestabilityMid = 'height: 66%;';
+              this.angularTestabilityLow = 'width: 33%;';
+              this.angularTestabilityMid = 'width: 33%;';
               this.angularTestabilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.angularTestabilityLow = 'height: 33%;';
-              this.angularTestabilityMid = 'height: 66%;';
-              this.angularTestabilityHigh = 'height: 100%;';
+              this.angularTestabilityLow = 'width: 33%;';
+              this.angularTestabilityMid = 'width: 33%;';
+              this.angularTestabilityHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "support")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.angularSupportLow = 'height: 33%;';
+              this.angularSupportLow = 'width: 33%;';
               this.angularSupportMid = 'height: 0%;';
               this.angularSupportHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.angularSupportLow = 'height: 33%;';
-              this.angularSupportMid = 'height: 66%;';
+              this.angularSupportLow = 'width: 33%;';
+              this.angularSupportMid = 'width: 33%;';
               this.angularSupportHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.angularSupportLow = 'height: 33%;';
-              this.angularSupportMid = 'height: 66%;';
-              this.angularSupportHigh = 'height: 100%;';
+              this.angularSupportLow = 'width: 33%;';
+              this.angularSupportMid = 'width: 33%;';
+              this.angularSupportHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "future")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.angularFutureLow = 'height: 33%;';
+              this.angularFutureLow = 'width: 33%;';
               this.angularFutureMid = 'height: 0%;';
               this.angularFutureHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.angularFutureLow = 'height: 33%;';
-              this.angularFutureMid = 'height: 66%;';
+              this.angularFutureLow = 'width: 33%;';
+              this.angularFutureMid = 'width: 33%;';
               this.angularFutureHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.angularFutureLow = 'height: 33%;';
-              this.angularFutureMid = 'height: 66%;';
-              this.angularFutureHigh = 'height: 100%;';
+              this.angularFutureLow = 'width: 33%;';
+              this.angularFutureMid = 'width: 33%;';
+              this.angularFutureHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "performance")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.angularPerformanceLow = 'height: 33%;';
+              this.angularPerformanceLow = 'width: 33%;';
               this.angularPerformanceMid = 'height: 0%;';
               this.angularPerformanceHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.angularPerformanceLow = 'height: 33%;';
-              this.angularPerformanceMid = 'height: 66%;';
+              this.angularPerformanceLow = 'width: 33%;';
+              this.angularPerformanceMid = 'width: 33%;';
               this.angularPerformanceHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.angularPerformanceLow = 'height: 33%;';
-              this.angularPerformanceMid = 'height: 66%;';
-              this.angularPerformanceHigh = 'height: 100%;';
+              this.angularPerformanceLow = 'width: 33%;';
+              this.angularPerformanceMid = 'width: 33%;';
+              this.angularPerformanceHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "customizability")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.angularCustomizabilityLow = 'height: 33%;';
+              this.angularCustomizabilityLow = 'width: 33%;';
               this.angularCustomizabilityMid = 'height: 0%;';
               this.angularCustomizabilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.angularCustomizabilityLow = 'height: 33%;';
-              this.angularCustomizabilityMid = 'height: 66%;';
+              this.angularCustomizabilityLow = 'width: 33%;';
+              this.angularCustomizabilityMid = 'width: 33%;';
               this.angularCustomizabilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.angularCustomizabilityLow = 'height: 33%;';
-              this.angularCustomizabilityMid = 'height: 66%;';
-              this.angularCustomizabilityHigh = 'height: 100%;';
+              this.angularCustomizabilityLow = 'width: 33%;';
+              this.angularCustomizabilityMid = 'width: 33%;';
+              this.angularCustomizabilityHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "readability")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.angularReadabilityLow = 'height: 33%;';
+              this.angularReadabilityLow = 'width: 33%;';
               this.angularReadabilityMid = 'height: 0%;';
               this.angularReadabilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.angularReadabilityLow = 'height: 33%;';
-              this.angularReadabilityMid = 'height: 66%;';
+              this.angularReadabilityLow = 'width: 33%;';
+              this.angularReadabilityMid = 'width: 33%;';
               this.angularReadabilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.angularReadabilityLow = 'height: 33%;';
-              this.angularReadabilityMid = 'height: 66%;';
-              this.angularReadabilityHigh = 'height: 100%;';
+              this.angularReadabilityLow = 'width: 33%;';
+              this.angularReadabilityMid = 'width: 33%;';
+              this.angularReadabilityHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "frameworkSize")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.angularFrameworkSizeLow = 'height: 33%;';
+              this.angularFrameworkSizeLow = 'width: 33%;';
               this.angularFrameworkSizeMid = 'height: 0%;';
               this.angularFrameworkSizeHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.angularFrameworkSizeLow = 'height: 33%;';
-              this.angularFrameworkSizeMid = 'height: 66%;';
+              this.angularFrameworkSizeLow = 'width: 33%;';
+              this.angularFrameworkSizeMid = 'width: 33%;';
               this.angularFrameworkSizeHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.angularFrameworkSizeLow = 'height: 33%;';
-              this.angularFrameworkSizeMid = 'height: 66%;';
-              this.angularFrameworkSizeHigh = 'height: 100%;';
+              this.angularFrameworkSizeLow = 'width: 33%;';
+              this.angularFrameworkSizeMid = 'width: 33%;';
+              this.angularFrameworkSizeHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "timeInHand")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.angularTimeInHandLow = 'height: 33%;';
+              this.angularTimeInHandLow = 'width: 33%;';
               this.angularTimeInHandMid = 'height: 0%;';
               this.angularTimeInHandHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.angularTimeInHandLow = 'height: 33%;';
-              this.angularTimeInHandMid = 'height: 66%;';
+              this.angularTimeInHandLow = 'width: 33%;';
+              this.angularTimeInHandMid = 'width: 33%;';
               this.angularTimeInHandHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.angularTimeInHandLow = 'height: 33%;';
-              this.angularTimeInHandMid = 'height: 66%;';
-              this.angularTimeInHandHigh = 'height: 100%;';
+              this.angularTimeInHandLow = 'width: 33%;';
+              this.angularTimeInHandMid = 'width: 33%;';
+              this.angularTimeInHandHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "languageES6")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.angularLanguageLow = 'height: 33%;';
+              this.angularLanguageLow = 'width: 33%;';
               this.angularLanguageMid = 'height: 0%;';
               this.angularLanguageHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.angularLanguageLow = 'height: 33%;';
-              this.angularLanguageMid = 'height: 66%;';
+              this.angularLanguageLow = 'width: 33%;';
+              this.angularLanguageMid = 'width: 33%;';
               this.angularLanguageHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.angularLanguageLow = 'height: 33%;';
-              this.angularLanguageMid = 'height: 66%;';
-              this.angularLanguageHigh = 'height: 100%;';
+              this.angularLanguageLow = 'width: 33%;';
+              this.angularLanguageMid = 'width: 33%;';
+              this.angularLanguageHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "languageTypeScript")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.angularLanguageLow = 'height: 33%;';
+              this.angularLanguageLow = 'width: 33%;';
               this.angularLanguageMid = 'height: 0%;';
               this.angularLanguageHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.angularLanguageLow = 'height: 33%;';
-              this.angularLanguageMid = 'height: 66%;';
+              this.angularLanguageLow = 'width: 33%;';
+              this.angularLanguageMid = 'width: 33%;';
               this.angularLanguageHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.angularLanguageLow = 'height: 33%;';
-              this.angularLanguageMid = 'height: 66%;';
-              this.angularLanguageHigh = 'height: 100%;';
+              this.angularLanguageLow = 'width: 33%;';
+              this.angularLanguageMid = 'width: 33%;';
+              this.angularLanguageHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "appSize")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.angularAppSizeLow = 'height: 33%;';
+              this.angularAppSizeLow = 'width: 33%;';
               this.angularAppSizeMid = 'height: 0%;';
               this.angularAppSizeHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.angularAppSizeLow = 'height: 33%;';
-              this.angularAppSizeMid = 'height: 66%;';
+              this.angularAppSizeLow = 'width: 33%;';
+              this.angularAppSizeMid = 'width: 33%;';
               this.angularAppSizeHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.angularAppSizeLow = 'height: 33%;';
-              this.angularAppSizeMid = 'height: 66%;';
-              this.angularAppSizeHigh = 'height: 100%;';
+              this.angularAppSizeLow = 'width: 33%;';
+              this.angularAppSizeMid = 'width: 33%;';
+              this.angularAppSizeHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "learningCurve")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.angularLearningCurveLow = 'height: 33%;';
+              this.angularLearningCurveLow = 'width: 33%;';
               this.angularLearningCurveMid = 'height: 0%;';
               this.angularLearningCurveHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.angularLearningCurveLow = 'height: 33%;';
-              this.angularLearningCurveMid = 'height: 66%;';
+              this.angularLearningCurveLow = 'width: 33%;';
+              this.angularLearningCurveMid = 'width: 33%;';
               this.angularLearningCurveHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.angularLearningCurveLow = 'height: 33%;';
-              this.angularLearningCurveMid = 'height: 66%;';
-              this.angularLearningCurveHigh = 'height: 100%;';
+              this.angularLearningCurveLow = 'width: 33%;';
+              this.angularLearningCurveMid = 'width: 33%;';
+              this.angularLearningCurveHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "standardsComplaint")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.angularStandardsComplaintLow = 'height: 33%;';
+              this.angularStandardsComplaintLow = 'width: 33%;';
               this.angularStandardsComplaintMid = 'height: 0%;';
               this.angularStandardsComplaintHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.angularStandardsComplaintLow = 'height: 33%;';
-              this.angularStandardsComplaintMid = 'height: 66%;';
+              this.angularStandardsComplaintLow = 'width: 33%;';
+              this.angularStandardsComplaintMid = 'width: 33%;';
               this.angularStandardsComplaintHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.angularStandardsComplaintLow = 'height: 33%;';
-              this.angularStandardsComplaintMid = 'height: 66%;';
-              this.angularStandardsComplaintHigh = 'height: 100%;';
+              this.angularStandardsComplaintLow = 'width: 33%;';
+              this.angularStandardsComplaintMid = 'width: 33%;';
+              this.angularStandardsComplaintHigh = 'width: 34%;';
             }
           }
         }
@@ -2186,21 +1870,21 @@
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.reactScalabilityLow = 'height: 33%;';
+              this.reactScalabilityLow = 'width: 33%;';
               this.reactScalabilityMid = 'height: 0%;';
               this.reactScalabilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.reactScalabilityLow = 'height: 33%;';
-              this.reactScalabilityMid = 'height: 66%;';
+              this.reactScalabilityLow = 'width: 33%;';
+              this.reactScalabilityMid = 'width: 33%;';
               this.reactScalabilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.reactScalabilityLow = 'height: 33%;';
-              this.reactScalabilityMid = 'height: 66%;';
-              this.reactScalabilityHigh = 'height: 100%;';
+              this.reactScalabilityLow = 'width: 33%;';
+              this.reactScalabilityMid = 'width: 33%;';
+              this.reactScalabilityHigh = 'width: 34%;';
             }
 
           }
@@ -2208,315 +1892,315 @@
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.reactModularityLow = 'height: 33%;';
+              this.reactModularityLow = 'width: 33%;';
               this.reactModularityMid = 'height: 0%;';
               this.reactModularityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.reactModularityLow = 'height: 33%;';
-              this.reactModularityMid = 'height: 66%;';
+              this.reactModularityLow = 'width: 33%;';
+              this.reactModularityMid = 'width: 33%;';
               this.reactModularityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.reactModularityLow = 'height: 33%;';
-              this.reactModularityMid = 'height: 66%;';
-              this.reactModularityHigh = 'height: 100%;';
+              this.reactModularityLow = 'width: 33%;';
+              this.reactModularityMid = 'width: 33%;';
+              this.reactModularityHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "backwardsCompatibility")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.reactBackwardsCompatibilityLow = 'height: 33%;';
+              this.reactBackwardsCompatibilityLow = 'width: 33%;';
               this.reactBackwardsCompatibilityMid = 'height: 0%;';
               this.reactBackwardsCompatibilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.reactBackwardsCompatibilityLow = 'height: 33%;';
-              this.reactBackwardsCompatibilityMid = 'height: 66%;';
+              this.reactBackwardsCompatibilityLow = 'width: 33%;';
+              this.reactBackwardsCompatibilityMid = 'width: 33%;';
               this.reactBackwardsCompatibilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.reactBackwardsCompatibilityLow = 'height: 33%;';
-              this.reactBackwardsCompatibilityMid = 'height: 66%;';
-              this.reactBackwardsCompatibilityHigh = 'height: 100%;';
+              this.reactBackwardsCompatibilityLow = 'width: 33%;';
+              this.reactBackwardsCompatibilityMid = 'width: 33%;';
+              this.reactBackwardsCompatibilityHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "testability")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.reactTestabilityLow = 'height: 33%;';
+              this.reactTestabilityLow = 'width: 33%;';
               this.reactTestabilityMid = 'height: 0%;';
               this.reactTestabilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.reactTestabilityLow = 'height: 33%;';
-              this.reactTestabilityMid = 'height: 66%;';
+              this.reactTestabilityLow = 'width: 33%;';
+              this.reactTestabilityMid = 'width: 33%;';
               this.reactTestabilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.reactTestabilityLow = 'height: 33%;';
-              this.reactTestabilityMid = 'height: 66%;';
-              this.reactTestabilityHigh = 'height: 100%;';
+              this.reactTestabilityLow = 'width: 33%;';
+              this.reactTestabilityMid = 'width: 33%;';
+              this.reactTestabilityHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "support")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.reactSupportLow = 'height: 33%;';
+              this.reactSupportLow = 'width: 33%;';
               this.reactSupportMid = 'height: 0%;';
               this.reactSupportHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.reactSupportLow = 'height: 33%;';
-              this.reactSupportMid = 'height: 66%;';
+              this.reactSupportLow = 'width: 33%;';
+              this.reactSupportMid = 'width: 33%;';
               this.reactSupportHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.reactSupportLow = 'height: 33%;';
-              this.reactSupportMid = 'height: 66%;';
-              this.reactSupportHigh = 'height: 100%;';
+              this.reactSupportLow = 'width: 33%;';
+              this.reactSupportMid = 'width: 33%;';
+              this.reactSupportHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "future")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.reactFutureLow = 'height: 33%;';
+              this.reactFutureLow = 'width: 33%;';
               this.reactFutureMid = 'height: 0%;';
               this.reactFutureHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.reactFutureLow = 'height: 33%;';
-              this.reactFutureMid = 'height: 66%;';
+              this.reactFutureLow = 'width: 33%;';
+              this.reactFutureMid = 'width: 33%;';
               this.reactFutureHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.reactFutureLow = 'height: 33%;';
-              this.reactFutureMid = 'height: 66%;';
-              this.reactFutureHigh = 'height: 100%;';
+              this.reactFutureLow = 'width: 33%;';
+              this.reactFutureMid = 'width: 33%;';
+              this.reactFutureHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "performance")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.reactPerformanceLow = 'height: 33%;';
+              this.reactPerformanceLow = 'width: 33%;';
               this.reactPerformanceMid = 'height: 0%;';
               this.reactPerformanceHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.reactPerformanceLow = 'height: 33%;';
-              this.reactPerformanceMid = 'height: 66%;';
+              this.reactPerformanceLow = 'width: 33%;';
+              this.reactPerformanceMid = 'width: 33%;';
               this.reactPerformanceHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.reactPerformanceLow = 'height: 33%;';
-              this.reactPerformanceMid = 'height: 66%;';
-              this.reactPerformanceHigh = 'height: 100%;';
+              this.reactPerformanceLow = 'width: 33%;';
+              this.reactPerformanceMid = 'width: 33%;';
+              this.reactPerformanceHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "customizability")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.reactCustomizabilityLow = 'height: 33%;';
+              this.reactCustomizabilityLow = 'width: 33%;';
               this.reactCustomizabilityMid = 'height: 0%;';
               this.reactCustomizabilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.reactCustomizabilityLow = 'height: 33%;';
-              this.reactCustomizabilityMid = 'height: 66%;';
+              this.reactCustomizabilityLow = 'width: 33%;';
+              this.reactCustomizabilityMid = 'width: 33%;';
               this.reactCustomizabilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.reactCustomizabilityLow = 'height: 33%;';
-              this.reactCustomizabilityMid = 'height: 66%;';
-              this.reactCustomizabilityHigh = 'height: 100%;';
+              this.reactCustomizabilityLow = 'width: 33%;';
+              this.reactCustomizabilityMid = 'width: 33%;';
+              this.reactCustomizabilityHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "readability")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.reactReadabilityLow = 'height: 33%;';
+              this.reactReadabilityLow = 'width: 33%;';
               this.reactReadabilityMid = 'height: 0%;';
               this.reactReadabilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.reactReadabilityLow = 'height: 33%;';
-              this.reactReadabilityMid = 'height: 66%;';
+              this.reactReadabilityLow = 'width: 33%;';
+              this.reactReadabilityMid = 'width: 33%;';
               this.reactReadabilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.reactReadabilityLow = 'height: 33%;';
-              this.reactReadabilityMid = 'height: 66%;';
-              this.reactReadabilityHigh = 'height: 100%;';
+              this.reactReadabilityLow = 'width: 33%;';
+              this.reactReadabilityMid = 'width: 33%;';
+              this.reactReadabilityHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "frameworkSize")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.reactFrameworkSizeLow = 'height: 33%;';
+              this.reactFrameworkSizeLow = 'width: 33%;';
               this.reactFrameworkSizeMid = 'height: 0%;';
               this.reactFrameworkSizeHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.reactFrameworkSizeLow = 'height: 33%;';
-              this.reactFrameworkSizeMid = 'height: 66%;';
+              this.reactFrameworkSizeLow = 'width: 33%;';
+              this.reactFrameworkSizeMid = 'width: 33%;';
               this.reactFrameworkSizeHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.reactFrameworkSizeLow = 'height: 33%;';
-              this.reactFrameworkSizeMid = 'height: 66%;';
-              this.reactFrameworkSizeHigh = 'height: 100%;';
+              this.reactFrameworkSizeLow = 'width: 33%;';
+              this.reactFrameworkSizeMid = 'width: 33%;';
+              this.reactFrameworkSizeHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "timeInHand")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.reactTimeInHandLow = 'height: 33%;';
+              this.reactTimeInHandLow = 'width: 33%;';
               this.reactTimeInHandMid = 'height: 0%;';
               this.reactTimeInHandHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.reactTimeInHandLow = 'height: 33%;';
-              this.reactTimeInHandMid = 'height: 66%;';
+              this.reactTimeInHandLow = 'width: 33%;';
+              this.reactTimeInHandMid = 'width: 33%;';
               this.reactTimeInHandHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.reactTimeInHandLow = 'height: 33%;';
-              this.reactTimeInHandMid = 'height: 66%;';
-              this.reactTimeInHandHigh = 'height: 100%;';
+              this.reactTimeInHandLow = 'width: 33%;';
+              this.reactTimeInHandMid = 'width: 33%;';
+              this.reactTimeInHandHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "languageES6")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.reactLanguageLow = 'height: 33%;';
+              this.reactLanguageLow = 'width: 33%;';
               this.reactLanguageMid = 'height: 0%;';
               this.reactLanguageHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.reactLanguageLow = 'height: 33%;';
-              this.reactLanguageMid = 'height: 66%;';
+              this.reactLanguageLow = 'width: 33%;';
+              this.reactLanguageMid = 'width: 33%;';
               this.reactLanguageHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.reactLanguageLow = 'height: 33%;';
-              this.reactLanguageMid = 'height: 66%;';
-              this.reactLanguageHigh = 'height: 100%;';
+              this.reactLanguageLow = 'width: 33%;';
+              this.reactLanguageMid = 'width: 33%;';
+              this.reactLanguageHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "languageTypeScript")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.reactLanguageLow = 'height: 33%;';
+              this.reactLanguageLow = 'width: 33%;';
               this.reactLanguageMid = 'height: 0%;';
               this.reactLanguageHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.reactLanguageLow = 'height: 33%;';
-              this.reactLanguageMid = 'height: 66%;';
+              this.reactLanguageLow = 'width: 33%;';
+              this.reactLanguageMid = 'width: 33%;';
               this.reactLanguageHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.reactLanguageLow = 'height: 33%;';
-              this.reactLanguageMid = 'height: 66%;';
-              this.reactLanguageHigh = 'height: 100%;';
+              this.reactLanguageLow = 'width: 33%;';
+              this.reactLanguageMid = 'width: 33%;';
+              this.reactLanguageHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "appSize")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.reactAppSizeLow = 'height: 33%;';
+              this.reactAppSizeLow = 'width: 33%;';
               this.reactAppSizeMid = 'height: 0%;';
               this.reactAppSizeHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.reactAppSizeLow = 'height: 33%;';
-              this.reactAppSizeMid = 'height: 66%;';
+              this.reactAppSizeLow = 'width: 33%;';
+              this.reactAppSizeMid = 'width: 33%;';
               this.reactAppSizeHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.reactAppSizeLow = 'height: 33%;';
-              this.reactAppSizeMid = 'height: 66%;';
-              this.reactAppSizeHigh = 'height: 100%;';
+              this.reactAppSizeLow = 'width: 33%;';
+              this.reactAppSizeMid = 'width: 33%;';
+              this.reactAppSizeHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "learningCurve")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.reactLearningCurveLow = 'height: 33%;';
+              this.reactLearningCurveLow = 'width: 33%;';
               this.reactLearningCurveMid = 'height: 0%;';
               this.reactLearningCurveHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.reactLearningCurveLow = 'height: 33%;';
-              this.reactLearningCurveMid = 'height: 66%;';
+              this.reactLearningCurveLow = 'width: 33%;';
+              this.reactLearningCurveMid = 'width: 33%;';
               this.reactLearningCurveHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.reactLearningCurveLow = 'height: 33%;';
-              this.reactLearningCurveMid = 'height: 66%;';
-              this.reactLearningCurveHigh = 'height: 100%;';
+              this.reactLearningCurveLow = 'width: 33%;';
+              this.reactLearningCurveMid = 'width: 33%;';
+              this.reactLearningCurveHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "standardsComplaint")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.reactStandardsComplaintLow = 'height: 33%;';
+              this.reactStandardsComplaintLow = 'width: 33%;';
               this.reactStandardsComplaintMid = 'height: 0%;';
               this.reactStandardsComplaintHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.reactStandardsComplaintLow = 'height: 33%;';
-              this.reactStandardsComplaintMid = 'height: 66%;';
+              this.reactStandardsComplaintLow = 'width: 33%;';
+              this.reactStandardsComplaintMid = 'width: 33%;';
               this.reactStandardsComplaintHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.reactStandardsComplaintLow = 'height: 33%;';
-              this.reactStandardsComplaintMid = 'height: 66%;';
-              this.reactStandardsComplaintHigh = 'height: 100%;';
+              this.reactStandardsComplaintLow = 'width: 33%;';
+              this.reactStandardsComplaintMid = 'width: 33%;';
+              this.reactStandardsComplaintHigh = 'width: 34%;';
             }
           }
         }
@@ -2526,21 +2210,21 @@
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.vueScalabilityLow = 'height: 33%;';
+              this.vueScalabilityLow = 'width: 33%;';
               this.vueScalabilityMid = 'height: 0%;';
               this.vueScalabilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.vueScalabilityLow = 'height: 33%;';
-              this.vueScalabilityMid = 'height: 66%;';
+              this.vueScalabilityLow = 'width: 33%;';
+              this.vueScalabilityMid = 'width: 33%;';
               this.vueScalabilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.vueScalabilityLow = 'height: 33%;';
-              this.vueScalabilityMid = 'height: 66%;';
-              this.vueScalabilityHigh = 'height: 100%;';
+              this.vueScalabilityLow = 'width: 33%;';
+              this.vueScalabilityMid = 'width: 33%;';
+              this.vueScalabilityHigh = 'width: 34%;';
             }
 
           }
@@ -2548,315 +2232,315 @@
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.vueModularityLow = 'height: 33%;';
+              this.vueModularityLow = 'width: 33%;';
               this.vueModularityMid = 'height: 0%;';
               this.vueModularityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.vueModularityLow = 'height: 33%;';
-              this.vueModularityMid = 'height: 66%;';
+              this.vueModularityLow = 'width: 33%;';
+              this.vueModularityMid = 'width: 33%;';
               this.vueModularityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.vueModularityLow = 'height: 33%;';
-              this.vueModularityMid = 'height: 66%;';
-              this.vueModularityHigh = 'height: 100%;';
+              this.vueModularityLow = 'width: 33%;';
+              this.vueModularityMid = 'width: 33%;';
+              this.vueModularityHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "backwardsCompatibility")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.vueBackwardsCompatibilityLow = 'height: 33%;';
+              this.vueBackwardsCompatibilityLow = 'width: 33%;';
               this.vueBackwardsCompatibilityMid = 'height: 0%;';
               this.vueBackwardsCompatibilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.vueBackwardsCompatibilityLow = 'height: 33%;';
-              this.vueBackwardsCompatibilityMid = 'height: 66%;';
+              this.vueBackwardsCompatibilityLow = 'width: 33%;';
+              this.vueBackwardsCompatibilityMid = 'width: 33%;';
               this.vueBackwardsCompatibilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.vueBackwardsCompatibilityLow = 'height: 33%;';
-              this.vueBackwardsCompatibilityMid = 'height: 66%;';
-              this.vueBackwardsCompatibilityHigh = 'height: 100%;';
+              this.vueBackwardsCompatibilityLow = 'width: 33%;';
+              this.vueBackwardsCompatibilityMid = 'width: 33%;';
+              this.vueBackwardsCompatibilityHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "testability")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.vueTestabilityLow = 'height: 33%;';
+              this.vueTestabilityLow = 'width: 33%;';
               this.vueTestabilityMid = 'height: 0%;';
               this.vueTestabilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.vueTestabilityLow = 'height: 33%;';
-              this.vueTestabilityMid = 'height: 66%;';
+              this.vueTestabilityLow = 'width: 33%;';
+              this.vueTestabilityMid = 'width: 33%;';
               this.vueTestabilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.vueTestabilityLow = 'height: 33%;';
-              this.vueTestabilityMid = 'height: 66%;';
-              this.vueTestabilityHigh = 'height: 100%;';
+              this.vueTestabilityLow = 'width: 33%;';
+              this.vueTestabilityMid = 'width: 33%;';
+              this.vueTestabilityHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "support")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.vueSupportLow = 'height: 33%;';
+              this.vueSupportLow = 'width: 33%;';
               this.vueSupportMid = 'height: 0%;';
               this.vueSupportHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.vueSupportLow = 'height: 33%;';
-              this.vueSupportMid = 'height: 66%;';
+              this.vueSupportLow = 'width: 33%;';
+              this.vueSupportMid = 'width: 33%;';
               this.vueSupportHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.vueSupportLow = 'height: 33%;';
-              this.vueSupportMid = 'height: 66%;';
-              this.vueSupportHigh = 'height: 100%;';
+              this.vueSupportLow = 'width: 33%;';
+              this.vueSupportMid = 'width: 33%;';
+              this.vueSupportHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "future")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.vueFutureLow = 'height: 33%;';
+              this.vueFutureLow = 'width: 33%;';
               this.vueFutureMid = 'height: 0%;';
               this.vueFutureHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.vueFutureLow = 'height: 33%;';
-              this.vueFutureMid = 'height: 66%;';
+              this.vueFutureLow = 'width: 33%;';
+              this.vueFutureMid = 'width: 33%;';
               this.vueFutureHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.vueFutureLow = 'height: 33%;';
-              this.vueFutureMid = 'height: 66%;';
-              this.vueFutureHigh = 'height: 100%;';
+              this.vueFutureLow = 'width: 33%;';
+              this.vueFutureMid = 'width: 33%;';
+              this.vueFutureHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "performance")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.vuePerformanceLow = 'height: 33%;';
+              this.vuePerformanceLow = 'width: 33%;';
               this.vuePerformanceMid = 'height: 0%;';
               this.vuePerformanceHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.vuePerformanceLow = 'height: 33%;';
-              this.vuePerformanceMid = 'height: 66%;';
+              this.vuePerformanceLow = 'width: 33%;';
+              this.vuePerformanceMid = 'width: 33%;';
               this.vuePerformanceHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.vuePerformanceLow = 'height: 33%;';
-              this.vuePerformanceMid = 'height: 66%;';
-              this.vuePerformanceHigh = 'height: 100%;';
+              this.vuePerformanceLow = 'width: 33%;';
+              this.vuePerformanceMid = 'width: 33%;';
+              this.vuePerformanceHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "customizability")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.vueCustomizabilityLow = 'height: 33%;';
+              this.vueCustomizabilityLow = 'width: 33%;';
               this.vueCustomizabilityMid = 'height: 0%;';
               this.vueCustomizabilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.vueCustomizabilityLow = 'height: 33%;';
-              this.vueCustomizabilityMid = 'height: 66%;';
+              this.vueCustomizabilityLow = 'width: 33%;';
+              this.vueCustomizabilityMid = 'width: 33%;';
               this.vueCustomizabilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.vueCustomizabilityLow = 'height: 33%;';
-              this.vueCustomizabilityMid = 'height: 66%;';
-              this.vueCustomizabilityHigh = 'height: 100%;';
+              this.vueCustomizabilityLow = 'width: 33%;';
+              this.vueCustomizabilityMid = 'width: 33%;';
+              this.vueCustomizabilityHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "readability")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.vueReadabilityLow = 'height: 33%;';
+              this.vueReadabilityLow = 'width: 33%;';
               this.vueReadabilityMid = 'height: 0%;';
               this.vueReadabilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.vueReadabilityLow = 'height: 33%;';
-              this.vueReadabilityMid = 'height: 66%;';
+              this.vueReadabilityLow = 'width: 33%;';
+              this.vueReadabilityMid = 'width: 33%;';
               this.vueReadabilityHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.vueReadabilityLow = 'height: 33%;';
-              this.vueReadabilityMid = 'height: 66%;';
-              this.vueReadabilityHigh = 'height: 100%;';
+              this.vueReadabilityLow = 'width: 33%;';
+              this.vueReadabilityMid = 'width: 33%;';
+              this.vueReadabilityHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "frameworkSize")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.vueFrameworkSizeLow = 'height: 33%;';
+              this.vueFrameworkSizeLow = 'width: 33%;';
               this.vueFrameworkSizeMid = 'height: 0%;';
               this.vueFrameworkSizeHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.vueFrameworkSizeLow = 'height: 33%;';
-              this.vueFrameworkSizeMid = 'height: 66%;';
+              this.vueFrameworkSizeLow = 'width: 33%;';
+              this.vueFrameworkSizeMid = 'width: 33%;';
               this.vueFrameworkSizeHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.vueFrameworkSizeLow = 'height: 33%;';
-              this.vueFrameworkSizeMid = 'height: 66%;';
-              this.vueFrameworkSizeHigh = 'height: 100%;';
+              this.vueFrameworkSizeLow = 'width: 33%;';
+              this.vueFrameworkSizeMid = 'width: 33%;';
+              this.vueFrameworkSizeHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "timeInHand")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.vueTimeInHandLow = 'height: 33%;';
+              this.vueTimeInHandLow = 'width: 33%;';
               this.vueTimeInHandMid = 'height: 0%;';
               this.vueTimeInHandHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.vueTimeInHandLow = 'height: 33%;';
-              this.vueTimeInHandMid = 'height: 66%;';
+              this.vueTimeInHandLow = 'width: 33%;';
+              this.vueTimeInHandMid = 'width: 33%;';
               this.vueTimeInHandHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.vueTimeInHandLow = 'height: 33%;';
-              this.vueTimeInHandMid = 'height: 66%;';
-              this.vueTimeInHandHigh = 'height: 100%;';
+              this.vueTimeInHandLow = 'width: 33%;';
+              this.vueTimeInHandMid = 'width: 33%;';
+              this.vueTimeInHandHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "languageES6")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.vueLanguageLow = 'height: 33%;';
+              this.vueLanguageLow = 'width: 33%;';
               this.vueLanguageMid = 'height: 0%;';
               this.vueLanguageHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.vueLanguageLow = 'height: 33%;';
-              this.vueLanguageMid = 'height: 66%;';
+              this.vueLanguageLow = 'width: 33%;';
+              this.vueLanguageMid = 'width: 33%;';
               this.vueLanguageHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.vueLanguageLow = 'height: 33%;';
-              this.vueLanguageMid = 'height: 66%;';
-              this.vueLanguageHigh = 'height: 100%;';
+              this.vueLanguageLow = 'width: 33%;';
+              this.vueLanguageMid = 'width: 33%;';
+              this.vueLanguageHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "languageTypeScript")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.vueLanguageLow = 'height: 33%;';
+              this.vueLanguageLow = 'width: 33%;';
               this.vueLanguageMid = 'height: 0%;';
               this.vueLanguageHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.vueLanguageLow = 'height: 33%;';
-              this.vueLanguageMid = 'height: 66%;';
+              this.vueLanguageLow = 'width: 33%;';
+              this.vueLanguageMid = 'width: 33%;';
               this.vueLanguageHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.vueLanguageLow = 'height: 33%;';
-              this.vueLanguageMid = 'height: 66%;';
-              this.vueLanguageHigh = 'height: 100%;';
+              this.vueLanguageLow = 'width: 33%;';
+              this.vueLanguageMid = 'width: 33%;';
+              this.vueLanguageHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "appSize")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.vueAppSizeLow = 'height: 33%;';
+              this.vueAppSizeLow = 'width: 33%;';
               this.vueAppSizeMid = 'height: 0%;';
               this.vueAppSizeHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.vueAppSizeLow = 'height: 33%;';
-              this.vueAppSizeMid = 'height: 66%;';
+              this.vueAppSizeLow = 'width: 33%;';
+              this.vueAppSizeMid = 'width: 33%;';
               this.vueAppSizeHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.vueAppSizeLow = 'height: 33%;';
-              this.vueAppSizeMid = 'height: 66%;';
-              this.vueAppSizeHigh = 'height: 100%;';
+              this.vueAppSizeLow = 'width: 33%;';
+              this.vueAppSizeMid = 'width: 33%;';
+              this.vueAppSizeHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "learningCurve")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.vueLearningCurveLow = 'height: 33%;';
+              this.vueLearningCurveLow = 'width: 33%;';
               this.vueLearningCurveMid = 'height: 0%;';
               this.vueLearningCurveHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.vueLearningCurveLow = 'height: 33%;';
-              this.vueLearningCurveMid = 'height: 66%;';
+              this.vueLearningCurveLow = 'width: 33%;';
+              this.vueLearningCurveMid = 'width: 33%;';
               this.vueLearningCurveHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.vueLearningCurveLow = 'height: 33%;';
-              this.vueLearningCurveMid = 'height: 66%;';
-              this.vueLearningCurveHigh = 'height: 100%;';
+              this.vueLearningCurveLow = 'width: 33%;';
+              this.vueLearningCurveMid = 'width: 33%;';
+              this.vueLearningCurveHigh = 'width: 34%;';
             }
           }
           else if (currentCriteria === "standardsComplaint")
           {
             if (currentCriteriaPercentage < 40)
             {
-              this.vueStandardsComplaintLow = 'height: 33%;';
+              this.vueStandardsComplaintLow = 'width: 33%;';
               this.vueStandardsComplaintMid = 'height: 0%;';
               this.vueStandardsComplaintHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage < 70)
             {
-              this.vueStandardsComplaintLow = 'height: 33%;';
-              this.vueStandardsComplaintMid = 'height: 66%;';
+              this.vueStandardsComplaintLow = 'width: 33%;';
+              this.vueStandardsComplaintMid = 'width: 33%;';
               this.vueStandardsComplaintHigh = 'height: 0%;';
             }
             else if (currentCriteriaPercentage > 80)
             {
-              this.vueStandardsComplaintLow = 'height: 33%;';
-              this.vueStandardsComplaintMid = 'height: 66%;';
-              this.vueStandardsComplaintHigh = 'height: 100%;';
+              this.vueStandardsComplaintLow = 'width: 33%;';
+              this.vueStandardsComplaintMid = 'width: 33%;';
+              this.vueStandardsComplaintHigh = 'width: 34%;';
             }
           }
         }
@@ -3061,26 +2745,31 @@
     color: deepskyblue;
   }
 
-  .progress-bar-vertical {
-    width: 25px;
-    min-height: 44px;
-    display: flex;
-    align-items: flex-end;
-    margin: 0 5px 0 0;
-    float: left;
-  }
+  /*.progress-bar-vertical {*/
+    /*width: 25px;*/
+    /*min-height: 44px;*/
+    /*display: flex;*/
+    /*align-items: flex-end;*/
+    /*margin: 0 5px 0 0;*/
+    /*float: left;*/
+  /*}*/
 
-  .progress-bar-vertical .progress-bar {
-    width: 100%;
-    height: 0;
-    -webkit-transition: height 0.6s ease;
-    -o-transition: height 0.6s ease;
-    transition: height 0.6s ease;
-  }
+  /*.progress-bar-vertical .progress-bar {*/
+    /*width: 100%;*/
+    /*height: 0;*/
+    /*-webkit-transition: height 0.6s ease;*/
+    /*-o-transition: height 0.6s ease;*/
+    /*transition: height 0.6s ease;*/
+  /*}*/
 
-  .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th
+  .progress
   {
-     vertical-align: middle !important;
+    margin-bottom: 0;
   }
+
+  /*.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th*/
+  /*{*/
+     /*vertical-align: middle !important;*/
+  /*}*/
 
 </style>
