@@ -385,7 +385,7 @@
                   </tr>
                   <tr>
                     <th>Modularity</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularModularityLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularModularityMid"></div>
@@ -395,7 +395,7 @@
                   </tr>
                   <tr>
                     <th>Backwards Compatibility</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularBackwardsCompatibilityLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularBackwardsCompatibilityMid"></div>
@@ -405,7 +405,7 @@
                   </tr>
                   <tr>
                     <th>Testability</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularTestabilityLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularTestabilityMid"></div>
@@ -415,7 +415,7 @@
                   </tr>
                   <tr>
                     <th>Support</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularSupportLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularSupportMid"></div>
@@ -425,7 +425,7 @@
                   </tr>
                   <tr>
                     <th>Future</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularFutureLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularFutureMid"></div>
@@ -435,7 +435,7 @@
                   </tr>
                   <tr>
                     <th>Performance</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularPerformanceLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularPerformanceMid"></div>
@@ -445,7 +445,7 @@
                   </tr>
                   <tr>
                     <th>Customizability</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularCustomizabilityLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularCustomizabilityMid"></div>
@@ -455,7 +455,7 @@
                   </tr>
                   <tr>
                     <th>Readability</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularReadabilityLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularReadabilityMid"></div>
@@ -465,7 +465,7 @@
                   </tr>
                   <tr>
                     <th>Framework Size</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularFrameworkSizeLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularFrameworkSizeMid"></div>
@@ -475,7 +475,7 @@
                   </tr>
                   <tr>
                     <th>Time in hand</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularTimeInHandLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularTimeInHandMid"></div>
@@ -485,7 +485,7 @@
                   </tr>
                   <tr>
                     <th>Language</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularLanguageLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularLanguageMid"></div>
@@ -495,7 +495,7 @@
                   </tr>
                   <tr>
                     <th>App Size</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularAppSizeLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularAppSizeMid"></div>
@@ -505,7 +505,7 @@
                   </tr>
                   <tr>
                     <th>Learning Curve</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularLearningCurveLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularLearningCurveMid"></div>
@@ -515,7 +515,7 @@
                   </tr>
                   <tr>
                     <th>Standards Complaint</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularStandardsComplaintLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularStandardsComplaintMid"></div>
@@ -525,7 +525,7 @@
                   </tr>
                   <!--<tr>-->
                   <!--<th>Architecture</th>-->
-                  <!--<td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">-->
+                  <!--<td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">-->
                   <!--{{this.angularArchitecturePercentage}}%-->
                   <!--</td>-->
                   <!--</tr>-->
@@ -562,7 +562,7 @@
                   </tr>
                   <tr>
                     <th>Modularity</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactModularityLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactModularityMid"></div>
@@ -572,7 +572,7 @@
                   </tr>
                   <tr>
                     <th>Backwards Compatibility</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactBackwardsCompatibilityLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactBackwardsCompatibilityMid"></div>
@@ -582,7 +582,7 @@
                   </tr>
                   <tr>
                     <th>Testability</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactTestabilityLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactTestabilityMid"></div>
@@ -592,7 +592,7 @@
                   </tr>
                   <tr>
                     <th>Support</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactSupportLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactSupportMid"></div>
@@ -602,7 +602,7 @@
                   </tr>
                   <tr>
                     <th>Future</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactFutureLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactFutureMid"></div>
@@ -612,7 +612,7 @@
                   </tr>
                   <tr>
                     <th>Performance</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactPerformanceLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactPerformanceMid"></div>
@@ -622,7 +622,7 @@
                   </tr>
                   <tr>
                     <th>Customizability</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactCustomizabilityLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactCustomizabilityMid"></div>
@@ -632,7 +632,7 @@
                   </tr>
                   <tr>
                     <th>Readability</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactReadabilityLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactReadabilityMid"></div>
@@ -642,7 +642,7 @@
                   </tr>
                   <tr>
                     <th>Framework Size</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactFrameworkSizeLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactFrameworkSizeMid"></div>
@@ -652,7 +652,7 @@
                   </tr>
                   <tr>
                     <th>Time in hand</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactTimeInHandLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactTimeInHandMid"></div>
@@ -662,7 +662,7 @@
                   </tr>
                   <tr>
                     <th>Language</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactLanguageLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactLanguageMid"></div>
@@ -672,7 +672,7 @@
                   </tr>
                   <tr>
                     <th>App Size</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactAppSizeLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactAppSizeMid"></div>
@@ -682,7 +682,7 @@
                   </tr>
                   <tr>
                     <th>Learning Curve</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactLearningCurveLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactLearningCurveMid"></div>
@@ -692,7 +692,7 @@
                   </tr>
                   <tr>
                     <th>Standards Complaint</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactStandardsComplaintLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactStandardsComplaintMid"></div>
@@ -702,7 +702,7 @@
                   </tr>
                   <!--<tr>-->
                   <!--<th>Architecture</th>-->
-                  <!--<td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">-->
+                  <!--<td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">-->
                   <!--{{this.reactArchitecturePercentage}}%-->
                   <!--</td>-->
                   <!--</tr>-->
@@ -740,7 +740,7 @@
                   </tr>
                   <tr>
                     <th>Modularity</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueModularityLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueModularityMid"></div>
@@ -750,7 +750,7 @@
                   </tr>
                   <tr>
                     <th>Backwards Compatibility</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueBackwardsCompatibilityLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueBackwardsCompatibilityMid"></div>
@@ -760,7 +760,7 @@
                   </tr>
                   <tr>
                     <th>Testability</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueTestabilityLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueTestabilityMid"></div>
@@ -770,7 +770,7 @@
                   </tr>
                   <tr>
                     <th>Support</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueSupportLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueSupportMid"></div>
@@ -780,7 +780,7 @@
                   </tr>
                   <tr>
                     <th>Future</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueFutureLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueFutureMid"></div>
@@ -790,7 +790,7 @@
                   </tr>
                   <tr>
                     <th>Performance</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vuePerformanceLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="vuePerformanceMid"></div>
@@ -800,7 +800,7 @@
                   </tr>
                   <tr>
                     <th>Customizability</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueCustomizabilityLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueCustomizabilityMid"></div>
@@ -810,7 +810,7 @@
                   </tr>
                   <tr>
                     <th>Readability</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueReadabilityLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueReadabilityMid"></div>
@@ -820,7 +820,7 @@
                   </tr>
                   <tr>
                     <th>Framework Size</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueFrameworkSizeLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueFrameworkSizeMid"></div>
@@ -830,7 +830,7 @@
                   </tr>
                   <tr>
                     <th>Time in hand</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueTimeInHandLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueTimeInHandMid"></div>
@@ -840,7 +840,7 @@
                   </tr>
                   <tr>
                     <th>Language</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueLanguageLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueLanguageMid"></div>
@@ -850,7 +850,7 @@
                   </tr>
                   <tr>
                     <th>App Size</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueAppSizeLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueAppSizeMid"></div>
@@ -860,7 +860,7 @@
                   </tr>
                   <tr>
                     <th>Learning Curve</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueLearningCurveLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueLearningCurveMid"></div>
@@ -870,7 +870,7 @@
                   </tr>
                   <tr>
                     <th>Standards Complaint</th>
-                    <td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">
+                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                       <div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueStandardsComplaintLow"></div>
                         <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueStandardsComplaintMid"></div>
@@ -880,7 +880,7 @@
                   </tr>
                   <!--<tr>-->
                   <!--<th>Architecture</th>-->
-                  <!--<td class="col-xs-1 col-sm-2 col-md-1 col-lg-1">-->
+                  <!--<td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">-->
                   <!--{{this.reactArchitecturePercentage}}%-->
                   <!--</td>-->
                   <!--</tr>-->
