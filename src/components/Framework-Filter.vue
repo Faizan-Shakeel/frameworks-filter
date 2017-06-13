@@ -377,6 +377,7 @@
                   <tr>
                     <th>Scalability</th>
                     <td class="col-xs-1 col-sm-2 col-md-5 col-lg-3">
+<<<<<<< HEAD
                         <div class="progress progress-bar-vertical">
                           <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="angularScalabilityLow">
                           </div>
@@ -389,6 +390,20 @@
                           <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="angularScalabilityHigh">
                           </div>
                         </div>
+=======
+                      <div class="progress progress-bar-vertical">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" :style="angularScalabilityLow">
+                        </div>
+                      </div>
+                      <div class="progress progress-bar-vertical">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" :style="angularScalabilityMid">
+                        </div>
+                      </div>
+                      <div class="progress progress-bar-vertical">
+                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" :style="angularScalabilityHigh">
+                        </div>
+                      </div>
+>>>>>>> develop
                     </td>
                   </tr>
                   <tr>
@@ -3078,5 +3093,9 @@
     transition: height 0.6s ease;
   }
 
+  .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th
+  {
+     vertical-align: middle !important;
+  }
 
 </style>
