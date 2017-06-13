@@ -3,6 +3,10 @@
   <div class="filter-container">
 
     <div class="tooltip_templates">
+      <span id="clear-results">
+          Clear Results
+      </span>
+
       <span id="check-individual-results">
         <p>
           Please note that 'Total Percentage' shows the overall result, which doesn't necessarily mean that the higher the percentage the higher the suitability.
@@ -159,17 +163,17 @@
 
     <nav class="navbar navbar-default navbar-static-top">
       <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <a class="navbar-brand" href="#">Framework Filter</a>
+          <!--<span class="glyphicon glyphicon-ban-circle hidden-lg hidden-md hidden-sm pull-right clear-data-mobile tooltips" data-tooltip-content="#clear-results" aria-hidden="true" v-on:click="clearResult(0)"></span>-->
         </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="" id="bs-example-navbar-collapse-1">
+        <div class="" id="bs-example-navbar-collapse-2">
           <ul class="nav navbar-nav navbar-right">
+            <li class=""><span class="glyphicon glyphicon-ban-circle hidden-xs clear-data tooltips" data-tooltip-content="#clear-results" aria-hidden="true" v-on:click="clearResult(0)"></span></li>
             <li class=""><a href="#" data-toggle="modal" data-target="#myModal">Recommend Framework</a></li>
+            <li class=""><span class="glyphicon glyphicon-ban-circle hidden-lg hidden-md hidden-sm pull-right clear-data-mobile tooltips" data-tooltip-content="#clear-results" aria-hidden="true" v-on:click="clearResult(0)"></span></li>
           </ul>
-        </div><!-- /.navbar-collapse -->
+        </div>
       </div>
     </nav>
 
@@ -204,6 +208,7 @@
 
     <div class="row whole-page">
       <div class="col-sm-6 col-md-6 col-lg-6">
+
         <form class="">
           <div class="form-group">
             <label for="scalability">Scalability</label>
@@ -891,9 +896,19 @@
             </div>
           </div>
         </div>
+
+        <!--<button class="btn btn-info btn-block" type="button" v-on:click="clearResult(0)">Clear</button>-->
+        <!--<span class="glyphicon glyphicon-ban-circle pull-right clear-data" aria-hidden="true" v-on:click="clearResult(0)"></span>-->
+
       </div>
 
       <!--Accordion End-->
+
+      <!--<div class="row">-->
+        <!--<button type="button" class="btn btn-info" v-on:click="clearResult(0)">Clear</button>-->
+      <!--</div>-->
+
+
 
     </div>
   </div>
@@ -2691,6 +2706,20 @@
       clearFormFields: function () {
         this.recommendedFrameworkByUser = '';
         this.emailFormOptionalMessage = '';
+      },
+
+      clearResult: function (count) {
+        Object.assign(this.$data, this.$options.data());
+        count++;
+
+        if(count < 2)
+        {
+          let that = this;
+          setTimeout(function () {
+            console.log("Still Working 'I F'");
+            that.clearResult(count);
+          }, 500);
+        }
       }
     }
   }
@@ -2771,5 +2800,23 @@
   /*{*/
      /*vertical-align: middle !important;*/
   /*}*/
+
+  .clear-data
+  {
+    font-size: 20px;
+    cursor: pointer;
+    color: darkred;
+    margin: 15px 25px 0 0;
+    border-right: 1px solid lightgrey;
+    padding-right: 35px;
+  }
+
+  .clear-data-mobile
+  {
+    font-size: 20px;
+    cursor: pointer;
+    color: darkred;
+    margin: -30px 15px 0 0;
+  }
 
 </style>
