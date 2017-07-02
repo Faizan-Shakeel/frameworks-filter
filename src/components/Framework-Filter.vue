@@ -7,183 +7,261 @@
           Clear Results
       </span>
 
-      <span id="check-individual-results">
-        <p>
-          Please note that 'Total Percentage' shows the overall result, which doesn't necessarily mean that the higher the percentage the higher the suitability.
-        </p>
-        <p>
-          Please check individual results for most important criteria for your project.
-        </p>
-      </span>
+      <!--<span id="check-individual-results">-->
+        <!--<p>-->
+          <!--Please note that percentage shows the overall result, which <span class="criteria-options-meaning">doesn't necessarily mean</span> that the higher the percentage the higher the suitability.-->
+        <!--</p>-->
+        <!--<p>-->
+          <!--Please check <span class="criteria-options-meaning">individual results</span> for most important criteria for your project.-->
+        <!--</p>-->
+      <!--</span>-->
 
       <span id="info-scalability">
         <p>
-          Please note that 'Total Percentage' shows the overall result, which doesn't necessarily mean that the higher the percentage the higher the suitability.
+          <span class="criteria-options-meaning">Scalability: </span>Consistency in performance with growing number of requests and application size.
         </p>
         <p>
-          Please check individual results for most important criteria for your project.
+          <span class="criteria-options-meaning">Very Important: </span>"My app is made for masses and will surely grow in size (number of records to be handled). For example: Social network websites".
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Moderately Important: </span>My app is for a large audience but does not need to process big data.
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Not Important: </span>No need for handling large number of records.
         </p>
       </span>
 
       <span id="info-modularity">
         <p>
-          Please note that 'Total Percentage' shows the overall result, which doesn't necessarily mean that the higher the percentage the higher the suitability.
+          <span class="criteria-options-meaning">Modularity: </span>Support for separation of files/modules responsible for a specific task.
         </p>
         <p>
-          Please check individual results for most important criteria for your project.
+          <span class="criteria-options-meaning">Very Important: </span>Big website/application with large number of modules/tasks.
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Moderately Important: </span>Not a very large application.
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Not Important: </span>Small application.
         </p>
       </span>
 
       <span id="info-backwards-compatibility">
         <p>
-          Please note that 'Total Percentage' shows the overall result, which doesn't necessarily mean that the higher the percentage the higher the suitability.
+          <span class="criteria-options-meaning">Backwards Compatibility: </span>Ability to convert code to new version of selected framework.
         </p>
         <p>
-          Please check individual results for most important criteria for your project.
+          <span class="criteria-options-meaning">Very Important: </span>Must be able to migrate.
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Moderately Important: </span>Not sure about it.
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Not Important: </span>Do not need any migrations.
         </p>
       </span>
 
       <span id="info-testability">
         <p>
-          Please note that 'Total Percentage' shows the overall result, which doesn't necessarily mean that the higher the percentage the higher the suitability.
+          <span class="criteria-options-meaning">Testability: </span>Quality of built-in testability.
         </p>
         <p>
-          Please check individual results for most important criteria for your project.
+          <span class="criteria-options-meaning">Very Important: </span>Requires best available implementation of tests.
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Moderately Important: </span>Framework should provide tests mechanism.
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Not Important: </span>Do not need to write tests.
         </p>
       </span>
 
       <span id="info-support">
         <p>
-          Please note that 'Total Percentage' shows the overall result, which doesn't necessarily mean that the higher the percentage the higher the suitability.
+          <span class="criteria-options-meaning">Support: </span>How well is the documentation, and how much online support is available to find solutions to problems while development.
         </p>
         <p>
-          Please check individual results for most important criteria for your project.
+          <span class="criteria-options-meaning">Very Important: </span>Must have a huge online community.
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Moderately Important: </span>Should provide some help on develop's networking websites.
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Not Important: </span>Official documentation is enough.
         </p>
       </span>
 
       <span id="info-future">
         <p>
-          Please note that 'Total Percentage' shows the overall result, which doesn't necessarily mean that the higher the percentage the higher the suitability.
+          <span class="criteria-options-meaning">Future: </span>How long a framework will survive in market.
         </p>
         <p>
-          Please check individual results for most important criteria for your project.
+          <span class="criteria-options-meaning">Very Important: </span>I am sure about my app's long life.
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Moderately Important: </span>Not sure.
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Not Important: </span>I will be able to switch framework if needed.
         </p>
       </span>
 
       <span id="info-performance">
         <p>
-          Please note that 'Total Percentage' shows the overall result, which doesn't necessarily mean that the higher the percentage the higher the suitability.
+          <span class="criteria-options-meaning">Performance: </span>How fast a framework executes user requests.
         </p>
         <p>
-          Please check individual results for most important criteria for your project.
+          <span class="criteria-options-meaning">Very Important: </span>Fastest possible (large data sets).
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Moderately Important: </span>Should be fast.
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Not Important: </span>Doesn't need to fetch or render a lot of data on page.
         </p>
       </span>
 
       <span id="info-customizability">
         <p>
-          Please note that 'Total Percentage' shows the overall result, which doesn't necessarily mean that the higher the percentage the higher the suitability.
+          <span class="criteria-options-meaning">Customizability: </span>Support of custom selection of libraries for different components (Model/View/Controller) of application.
         </p>
         <p>
-          Please check individual results for most important criteria for your project.
+          <span class="criteria-options-meaning">Very Important: </span>I want to be able to choose or change any component anytime.
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Moderately Important: </span>Should be flexible at least in the beginning of project.
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Not Important: </span>I am not so techy. Framework should provide everything.
         </p>
       </span>
 
       <span id="info-readability">
         <p>
-          Please note that 'Total Percentage' shows the overall result, which doesn't necessarily mean that the higher the percentage the higher the suitability.
+          <span class="criteria-options-meaning">Readability: </span>How natural/human readable is framework's language.
         </p>
         <p>
-          Please check individual results for most important criteria for your project.
+          <span class="criteria-options-meaning">Very Important: </span>Easiest framework for switching code between developers.
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Moderately Important: </span>Should be fairly easy on eyes.
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Not Important: </span>Complexity doesn't matter.
         </p>
       </span>
 
       <span id="info-framework-size">
         <p>
-          Please note that 'Total Percentage' shows the overall result, which doesn't necessarily mean that the higher the percentage the higher the suitability.
+          <span class="criteria-options-meaning">Framework Size: </span>"Size in KiloBytes, framework adds to the project. For example, Angular 2 = 566K".
         </p>
         <p>
-          Please check individual results for most important criteria for your project.
+          <span class="criteria-options-meaning">Very Important: </span>Must have least possible download time for end user.
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Moderately Important: </span>Should not be the largest.
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Not Important: </span>Doesn't matter.
         </p>
       </span>
 
       <span id="info-time-in-hand">
         <p>
-          Please note that 'Total Percentage' shows the overall result, which doesn't necessarily mean that the higher the percentage the higher the suitability.
+          <span class="criteria-options-meaning">Time in Hand: </span>Available time for development.
         </p>
         <p>
-          Please check individual results for most important criteria for your project.
+          <span class="criteria-options-meaning">No Time Constraint: </span>Enough time for team to learn.
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Routine: </span>Can not spend long time to learn.
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Urgent: </span>Absolutely no time to learn.
         </p>
       </span>
 
       <span id="info-language">
         <p>
-          Please note that 'Total Percentage' shows the overall result, which doesn't necessarily mean that the higher the percentage the higher the suitability.
+          <span class="criteria-options-meaning">Language: </span>Supported  ECMAScript (ES) version or its superset.
         </p>
         <p>
-          Please check individual results for most important criteria for your project.
+          <span class="criteria-options-meaning">ES6: </span>Do not need TypeScript.
+        </p>
+        <p>
+          <span class="criteria-options-meaning">TypeScript: </span>Requires built in TypeScript compatibility.
         </p>
       </span>
 
       <span id="info-app-size">
         <p>
-          Please note that 'Total Percentage' shows the overall result, which doesn't necessarily mean that the higher the percentage the higher the suitability.
+          <span class="criteria-options-meaning">App Size: </span>How big you think your application might become?
         </p>
         <p>
-          Please check individual results for most important criteria for your project.
+          <span class="criteria-options-meaning">Big: </span>My website will beat facebook.
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Medium: </span>Enterprise level application.
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Small: </span>Personal project.
         </p>
       </span>
 
       <span id="info-learning-curve">
         <p>
-          Please note that 'Total Percentage' shows the overall result, which doesn't necessarily mean that the higher the percentage the higher the suitability.
+          <span class="criteria-options-meaning">Learning Curve: </span>How long it takes to learn a framework.
         </p>
         <p>
-          Please check individual results for most important criteria for your project.
+          <span class="criteria-options-meaning">Very Important: </span>Must be the easiest one.
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Moderately Important: </span>Should be fairly simple.
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Not Important: </span>Doesn't matter. (smart developers  and time is available)
         </p>
       </span>
 
       <span id="info-standards-complaint">
         <p>
-          Please note that 'Total Percentage' shows the overall result, which doesn't necessarily mean that the higher the percentage the higher the suitability.
+          <span class="criteria-options-meaning">Standards Complaint: </span>W3C web components support.
         </p>
         <p>
-          Please check individual results for most important criteria for your project.
+          <span class="criteria-options-meaning">Very Important: </span>Must work without any dependencies or polyfills.
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Moderately Important: </span>Can have polyfills.
+        </p>
+        <p>
+          <span class="criteria-options-meaning">Not Important: </span>No such requirement.
         </p>
       </span>
 
-      <!--<span id="info-architecture">-->
-      <!--<p>-->
-      <!--Please note that 'Total Percentage' shows the overall result, which doesn't necessarily mean that the higher the percentage the higher the suitability.-->
-      <!--</p>-->
-      <!--<p>-->
-      <!--Please check individual results for most important criteria for your project.-->
-      <!--</p>-->
-      <!--</span>-->
     </div>
 
     <nav class="navbar navbar-default navbar-static-top">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Framework Filter</a>
-          <!--<span class="glyphicon glyphicon-ban-circle hidden-lg hidden-md hidden-sm pull-right clear-data-mobile tooltips" data-tooltip-content="#clear-results" aria-hidden="true" v-on:click="clearResult(0)"></span>-->
+          <a class="navbar-brand" href="#">JavaScript Framework Filter</a>
         </div>
         <div class="" id="bs-example-navbar-collapse-2">
           <ul class="nav navbar-nav navbar-right">
-            <li class=""><span class="glyphicon glyphicon-ban-circle hidden-xs clear-data tooltips" data-tooltip-content="#clear-results" aria-hidden="true" v-on:click="clearResult(0)"></span></li>
-            <li class=""><a href="#" data-toggle="modal" data-target="#myModal">Recommend Framework</a></li>
-            <li class=""><span class="glyphicon glyphicon-ban-circle hidden-lg hidden-md hidden-sm pull-right clear-data-mobile tooltips" data-tooltip-content="#clear-results" aria-hidden="true" v-on:click="clearResult(0)"></span></li>
+            <li class=""><span class="glyphicon glyphicon-ban-circle hidden-xs clear-data clear-button-disabled tooltips" data-tooltip-content="#clear-results" aria-hidden="true" v-on:click="checkFormStatus()"></span></li>
+            <li class=""><a href="#" data-toggle="modal" data-target="#requestFrameworkFormModal">Recommend Framework</a></li>
+            <li class=""><span class="glyphicon glyphicon-ban-circle hidden-lg hidden-md hidden-sm pull-right clear-data-mobile clear-button-disabled tooltips" data-tooltip-content="#clear-results" aria-hidden="true" v-on:click="checkFormStatus()"></span></li>
           </ul>
         </div>
       </div>
     </nav>
 
     <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="static" aria-hidden="true">
+    <div class="modal fade" id="requestFrameworkFormModal" tabindex="-1" role="dialog" aria-labelledby="requestFrameworkFormModalLabel" data-backdrop="static" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title text-center" id="myModalLabel">Recommend Framework for Comparison</h4>
+            <h4 class="modal-title text-center" id="requestFrameworkFormModalLabel">Recommend Framework for Comparison</h4>
           </div>
           <form action="https://formspree.io/faizan.sg@gmail.com" method="post">
             <div class="modal-body">
@@ -192,7 +270,7 @@
                 <input v-model="recommendedFrameworkByUser" type="text" class="form-control" id="frameworkName" placeholder="Framework Name" name="Framework Name" required>
               </div>
               <div class="form-group">
-                <label for="optionalMessage">Message (Optional)</label>
+                <label for="optionalMessage">Message <span class="optional-message">(Optional)</span></label>
                 <textarea v-model="emailFormOptionalMessage" class="form-control" rows="3" id="optionalMessage" placeholder="Message" name="Message"></textarea>
               </div>
             </div>
@@ -201,7 +279,26 @@
               <button type="button" class="btn btn-success" v-on:click="sendMail(recommendedFrameworkByUser, emailFormOptionalMessage)">Submit Recommendation</button>
             </div>
           </form>
+        </div>
+      </div>
+    </div>
 
+
+    <!-- Modal Clear Form Confirmation -->
+    <div class="modal fade" id="clearFormConfirmationModal" tabindex="-1" role="dialog" aria-labelledby="requestFrameworkFormModalLabel" data-backdrop="static" aria-hidden="true">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title text-center" id="requestFrameworkFormModalLabel2">Clear Form</h4>
+          </div>
+          <div class="modal-body">
+            <p>Are you sure you want to clear the form?</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-success" v-on:click="clearForm(0)">Clear Form</button>
+          </div>
         </div>
       </div>
     </div>
@@ -209,156 +306,176 @@
     <div class="row whole-page">
       <div class="col-sm-6 col-md-6 col-lg-6">
 
-        <form class="">
+        <form class="form-horizontal">
           <div class="form-group">
-            <label for="scalability">Scalability</label>
-            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-scalability"></span>
-            <select v-model="scalability" class="form-control" id="scalability" v-on:change="frameworkFilter('scalability', scalability)">
-              <option>Not Important</option>
-              <option>Moderately Important</option>
-              <option>Very Important</option>
-            </select>
+            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="scalability">Scalability</label>
+            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+              <select v-model="scalability" class="form-control" id="scalability" v-on:change="frameworkFilter('scalability', scalability)">
+                <option>Very Important</option>
+                <option>Moderately Important</option>
+                <option>Not Important</option>
+              </select>
+            </div>
+            <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-scalability"></span>
           </div>
           <div class="form-group">
-            <label for="modularity">Modularity</label>
-            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-modularity"></span>
-            <select v-model="modularity" class="form-control" id="modularity" v-on:change="frameworkFilter('modularity', modularity)">
-              <option>Not Important</option>
-              <option>Moderately Important</option>
-              <option>Very Important</option>
-            </select>
+            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="modularity">Modularity</label>
+            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+              <select v-model="modularity" class="form-control" id="modularity" v-on:change="frameworkFilter('modularity', modularity)">
+                <option>Very Important</option>
+                <option>Moderately Important</option>
+                <option>Not Important</option>
+              </select>
+            </div>
+            <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-modularity"></span>
           </div>
           <div class="form-group">
-            <label for="backwardscompatibility">Backwards Compatibility</label>
-            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-backwards-compatibility"></span>
-            <select v-model="backwardsCompatibility" class="form-control" id="backwardscompatibility" v-on:change="frameworkFilter('backwardsCompatibility', backwardsCompatibility)">
-              <option>Not Important</option>
-              <option>Moderately Important</option>
-              <option>Very Important</option>
-            </select>
+            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="backwardscompatibility">Backwards Compatibility</label>
+            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+              <select v-model="backwardsCompatibility" class="form-control" id="backwardscompatibility" v-on:change="frameworkFilter('backwardsCompatibility', backwardsCompatibility)">
+                <option>Very Important</option>
+                <option>Moderately Important</option>
+                <option>Not Important</option>
+              </select>
+            </div>
+            <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-backwards-compatibility"></span>
           </div>
           <div class="form-group">
-            <label for="testability">Testability</label>
-            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-testability"></span>
-            <select v-model="testability" class="form-control" id="testability" v-on:change="frameworkFilter('testability', testability)">
-              <option>Not Important</option>
-              <option>Moderately Important</option>
-              <option>Very Important</option>
-            </select>
+            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="testability">Testability</label>
+            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+              <select v-model="testability" class="form-control" id="testability" v-on:change="frameworkFilter('testability', testability)">
+                <option>Very Important</option>
+                <option>Moderately Important</option>
+                <option>Not Important</option>
+              </select>
+            </div>
+            <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-testability"></span>
           </div>
           <div class="form-group">
-            <label for="support">Support</label>
-            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-support"></span>
-            <select v-model="support" class="form-control" id="support" v-on:change="frameworkFilter('support', support)">
-              <option>Not Important</option>
-              <option>Moderately Important</option>
-              <option>Very Important</option>
-            </select>
+            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="support">Support</label>
+            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+              <select v-model="support" class="form-control" id="support" v-on:change="frameworkFilter('support', support)">
+                <option>Very Important</option>
+                <option>Moderately Important</option>
+                <option>Not Important</option>
+              </select>
+            </div>
+            <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-support"></span>
           </div>
           <div class="form-group">
-            <label for="future">Future</label>
-            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-future"></span>
-            <select v-model="future" class="form-control" id="future" v-on:change="frameworkFilter('future', future)">
-              <option>Not Important</option>
-              <option>Moderately Important</option>
-              <option>Very Important</option>
-            </select>
+            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="future">Future</label>
+            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+              <select v-model="future" class="form-control" id="future" v-on:change="frameworkFilter('future', future)">
+                <option>Very Important</option>
+                <option>Moderately Important</option>
+                <option>Not Important</option>
+              </select>
+            </div>
+            <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-future"></span>
           </div>
           <div class="form-group">
-            <label for="performance">Performance</label>
-            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-performance"></span>
-            <select v-model="performance" class="form-control" id="performance" v-on:change="frameworkFilter('performance', performance)">
-              <option>Not Important</option>
-              <option>Moderately Important</option>
-              <option>Very Important</option>
-            </select>
+            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="performance">Performance</label>
+            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+              <select v-model="performance" class="form-control" id="performance" v-on:change="frameworkFilter('performance', performance)">
+                <option>Very Important</option>
+                <option>Moderately Important</option>
+                <option>Not Important</option>
+              </select>
+            </div>
+            <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-performance"></span>
           </div>
           <div class="form-group">
-            <label for="customizability">Customizability</label>
-            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-customizability"></span>
-            <select v-model="customizability" class="form-control" id="customizability" v-on:change="frameworkFilter('customizability', customizability)">
-              <option>Not Important</option>
-              <option>Moderately Important</option>
-              <option>Very Important</option>
-            </select>
+            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="customizability">Customizability</label>
+            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+              <select v-model="customizability" class="form-control" id="customizability" v-on:change="frameworkFilter('customizability', customizability)">
+                <option>Very Important</option>
+                <option>Moderately Important</option>
+                <option>Not Important</option>
+              </select>
+            </div>
+            <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-customizability"></span>
           </div>
           <div class="form-group">
-            <label for="readability">Readability</label>
-            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-readability"></span>
-            <select v-model="readability" class="form-control" id="readability" v-on:change="frameworkFilter('readability', readability)">
-              <option>Not Important</option>
-              <option>Moderately Important</option>
-              <option>Very Important</option>
-            </select>
+            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="readability">Readability</label>
+            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+              <select v-model="readability" class="form-control" id="readability" v-on:change="frameworkFilter('readability', readability)">
+                <option>Very Important</option>
+                <option>Moderately Important</option>
+                <option>Not Important</option>
+              </select>
+            </div>
+            <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-readability"></span>
           </div>
           <div class="form-group">
-            <label for="frameworkSize">Framework Size</label>
-            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-framework-size"></span>
-            <select v-model="frameworkSize" class="form-control" id="frameworkSize" v-on:change="frameworkFilter('frameworkSize', frameworkSize)">
-              <option>Not Important</option>
-              <option>Moderately Important</option>
-              <option>Very Important</option>
-            </select>
+            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="frameworkSize">Framework Size</label>
+            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+              <select v-model="frameworkSize" class="form-control" id="frameworkSize" v-on:change="frameworkFilter('frameworkSize', frameworkSize)">
+                <option>Very Important</option>
+                <option>Moderately Important</option>
+                <option>Not Important</option>
+              </select>
+            </div>
+            <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-framework-size"></span>
           </div>
           <div class="form-group">
-            <label for="timeInHand">Time in hand</label>
-            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-time-in-hand"></span>
-            <select v-model="timeInHand" class="form-control" id="timeInHand" v-on:change="frameworkFilter('timeInHand', timeInHand)">
-              <option>No Time Constraint</option>
-              <option>Routine</option>
-              <option>Urgent</option>
-            </select>
+            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="timeInHand">Time in hand</label>
+            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+              <select v-model="timeInHand" class="form-control" id="timeInHand" v-on:change="frameworkFilter('timeInHand', timeInHand)">
+                <option>No Time Constraint</option>
+                <option>Routine</option>
+                <option>Urgent</option>
+              </select>
+            </div>
+            <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-time-in-hand"></span>
           </div>
           <div class="form-group">
-            <label for="language">Language</label>
-            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-language"></span>
-            <select v-model="language" class="form-control" id="language" v-on:change="frameworkFilter('language'+language, language)">
-              <option>ES6</option>
-              <option>TypeScript</option>
-            </select>
+            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="language">Language</label>
+            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+              <select v-model="language" class="form-control" id="language" v-on:change="frameworkFilter('language'+language, language)">
+                <option>ES6</option>
+                <option>TypeScript</option>
+              </select>
+            </div>
+            <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-language"></span>
           </div>
           <div class="form-group">
-            <label for="appSize">App Size</label>
-            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-app-size"></span>
-            <select v-model="appSize" class="form-control" id="appSize" v-on:change="frameworkFilter('appSize', appSize)">
-              <option>Small</option>
-              <option>Medium</option>
-              <option>Big</option>
-            </select>
+            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="appSize">App Size</label>
+            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+              <select v-model="appSize" class="form-control" id="appSize" v-on:change="frameworkFilter('appSize', appSize)">
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Big</option>
+              </select>
+            </div>
+            <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-app-size"></span>
           </div>
           <div class="form-group">
-            <label for="learningCurve">Learning Curve</label>
-            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-learning-curve"></span>
-            <select v-model="learningCurve" class="form-control" id="learningCurve" v-on:change="frameworkFilter('learningCurve', learningCurve)">
-              <option>Not Important</option>
-              <option>Moderately Important</option>
-              <option>Very Important</option>
-            </select>
+            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="learningCurve">Learning Curve</label>
+            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+              <select v-model="learningCurve" class="form-control" id="learningCurve" v-on:change="frameworkFilter('learningCurve', learningCurve)">
+                <option>Very Important</option>
+                <option>Moderately Important</option>
+                <option>Not Important</option>
+              </select>
+            </div>
+            <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-learning-curve"></span>
           </div>
           <div class="form-group">
-            <label for="standardsComplaint">Standards Complaint</label>
-            <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-standards-complaint"></span>
-            <select v-model="standardsComplaint" class="form-control" id="standardsComplaint" v-on:change="frameworkFilter('standardsComplaint', standardsComplaint)">
-              <option>Not Important</option>
-              <option>Moderately Important</option>
-              <option>Very Important</option>
-            </select>
+            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="standardsComplaint">Standards Complaint</label>
+            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+              <select v-model="standardsComplaint" class="form-control" id="standardsComplaint" v-on:change="frameworkFilter('standardsComplaint', standardsComplaint)">
+                <option>Very Important</option>
+                <option>Moderately Important</option>
+                <option>Not Important</option>
+              </select>
+            </div>
+            <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-standards-complaint"></span>
           </div>
-          <!--<div class="form-group">-->
-          <!--<label for="architecture">Architecture</label>-->
-          <!--<span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#info-architecture"></span>-->
-          <!--<select v-model="architecture" class="form-control" id="architecture" v-on:change="frameworkFilter('architecture', architecture)">-->
-          <!--<option>Not Important</option>-->
-          <!--<option>Moderately Important</option>-->
-          <!--<option>Very Important</option>-->
-          <!--</select>-->
-          <!--</div>-->
         </form>
       </div>
 
 
       <!--Accordion Start-->
-
 
       <div class="col-sm-6 col-md-6 col-lg-6">
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -368,9 +485,9 @@
                 <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="test-accordion-style">
                   Angular 2
                   <span class="total-percentage">
-                    {{this.totalPercentageAngular}}%
-                  </span>
-                  <span class="glyphicon glyphicon-info-sign total-percentage-notification tooltips" data-tooltip-content="#check-individual-results"></span>
+                                        {{this.totalPercentageAngular}}%
+                                    </span>
+                  <!--<span class="glyphicon glyphicon-info-sign total-percentage-notification-accordion tooltips" data-tooltip-content="#check-individual-results"></span>-->
                 </a>
               </h4>
             </div>
@@ -528,12 +645,6 @@
                       </div>
                     </td>
                   </tr>
-                  <!--<tr>-->
-                  <!--<th>Architecture</th>-->
-                  <!--<td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">-->
-                  <!--{{this.angularArchitecturePercentage}}%-->
-                  <!--</td>-->
-                  <!--</tr>-->
                   </tbody>
                 </table>
               </div>
@@ -705,12 +816,6 @@
                       </div>
                     </td>
                   </tr>
-                  <!--<tr>-->
-                  <!--<th>Architecture</th>-->
-                  <!--<td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">-->
-                  <!--{{this.reactArchitecturePercentage}}%-->
-                  <!--</td>-->
-                  <!--</tr>-->
                   </tbody>
                 </table>
 
@@ -883,12 +988,6 @@
                       </div>
                     </td>
                   </tr>
-                  <!--<tr>-->
-                  <!--<th>Architecture</th>-->
-                  <!--<td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">-->
-                  <!--{{this.reactArchitecturePercentage}}%-->
-                  <!--</td>-->
-                  <!--</tr>-->
                   </tbody>
                 </table>
 
@@ -897,37 +996,83 @@
           </div>
         </div>
 
-        <!--<button class="btn btn-info btn-block" type="button" v-on:click="clearResult(0)">Clear</button>-->
-        <!--<span class="glyphicon glyphicon-ban-circle pull-right clear-data" aria-hidden="true" v-on:click="clearResult(0)"></span>-->
+        <div class="important-note-about-total-percentage">
+          <p class="criteria-description-in-tooltip">Please note that percentage shows the overall result, which <span class="criteria-options-meaning">doesn't necessarily mean</span> that the higher the percentage the higher the suitability.</p>
+          <p class="criteria-description-in-tooltip">Please check <span class="criteria-options-meaning">individual results</span> for most important criteria for your project.</p>
+        </div>
 
       </div>
 
+
       <!--Accordion End-->
 
-      <!--<div class="row">-->
-        <!--<button type="button" class="btn btn-info" v-on:click="clearResult(0)">Clear</button>-->
-      <!--</div>-->
-
-
-
     </div>
+
+    <div id="footer">
+      <a class="git-link" href="https://goo.gl/forms/6sakUAormUq3IkU43">Rate App</a>
+    </div>
+
   </div>
 
 </template>
 
 <script>
+
   export default {
     beforeMount(){
 
       $(function () {
+        let footerHeight = 0,
+          footerTop = 0,
+          $footer = $("#footer");
+
+        positionFooter();
+
+        function positionFooter() {
+
+          footerHeight = $footer.height();
+          footerTop = ($(window).scrollTop()+$(window).height()-footerHeight)+"px";
+
+          if ( ($(document.body).height()+footerHeight) < $(window).height()) {
+            $footer.css({
+              position: "absolute",
+              top: footerTop
+            })
+          } else {
+            $footer.css({
+              position: "static"
+            })
+          }
+        }
+        $(window)
+          .scroll(positionFooter)
+          .resize(positionFooter)
+      });
+
+      $(function () {
         $('.tooltips').tooltipster({
-//          theme: 'tooltipster-shadow',
           theme: ['tooltipster-shadow', 'tooltipster-shadow-customized'],
           delay: 0,
           maxWidth: 500,
-          side: "left"
+          side: "left",
+          trigger: 'custom',
+          triggerOpen: {
+            mouseenter: true,
+//            touchstart: true,
+            tap: true,
+            delayTouch: 0,
+          },
+          triggerClose: {
+//            click: true,
+            scroll: true,
+            tap: true,
+            mouseleave: true,
+//            originClick: true,
+//            touchleave: true
+          }
         });
-      })
+      });
+
     },
 
     name: 'hello',
@@ -950,12 +1095,12 @@
         appSize: this.appSize,
         learningCurve: this.learningCurve,
         standardsComplaint: this.standardsComplaint,
-//        architecture: this.architecture,
 
         totalCriteria: 16,
         totalPercentageAngular: 0,
         totalPercentageReact: 0,
         totalPercentageVue: 0,
+        formEdited: false,
 
         angularScalabilityPercentage: 0,
         angularModularityPercentage: 0,
@@ -972,7 +1117,6 @@
         angularAppSizePercentage: 0,
         angularLearningCurvePercentage: 0,
         angularStandardsComplaintPercentage: 0,
-//        angularArchitecturePercentage: 0,
 
         reactScalabilityPercentage: 0,
         reactModularityPercentage: 0,
@@ -989,8 +1133,6 @@
         reactAppSizePercentage: 0,
         reactLearningCurvePercentage: 0,
         reactStandardsComplaintPercentage: 0,
-//        reactArchitecturePercentage: 0,
-
 
         vueScalabilityPercentage: 0,
         vueModularityPercentage: 0,
@@ -1007,7 +1149,6 @@
         vueAppSizePercentage: 0,
         vueLearningCurvePercentage: 0,
         vueStandardsComplaintPercentage: 0,
-//        vueArchitecturePercentage: 0,
 
         angularScalabilityLow: this.angularScalabilityLow,
         angularScalabilityMid: this.angularScalabilityMid,
@@ -1504,7 +1645,9 @@
     methods:{
       frameworkFilter: function (selectedCriteria, userSelection)
       {
-        this.clearConsole();
+        $('.clear-data').removeClass('clear-button-disabled');
+        $('.clear-data-mobile').removeClass('clear-button-disabled');
+        this.formEdited = true;
         let fdParent = this.frameworksData;
         let weightPerCriteria = this.getWeightPerCriteria(this.totalCriteria);
         let maxCriteriaScore = 3 * weightPerCriteria;
@@ -1524,7 +1667,7 @@
 
                 if (keyChild === selectedCriteria) {
 
-                  fdSubChild["goalMet"] = this.calculateGoalMet(framework, selectedCriteria, userSelection, fdSubChild);
+                  fdSubChild["goalMet"] = this.calculateGoalMet(framework, selectedCriteria, userSelection, fdSubChild['strength']);
                   fdSubChild["score"] = fdSubChild["goalMet"] * weightPerCriteria;
                   fdSubChild["percentage"] = Math.round(fdSubChild["score"] / (maxCriteriaScore) * 100);
                   this.setIndividualPercentage(framework, selectedCriteria, fdSubChild["percentage"]);
@@ -1535,10 +1678,11 @@
         }
 
         this.setMeanTotalScore(maxCriteriaScore, this.language);
+//                this.generateReport();
       },
 
-      setIndividualPercentage: function (currentFramework, currentCriteria, currentCriteriaPercentage) {
-
+      setIndividualPercentage: function (currentFramework, currentCriteria, currentCriteriaPercentage)
+      {
         if (currentFramework === "Angular")
         {
           if (currentCriteria === "scalability")
@@ -2559,11 +2703,10 @@
             }
           }
         }
-
       },
 
-      setMeanTotalScore: function (maxCriteriaScore, selectedLanguage) {
-
+      setMeanTotalScore: function (maxCriteriaScore, selectedLanguage)
+      {
         let fdParent = this.frameworksData;
         let localScoreSum;
         let counter;
@@ -2618,9 +2761,9 @@
         }
       },
 
-      calculateGoalMet: function (framework, selectedCriteria, userSelection, selectedCriteriaData) {
-        let criteriaStrength = selectedCriteriaData['strength'];
-        let criteriaGoalMet = selectedCriteriaData['goalMet'];
+      calculateGoalMet: function (framework, selectedCriteria, userSelection, criteriaStrength)
+      {
+        let criteriaGoalMet;
 
         if ((userSelection === "Not Important") || (userSelection === "No Time Constraint") || (userSelection === "Small"))
         {
@@ -2676,7 +2819,8 @@
         console.API.clear();
       },
 
-      sendMail: function (recommendedFrameworkByUser, optionalMessage) {
+      sendMail: function (recommendedFrameworkByUser, optionalMessage)
+      {
         if($('#frameworkName')[0].checkValidity())
         {
           $.ajax({
@@ -2691,7 +2835,7 @@
             dataType: "json"
           });
 
-          $("#myModal").modal('hide');
+          $("#requestFrameworkFormModal").modal('hide');
           toastr.success('Thank you for the recommendation.', 'Email Sent', {timeOut: 5000});
         }
         else
@@ -2708,7 +2852,13 @@
         this.emailFormOptionalMessage = '';
       },
 
-      clearResult: function (count) {
+      checkFormStatus: function () {
+        if(this.formEdited) {
+          $("#clearFormConfirmationModal").modal('show');
+        }
+      },
+
+      clearForm: function (count) {
         Object.assign(this.$data, this.$options.data());
         count++;
 
@@ -2716,24 +2866,71 @@
         {
           let that = this;
           setTimeout(function () {
-            console.log("Still Working 'I F'");
-            that.clearResult(count);
+            that.clearForm(count);
           }, 500);
         }
+
+        $('.clear-data').addClass('clear-button-disabled');
+        $('.clear-data-mobile').addClass('clear-button-disabled');
+        this.formEdited = false;
+        $("#clearFormConfirmationModal").modal('hide');
+      },
+
+      generateReport: function () {
+//                let PDFDocument = require('pdfkit');
+//                let blobStream = require('blob-stream');
+//
+//                // create a document and pipe to a blob
+//                let doc = new PDFDocument();
+//                let stream = doc.pipe(blobStream());
+//
+//// draw some text
+//                doc.fontSize(25)
+//                    .text('Here is some vector graphics...', 100, 80);
+//
+//// some vector graphics
+//                doc.save()
+//                    .moveTo(100, 150)
+//                    .lineTo(100, 250)
+//                    .lineTo(200, 250)
+//                    .fill("#FF3300");
+//
+//                doc.circle(280, 200, 50)
+//                    .fill("#6600FF");
+//
+//// an SVG path
+//                doc.scale(0.6)
+//                    .translate(470, 130)
+//                    .path('M 250,75 L 323,301 131,161 369,161 177,301 z')
+//                    .fill('red', 'even-odd')
+//                    .restore();
+//
+//// and some justified text wrapped into columns
+//                doc.text('And here is some wrapped text...', 100, 300)
+//                    .font('Times-Roman', 13)
+//                    .moveDown()
+//                    .text(lorem, {
+//                        width: 412,
+//                        align: 'justify',
+//                        indent: 30,
+//                        columns: 2,
+//                        height: 300,
+//                        ellipsis: true
+//                    });
+//
+//// end and display the document in the iframe to the right
+//                doc.end();
+//                stream.on('finish', function() {
+//                    iframe.src = stream.toBlobURL('application/pdf');
+//                });
       }
+
     }
   }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-
-  /*.filter-container*/
-  /*{*/
-  /*width: 95%;*/
-  /*margin: 0 auto;*/
-  /*}*/
-
 
   .whole-page
   {
@@ -2748,18 +2945,25 @@
     cursor: default;
   }
 
-  .total-percentage-notification
+  .criteria-description-in-tooltip
   {
-    float: right;
     color: darkgray;
-    margin-right: 10px;
+    margin: 10px 0 0 -15px;
     cursor: default;
     font-size: medium;
   }
 
+  /*.total-percentage-notification-accordion*/
+  /*{*/
+    /*float: right;*/
+    /*color: darkgray;*/
+    /*margin-right: 10px;*/
+    /*cursor: default;*/
+    /*font-size: medium;*/
+  /*}*/
+
   .tooltipster-sidetip.tooltipster-shadow.tooltipster-shadow-customized .tooltipster-content {
     font-size: 16px;
-    /*letter-spacing: 1.5px;*/
     line-height: 2em;
   }
 
@@ -2774,32 +2978,10 @@
     color: deepskyblue;
   }
 
-  /*.progress-bar-vertical {*/
-    /*width: 25px;*/
-    /*min-height: 44px;*/
-    /*display: flex;*/
-    /*align-items: flex-end;*/
-    /*margin: 0 5px 0 0;*/
-    /*float: left;*/
-  /*}*/
-
-  /*.progress-bar-vertical .progress-bar {*/
-    /*width: 100%;*/
-    /*height: 0;*/
-    /*-webkit-transition: height 0.6s ease;*/
-    /*-o-transition: height 0.6s ease;*/
-    /*transition: height 0.6s ease;*/
-  /*}*/
-
   .progress
   {
     margin-bottom: 0;
   }
-
-  /*.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th*/
-  /*{*/
-     /*vertical-align: middle !important;*/
-  /*}*/
 
   .clear-data
   {
@@ -2818,5 +3000,50 @@
     color: darkred;
     margin: -30px 15px 0 0;
   }
+
+  .clear-button-disabled
+  {
+    color: lightgrey;
+    cursor: default;
+  }
+
+  .form-group {
+    margin-bottom: 16px;
+  }
+
+  .optional-message
+  {
+    font-size: smaller;
+    font-weight: lighter;
+    font-style: italic;
+  }
+
+  .git-link
+  {
+    position: absolute;
+    right: 1%;
+    text-decoration: none;
+    color: darkblue;
+  }
+
+  #footer {
+    height: 20px;
+    background: lightgrey;
+    width: 100%;
+    opacity: .5;
+  }
+
+  .criteria-options-meaning
+  {
+    color: black;
+    font-style: italic;
+    /*font-weight: bold;*/
+  }
+
+  .important-note-about-total-percentage
+  {
+    margin-left: 15px;
+  }
+
 
 </style>
