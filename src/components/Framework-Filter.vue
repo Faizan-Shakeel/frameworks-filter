@@ -7,21 +7,13 @@
           Clear Results
       </span>
 
-      <!--<span id="check-individual-results">-->
-        <!--<p>-->
-          <!--Please note that percentage shows the overall result, which <span class="criteria-options-meaning">doesn't necessarily mean</span> that the higher the percentage the higher the suitability.-->
-        <!--</p>-->
-        <!--<p>-->
-          <!--Please check <span class="criteria-options-meaning">individual results</span> for most important criteria for your project.-->
-        <!--</p>-->
-      <!--</span>-->
-
       <span id="info-scalability">
         <p>
           <span class="criteria-options-meaning">Scalability: </span>Consistency in performance with growing number of requests and application size.
         </p>
+        <hr>
         <p>
-          <span class="criteria-options-meaning">Very Important: </span>"My app is made for masses and will surely grow in size (number of records to be handled). For example: Social network websites".
+          <span class="criteria-options-meaning">Very Important: </span>My app is made for masses and will surely grow in size (number of records to be handled). For example: Social network websites.
         </p>
         <p>
           <span class="criteria-options-meaning">Moderately Important: </span>My app is for a large audience but does not need to process big data.
@@ -33,8 +25,9 @@
 
       <span id="info-modularity">
         <p>
-          <span class="criteria-options-meaning">Modularity: </span>Support for separation of files/modules responsible for a specific task.
+          <span class="criteria-options-meaning">Modularity: </span>Support for separation of files / modules responsible for a specific task.
         </p>
+        <hr>
         <p>
           <span class="criteria-options-meaning">Very Important: </span>Big website/application with large number of modules/tasks.
         </p>
@@ -48,8 +41,9 @@
 
       <span id="info-backwards-compatibility">
         <p>
-          <span class="criteria-options-meaning">Backwards Compatibility: </span>Ability to convert code to new version of selected framework.
+          <span class="criteria-options-meaning">Backwards Compatibility: </span>Ability to convert code to new version of framework.
         </p>
+        <hr>
         <p>
           <span class="criteria-options-meaning">Very Important: </span>Must be able to migrate.
         </p>
@@ -65,6 +59,7 @@
         <p>
           <span class="criteria-options-meaning">Testability: </span>Quality of built-in testability.
         </p>
+        <hr>
         <p>
           <span class="criteria-options-meaning">Very Important: </span>Requires best available implementation of tests.
         </p>
@@ -78,8 +73,9 @@
 
       <span id="info-support">
         <p>
-          <span class="criteria-options-meaning">Support: </span>How well is the documentation, and how much online support is available to find solutions to problems while development.
+          <span class="criteria-options-meaning">Support: </span>Quality of documentation and how much online support is available for troubleshooting.
         </p>
+        <hr>
         <p>
           <span class="criteria-options-meaning">Very Important: </span>Must have a huge online community.
         </p>
@@ -93,8 +89,9 @@
 
       <span id="info-future">
         <p>
-          <span class="criteria-options-meaning">Future: </span>How long a framework will survive in market.
+          <span class="criteria-options-meaning">Future: </span>How long framework will survive in market.
         </p>
+        <hr>
         <p>
           <span class="criteria-options-meaning">Very Important: </span>I am sure about my app's long life.
         </p>
@@ -108,8 +105,9 @@
 
       <span id="info-performance">
         <p>
-          <span class="criteria-options-meaning">Performance: </span>How fast a framework executes user requests.
+          <span class="criteria-options-meaning">Performance: </span>How fast framework executes user requests.
         </p>
+        <hr>
         <p>
           <span class="criteria-options-meaning">Very Important: </span>Fastest possible (large data sets).
         </p>
@@ -123,8 +121,9 @@
 
       <span id="info-customizability">
         <p>
-          <span class="criteria-options-meaning">Customizability: </span>Support of custom selection of libraries for different components (Model/View/Controller) of application.
+          <span class="criteria-options-meaning">Customizability: </span>Support for custom selection of libraries for different components (Model/View/Controller) of application.
         </p>
+        <hr>
         <p>
           <span class="criteria-options-meaning">Very Important: </span>I want to be able to choose or change any component anytime.
         </p>
@@ -138,8 +137,9 @@
 
       <span id="info-readability">
         <p>
-          <span class="criteria-options-meaning">Readability: </span>How natural/human readable is framework's language.
+          <span class="criteria-options-meaning">Readability: </span>How natural / human readable is framework's language.
         </p>
+        <hr>
         <p>
           <span class="criteria-options-meaning">Very Important: </span>Easiest framework for switching code between developers.
         </p>
@@ -153,8 +153,9 @@
 
       <span id="info-framework-size">
         <p>
-          <span class="criteria-options-meaning">Framework Size: </span>"Size in KiloBytes, framework adds to the project. For example, Angular 2 = 566K".
+          <span class="criteria-options-meaning">Framework Size: </span>Size in KiloBytes which framework will add to project. For example, Angular 2 = 566K.
         </p>
+        <hr>
         <p>
           <span class="criteria-options-meaning">Very Important: </span>Must have least possible download time for end user.
         </p>
@@ -170,6 +171,7 @@
         <p>
           <span class="criteria-options-meaning">Time in Hand: </span>Available time for development.
         </p>
+        <hr>
         <p>
           <span class="criteria-options-meaning">No Time Constraint: </span>Enough time for team to learn.
         </p>
@@ -185,6 +187,7 @@
         <p>
           <span class="criteria-options-meaning">Language: </span>Supported  ECMAScript (ES) version or its superset.
         </p>
+        <hr>
         <p>
           <span class="criteria-options-meaning">ES6: </span>Do not need TypeScript.
         </p>
@@ -195,8 +198,9 @@
 
       <span id="info-app-size">
         <p>
-          <span class="criteria-options-meaning">App Size: </span>How big you think your application might become?
+          <span class="criteria-options-meaning">App Size: </span>How big do you think your application might become?
         </p>
+        <hr>
         <p>
           <span class="criteria-options-meaning">Big: </span>My website will beat facebook.
         </p>
@@ -210,8 +214,9 @@
 
       <span id="info-learning-curve">
         <p>
-          <span class="criteria-options-meaning">Learning Curve: </span>How long it takes to learn a framework.
+          <span class="criteria-options-meaning">Learning Curve: </span>How long will it take to learn framework.
         </p>
+        <hr>
         <p>
           <span class="criteria-options-meaning">Very Important: </span>Must be the easiest one.
         </p>
@@ -227,6 +232,7 @@
         <p>
           <span class="criteria-options-meaning">Standards Complaint: </span>W3C web components support.
         </p>
+        <hr>
         <p>
           <span class="criteria-options-meaning">Very Important: </span>Must work without any dependencies or polyfills.
         </p>
@@ -248,7 +254,7 @@
         <div class="" id="bs-example-navbar-collapse-2">
           <ul class="nav navbar-nav navbar-right">
             <li class=""><span class="glyphicon glyphicon-ban-circle hidden-xs clear-data clear-button-disabled tooltips" data-tooltip-content="#clear-results" aria-hidden="true" v-on:click="checkFormStatus()"></span></li>
-            <li class=""><a href="#" data-toggle="modal" data-target="#requestFrameworkFormModal">Recommend Framework</a></li>
+            <li class="recommend-framework-mobile"><a href="#" data-toggle="modal" data-target="#requestFrameworkFormModal">Recommend Framework</a></li>
             <li class=""><span class="glyphicon glyphicon-ban-circle hidden-lg hidden-md hidden-sm pull-right clear-data-mobile clear-button-disabled tooltips" data-tooltip-content="#clear-results" aria-hidden="true" v-on:click="checkFormStatus()"></span></li>
           </ul>
         </div>
@@ -304,13 +310,20 @@
     </div>
 
     <div class="row whole-page">
+
+      <div class="floating-form">
+        <a class="contact-opener" href="https://goo.gl/forms/6sakUAormUq3IkU43" target="_blank">Feedback</a>
+      </div>
+
       <div class="col-sm-6 col-md-6 col-lg-6">
 
         <form class="form-horizontal">
           <div class="form-group">
-            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="scalability">Scalability</label>
-            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
-              <select v-model="scalability" class="form-control" id="scalability" v-on:change="frameworkFilter('scalability', scalability)">
+            <label class="col-xs-5 col-sm-5 col-md-5 col-lg-3 control-label" for="scalability">Scalability</label>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-8">
+              <!--<select v-model="scalability" class="form-control" id="scalability" v-on:change="frameworkFilter('scalability', scalability)">-->
+              <select v-model="scalability" id="scalability" class="form-control" v-on:change="frameworkFilter('scalability', scalability)">
+                <option class="testing-options-text-color" disabled value="">Select...</option>
                 <option>Very Important</option>
                 <option>Moderately Important</option>
                 <option>Not Important</option>
@@ -319,9 +332,10 @@
             <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-scalability"></span>
           </div>
           <div class="form-group">
-            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="modularity">Modularity</label>
-            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+            <label class="col-xs-5 col-sm-5 col-md-5 col-lg-3 control-label" for="modularity">Modularity</label>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-8">
               <select v-model="modularity" class="form-control" id="modularity" v-on:change="frameworkFilter('modularity', modularity)">
+                <option disabled value="">Select...</option>
                 <option>Very Important</option>
                 <option>Moderately Important</option>
                 <option>Not Important</option>
@@ -330,9 +344,10 @@
             <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-modularity"></span>
           </div>
           <div class="form-group">
-            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="backwardscompatibility">Backwards Compatibility</label>
-            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+            <label class="col-xs-5 col-sm-5 col-md-5 col-lg-3 control-label" for="backwardscompatibility">Backwards Compatibility</label>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-8">
               <select v-model="backwardsCompatibility" class="form-control" id="backwardscompatibility" v-on:change="frameworkFilter('backwardsCompatibility', backwardsCompatibility)">
+                <option disabled value="">Select...</option>
                 <option>Very Important</option>
                 <option>Moderately Important</option>
                 <option>Not Important</option>
@@ -341,9 +356,10 @@
             <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-backwards-compatibility"></span>
           </div>
           <div class="form-group">
-            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="testability">Testability</label>
-            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+            <label class="col-xs-5 col-sm-5 col-md-5 col-lg-3 control-label" for="testability">Testability</label>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-8">
               <select v-model="testability" class="form-control" id="testability" v-on:change="frameworkFilter('testability', testability)">
+                <option disabled value="">Select...</option>
                 <option>Very Important</option>
                 <option>Moderately Important</option>
                 <option>Not Important</option>
@@ -352,9 +368,10 @@
             <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-testability"></span>
           </div>
           <div class="form-group">
-            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="support">Support</label>
-            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+            <label class="col-xs-5 col-sm-5 col-md-5 col-lg-3 control-label" for="support">Support</label>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-8">
               <select v-model="support" class="form-control" id="support" v-on:change="frameworkFilter('support', support)">
+                <option disabled value="">Select...</option>
                 <option>Very Important</option>
                 <option>Moderately Important</option>
                 <option>Not Important</option>
@@ -363,9 +380,10 @@
             <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-support"></span>
           </div>
           <div class="form-group">
-            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="future">Future</label>
-            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+            <label class="col-xs-5 col-sm-5 col-md-5 col-lg-3 control-label" for="future">Future</label>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-8">
               <select v-model="future" class="form-control" id="future" v-on:change="frameworkFilter('future', future)">
+                <option disabled value="">Select...</option>
                 <option>Very Important</option>
                 <option>Moderately Important</option>
                 <option>Not Important</option>
@@ -374,9 +392,10 @@
             <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-future"></span>
           </div>
           <div class="form-group">
-            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="performance">Performance</label>
-            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+            <label class="col-xs-5 col-sm-5 col-md-5 col-lg-3 control-label" for="performance">Performance</label>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-8">
               <select v-model="performance" class="form-control" id="performance" v-on:change="frameworkFilter('performance', performance)">
+                <option disabled value="">Select...</option>
                 <option>Very Important</option>
                 <option>Moderately Important</option>
                 <option>Not Important</option>
@@ -385,9 +404,10 @@
             <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-performance"></span>
           </div>
           <div class="form-group">
-            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="customizability">Customizability</label>
-            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+            <label class="col-xs-5 col-sm-5 col-md-5 col-lg-3 control-label" for="customizability">Customizability</label>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-8">
               <select v-model="customizability" class="form-control" id="customizability" v-on:change="frameworkFilter('customizability', customizability)">
+                <option disabled value="">Select...</option>
                 <option>Very Important</option>
                 <option>Moderately Important</option>
                 <option>Not Important</option>
@@ -396,9 +416,10 @@
             <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-customizability"></span>
           </div>
           <div class="form-group">
-            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="readability">Readability</label>
-            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+            <label class="col-xs-5 col-sm-5 col-md-5 col-lg-3 control-label" for="readability">Readability</label>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-8">
               <select v-model="readability" class="form-control" id="readability" v-on:change="frameworkFilter('readability', readability)">
+                <option disabled value="">Select...</option>
                 <option>Very Important</option>
                 <option>Moderately Important</option>
                 <option>Not Important</option>
@@ -407,9 +428,10 @@
             <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-readability"></span>
           </div>
           <div class="form-group">
-            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="frameworkSize">Framework Size</label>
-            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+            <label class="col-xs-5 col-sm-5 col-md-5 col-lg-3 control-label" for="frameworkSize">Framework Size</label>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-8">
               <select v-model="frameworkSize" class="form-control" id="frameworkSize" v-on:change="frameworkFilter('frameworkSize', frameworkSize)">
+                <option disabled value="">Select...</option>
                 <option>Very Important</option>
                 <option>Moderately Important</option>
                 <option>Not Important</option>
@@ -418,9 +440,10 @@
             <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-framework-size"></span>
           </div>
           <div class="form-group">
-            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="timeInHand">Time in hand</label>
-            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+            <label class="col-xs-5 col-sm-5 col-md-5 col-lg-3 control-label" for="timeInHand">Time in hand</label>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-8">
               <select v-model="timeInHand" class="form-control" id="timeInHand" v-on:change="frameworkFilter('timeInHand', timeInHand)">
+                <option disabled value="">Select...</option>
                 <option>No Time Constraint</option>
                 <option>Routine</option>
                 <option>Urgent</option>
@@ -429,9 +452,10 @@
             <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-time-in-hand"></span>
           </div>
           <div class="form-group">
-            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="language">Language</label>
-            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+            <label class="col-xs-5 col-sm-5 col-md-5 col-lg-3 control-label" for="language">Language</label>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-8">
               <select v-model="language" class="form-control" id="language" v-on:change="frameworkFilter('language'+language, language)">
+                <option disabled value="">Select...</option>
                 <option>ES6</option>
                 <option>TypeScript</option>
               </select>
@@ -439,9 +463,10 @@
             <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-language"></span>
           </div>
           <div class="form-group">
-            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="appSize">App Size</label>
-            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+            <label class="col-xs-5 col-sm-5 col-md-5 col-lg-3 control-label" for="appSize">App Size</label>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-8">
               <select v-model="appSize" class="form-control" id="appSize" v-on:change="frameworkFilter('appSize', appSize)">
+                <option disabled value="">Select...</option>
                 <option>Small</option>
                 <option>Medium</option>
                 <option>Big</option>
@@ -450,9 +475,10 @@
             <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-app-size"></span>
           </div>
           <div class="form-group">
-            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="learningCurve">Learning Curve</label>
-            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+            <label class="col-xs-5 col-sm-5 col-md-5 col-lg-3 control-label" for="learningCurve">Learning Curve</label>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-8">
               <select v-model="learningCurve" class="form-control" id="learningCurve" v-on:change="frameworkFilter('learningCurve', learningCurve)">
+                <option disabled value="">Select...</option>
                 <option>Very Important</option>
                 <option>Moderately Important</option>
                 <option>Not Important</option>
@@ -461,9 +487,10 @@
             <span class="col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-info-sign criteria-description-in-tooltip tooltips" data-tooltip-content="#info-learning-curve"></span>
           </div>
           <div class="form-group">
-            <label class="col-xs-5 col-sm-5 col-md-4 col-lg-3 control-label pull-left" for="standardsComplaint">Standards Complaint</label>
-            <div class="col-xs-6 col-sm-6 col-md-7 col-lg-8">
+            <label class="col-xs-5 col-sm-5 col-md-5 col-lg-3 control-label" for="standardsComplaint">Standards Complaint</label>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-8">
               <select v-model="standardsComplaint" class="form-control" id="standardsComplaint" v-on:change="frameworkFilter('standardsComplaint', standardsComplaint)">
+                <option disabled value="">Select...</option>
                 <option>Very Important</option>
                 <option>Moderately Important</option>
                 <option>Not Important</option>
@@ -487,7 +514,6 @@
                   <span class="total-percentage">
                                         {{this.totalPercentageAngular}}%
                                     </span>
-                  <!--<span class="glyphicon glyphicon-info-sign total-percentage-notification-accordion tooltips" data-tooltip-content="#check-individual-results"></span>-->
                 </a>
               </h4>
             </div>
@@ -997,8 +1023,16 @@
         </div>
 
         <div class="important-note-about-total-percentage">
-          <p class="criteria-description-in-tooltip">Please note that percentage shows the overall result, which <span class="criteria-options-meaning">doesn't necessarily mean</span> that the higher the percentage the higher the suitability.</p>
-          <p class="criteria-description-in-tooltip">Please check <span class="criteria-options-meaning">individual results</span> for most important criteria for your project.</p>
+          <h4 class="important-note-title">Important Note</h4>
+          <p class="criteria-description-in-tooltip important-note">Percentage shows overall result, which <span class="criteria-options-meaning">doesn't necessarily mean</span> that the higher the percentage the higher the suitability.</p>
+          <p class="criteria-description-in-tooltip important-note">Please check <span class="criteria-options-meaning">individual results</span> for most important criteria for your project.</p>
+
+          <br>
+
+          <h4 class="important-note-title">Criteria Strength Bar</h4>
+          <p class="criteria-description-in-tooltip important-note"><span class="criteria-options-meaning" style="color: #d9534f;">RED: </span>Not important for user <span class="criteria-options-meaning">OR</span> Weak support in framework.</p>
+          <p class="criteria-description-in-tooltip important-note"><span class="criteria-options-meaning" style="color: #5cb85c;">GREEN: </span>Moderately important for user <span class="criteria-options-meaning">OR</span> Moderate support in framework.</p>
+          <p class="criteria-description-in-tooltip important-note"><span class="criteria-options-meaning" style="color: #5bc0de;">BLUE: </span>Very important for user <span class="criteria-options-meaning">AND</span> Strong support in framework.</p>
         </div>
 
       </div>
@@ -1009,7 +1043,7 @@
     </div>
 
     <div id="footer">
-      <a class="git-link" href="https://goo.gl/forms/6sakUAormUq3IkU43">Rate App</a>
+      <a class="git-link" href="https://goo.gl/forms/6sakUAormUq3IkU43" target="_blank">Feedback</a>
     </div>
 
   </div>
@@ -1025,14 +1059,10 @@
         let footerHeight = 0,
           footerTop = 0,
           $footer = $("#footer");
-
         positionFooter();
-
         function positionFooter() {
-
           footerHeight = $footer.height();
           footerTop = ($(window).scrollTop()+$(window).height()-footerHeight)+"px";
-
           if ( ($(document.body).height()+footerHeight) < $(window).height()) {
             $footer.css({
               position: "absolute",
@@ -1058,17 +1088,13 @@
           trigger: 'custom',
           triggerOpen: {
             mouseenter: true,
-//            touchstart: true,
             tap: true,
             delayTouch: 0,
           },
           triggerClose: {
-//            click: true,
             scroll: true,
             tap: true,
             mouseleave: true,
-//            originClick: true,
-//            touchleave: true
           }
         });
       });
@@ -1080,21 +1106,21 @@
       return {
         recommendedFrameworkByUser: this.recommendedFrameworkByUser,
         emailFormOptionalMessage: this.emailFormOptionalMessage,
-        scalability: this.scalability,
-        modularity: this.modularity,
-        backwardsCompatibility: this.backwardsCompatibility,
-        testability: this.testability,
-        support: this.support,
-        future: this.future,
-        performance: this.performance,
-        customizability: this.customizability,
-        readability: this.readability,
-        frameworkSize: this.frameworkSize,
-        timeInHand: this.timeInHand,
-        language: this.language,
-        appSize: this.appSize,
-        learningCurve: this.learningCurve,
-        standardsComplaint: this.standardsComplaint,
+        scalability: '',
+        modularity: '',
+        backwardsCompatibility: '',
+        testability: '',
+        support: '',
+        future: '',
+        performance: '',
+        customizability: '',
+        readability: '',
+        frameworkSize: '',
+        timeInHand: '',
+        language: '',
+        appSize: '',
+        learningCurve: '',
+        standardsComplaint: '',
 
         totalCriteria: 16,
         totalPercentageAngular: 0,
@@ -1163,8 +1189,8 @@
         angularTestabilityMid: this.angularTestabilityMid,
         angularTestabilityHigh: this.angularTestabilityHigh,
         angularSupportLow: this.angularSupportLow,
-        angularSupportMid: this.angularSupportLow,
-        angularSupportHigh: this.angularSupportLow,
+        angularSupportMid: this.angularSupportMid,
+        angularSupportHigh: this.angularSupportHigh,
         angularFutureLow: this.angularFutureLow,
         angularFutureMid: this.angularFutureMid,
         angularFutureHigh: this.angularFutureHigh,
@@ -1209,8 +1235,8 @@
         reactTestabilityMid: this.reactTestabilityMid,
         reactTestabilityHigh: this.reactTestabilityHigh,
         reactSupportLow: this.reactSupportLow,
-        reactSupportMid: this.reactSupportLow,
-        reactSupportHigh: this.reactSupportLow,
+        reactSupportMid: this.reactSupportMid,
+        reactSupportHigh: this.reactSupportHigh,
         reactFutureLow: this.reactFutureLow,
         reactFutureMid: this.reactFutureMid,
         reactFutureHigh: this.reactFutureHigh,
@@ -1255,8 +1281,8 @@
         vueTestabilityMid: this.vueTestabilityMid,
         vueTestabilityHigh: this.vueTestabilityHigh,
         vueSupportLow: this.vueSupportLow,
-        vueSupportMid: this.vueSupportLow,
-        vueSupportHigh: this.vueSupportLow,
+        vueSupportMid: this.vueSupportMid,
+        vueSupportHigh: this.vueSupportHigh,
         vueFutureLow: this.vueFutureLow,
         vueFutureMid: this.vueFutureMid,
         vueFutureHigh: this.vueFutureHigh,
@@ -1643,42 +1669,42 @@
     },
 
     methods:{
-      frameworkFilter: function (selectedCriteria, userSelection)
-      {
-        $('.clear-data').removeClass('clear-button-disabled');
-        $('.clear-data-mobile').removeClass('clear-button-disabled');
-        this.formEdited = true;
-        let fdParent = this.frameworksData;
-        let weightPerCriteria = this.getWeightPerCriteria(this.totalCriteria);
-        let maxCriteriaScore = 3 * weightPerCriteria;
-
-        for (let keyParent in fdParent)
+        frameworkFilter: function (selectedCriteria, userSelection)
         {
-          if (fdParent.hasOwnProperty(keyParent))
+          $('.clear-data').removeClass('clear-button-disabled');
+          $('.clear-data-mobile').removeClass('clear-button-disabled');
+          this.formEdited = true;
+          let fdParent = this.frameworksData;
+          let weightPerCriteria = this.getWeightPerCriteria(this.totalCriteria);
+          let maxCriteriaScore = 3 * weightPerCriteria;
+
+          for (let keyParent in fdParent)
           {
-            let framework = keyParent;
-            let fdChild = fdParent[keyParent];
-
-            for (let keyChild in fdChild)
+            if (fdParent.hasOwnProperty(keyParent))
             {
-              if (fdChild.hasOwnProperty(keyChild))
+              let framework = keyParent;
+              let fdChild = fdParent[keyParent];
+
+              for (let keyChild in fdChild)
               {
-                let fdSubChild = fdChild[keyChild];
+                if (fdChild.hasOwnProperty(keyChild))
+                {
+                  let fdSubChild = fdChild[keyChild];
 
-                if (keyChild === selectedCriteria) {
+                  if (keyChild === selectedCriteria) {
 
-                  fdSubChild["goalMet"] = this.calculateGoalMet(framework, selectedCriteria, userSelection, fdSubChild['strength']);
-                  fdSubChild["score"] = fdSubChild["goalMet"] * weightPerCriteria;
-                  fdSubChild["percentage"] = Math.round(fdSubChild["score"] / (maxCriteriaScore) * 100);
-                  this.setIndividualPercentage(framework, selectedCriteria, fdSubChild["percentage"]);
+                    fdSubChild["goalMet"] = this.calculateGoalMet(framework, selectedCriteria, userSelection, fdSubChild['strength']);
+                    fdSubChild["score"] = fdSubChild["goalMet"] * weightPerCriteria;
+                    fdSubChild["percentage"] = Math.round(fdSubChild["score"] / (maxCriteriaScore) * 100);
+                    this.setIndividualPercentage(framework, selectedCriteria, fdSubChild["percentage"]);
+                  }
                 }
               }
             }
           }
-        }
 
-        this.setMeanTotalScore(maxCriteriaScore, this.language);
-//                this.generateReport();
+          this.setMeanTotalScore(maxCriteriaScore, this.language);
+  //                this.generateReport();
       },
 
       setIndividualPercentage: function (currentFramework, currentCriteria, currentCriteriaPercentage)
@@ -2710,7 +2736,6 @@
         let fdParent = this.frameworksData;
         let localScoreSum;
         let counter;
-        let str;
 
         for (let keyParent in fdParent)
         {
@@ -2836,11 +2861,11 @@
           });
 
           $("#requestFrameworkFormModal").modal('hide');
-          toastr.success('Thank you for the recommendation.', 'Email Sent', {timeOut: 5000});
+          toastr.success('Thank you for the recommendation.', 'Email Sent', {timeOut: 3000});
         }
         else
         {
-          toastr.warning('Please provide a framework name.', 'Required', {timeOut: 5000});
+          toastr.warning('Please provide a framework name.', 'Required', {timeOut: 3000});
         }
 
         this.clearFormFields();
@@ -2867,6 +2892,7 @@
           let that = this;
           setTimeout(function () {
             that.clearForm(count);
+            console.log("akshdioa sdiouh aiosuh dioauh iosuhda")
           }, 500);
         }
 
@@ -2876,7 +2902,7 @@
         $("#clearFormConfirmationModal").modal('hide');
       },
 
-      generateReport: function () {
+//      generateReport: function () {
 //                let PDFDocument = require('pdfkit');
 //                let blobStream = require('blob-stream');
 //
@@ -2923,7 +2949,7 @@
 //                stream.on('finish', function() {
 //                    iframe.src = stream.toBlobURL('application/pdf');
 //                });
-      }
+//      }
 
     }
   }
@@ -2936,6 +2962,8 @@
   {
     width: 95%;
     margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 2px;
   }
 
   .total-percentage
@@ -2943,6 +2971,7 @@
     float: right;
     color: darkgreen;
     cursor: default;
+    pointer-events: none;
   }
 
   .criteria-description-in-tooltip
@@ -2953,18 +2982,15 @@
     font-size: medium;
   }
 
-  /*.total-percentage-notification-accordion*/
-  /*{*/
-    /*float: right;*/
-    /*color: darkgray;*/
-    /*margin-right: 10px;*/
-    /*cursor: default;*/
-    /*font-size: medium;*/
-  /*}*/
-
   .tooltipster-sidetip.tooltipster-shadow.tooltipster-shadow-customized .tooltipster-content {
-    font-size: 16px;
-    line-height: 2em;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+  }
+
+  .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th
+  {
+    color: #595959;
   }
 
   table.collapse.in {
@@ -3009,6 +3035,7 @@
 
   .form-group {
     margin-bottom: 16px;
+    color: #595959;
   }
 
   .optional-message
@@ -3018,32 +3045,108 @@
     font-style: italic;
   }
 
-  .git-link
-  {
-    position: absolute;
-    right: 1%;
-    text-decoration: none;
-    color: darkblue;
-  }
-
-  #footer {
-    height: 20px;
-    background: lightgrey;
-    width: 100%;
-    opacity: .5;
-  }
-
   .criteria-options-meaning
   {
     color: black;
     font-style: italic;
-    /*font-weight: bold;*/
   }
 
   .important-note-about-total-percentage
   {
-    margin-left: 15px;
+    margin-bottom: 75px;
   }
 
+  .important-note
+  {
+    margin-left: 15px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+  }
+
+  .important-note-title
+  {
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-color: cornflowerblue;
+  }
+
+  .form-horizontal .control-label{
+    text-align:left;
+  }
+
+  select{
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 2px;
+  }
+
+  select option:disabled
+  {
+    color: lightgrey;
+    font-style: italic;
+  }
+
+  .floating-form {
+    position: fixed;
+    transform: rotate(-90deg);
+    right: -32px;
+    top: 140px;
+    padding: 10px 10px 5px 10px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.43);
+    cursor: pointer;
+    border-radius: 5px 5px 0px 0px;
+    background: linear-gradient(to bottom,#2D77A2 5%,deepskyblue 100%);
+  }
+
+  .contact-opener {
+    color: #fff;
+  }
+
+  .floating-form a:hover, .floating-form a:focus
+  {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #footer {
+    display: none;
+  }
+
+  .git-link
+  {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  }
+
+  #footer a:hover, #footer a:focus
+  {
+    text-decoration: none;
+    color: deepskyblue;
+  }
+
+  @media screen and (max-width: 767px){
+    .floating-form {
+      display: none;
+    }
+
+    .recommend-framework-mobile
+    {
+      width: 70%;
+    }
+
+    #footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 50px;
+      background: ghostwhite;
+      width: 100%;
+      opacity: .5;
+      text-align: center;
+    }
+
+  }
 
 </style>
