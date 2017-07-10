@@ -351,7 +351,7 @@
 
   import Accordion from './Accordion'
   import TooltipsTemplate from './Tooltips-Templates'
-  import NavigationBar from './Navigation-Bar'
+  import NavigationBar from './Nav-Bar/Navigation-Bar'
 
   export default {
 
