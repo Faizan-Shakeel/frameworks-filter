@@ -7,7 +7,7 @@
 </template>
 
 <script>
-  import FrameworkFilter from './components/Framework-Filter'
+  import FrameworkFilter from './components/Framework-Filter/Framework-Filter'
 
   export default {
     name: 'app',

@@ -2,8 +2,8 @@
 
   <div>
 
-    <Request-Framework-Modal></Request-Framework-Modal>
     <Clear-Form-Modal v-bind:clear-form=clearForm></Clear-Form-Modal>
+    <Request-Framework-Modal></Request-Framework-Modal>
 
     <nav class="navbar navbar-default navbar-static-top">
       <div class="container-fluid">
