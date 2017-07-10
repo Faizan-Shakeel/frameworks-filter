@@ -544,6 +544,8 @@
 
   export default {
 
+    name: 'Accordion',
+
     data () {
       return {
       }

@@ -2,317 +2,13 @@
 
   <div class="filter-container">
 
-    <div class="tooltip_templates">
-      <span id="clear-results">
-          Clear Results
-      </span>
-
-      <span id="info-scalability">
-        <p>
-          <span class="criteria-options-meaning">Scalability: </span>Consistency in performance with growing number of requests and application size.
-        </p>
-        <hr>
-        <p>
-          <span class="criteria-options-meaning">Very Important: </span>My app is made for masses and will surely grow in size (number of records to be handled). For example: Social network websites.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Moderately Important: </span>My app is for a large audience but does not need to process big data.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Not Important: </span>No need for handling large number of records.
-        </p>
-      </span>
-
-      <span id="info-modularity">
-        <p>
-          <span class="criteria-options-meaning">Modularity: </span>Support for separation of files / modules responsible for a specific task.
-        </p>
-        <hr>
-        <p>
-          <span class="criteria-options-meaning">Very Important: </span>Big website/application with large number of modules/tasks.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Moderately Important: </span>Not a very large application.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Not Important: </span>Small application.
-        </p>
-      </span>
-
-      <span id="info-backwards-compatibility">
-        <p>
-          <span class="criteria-options-meaning">Backwards Compatibility: </span>Ability to convert code to new version of framework.
-        </p>
-        <hr>
-        <p>
-          <span class="criteria-options-meaning">Very Important: </span>Must be able to migrate.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Moderately Important: </span>Not sure about it.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Not Important: </span>Do not need any migrations.
-        </p>
-      </span>
-
-      <span id="info-testability">
-        <p>
-          <span class="criteria-options-meaning">Testability: </span>Quality of built-in testability.
-        </p>
-        <hr>
-        <p>
-          <span class="criteria-options-meaning">Very Important: </span>Requires best available implementation of tests.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Moderately Important: </span>Framework should provide tests mechanism.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Not Important: </span>Do not need to write tests.
-        </p>
-      </span>
-
-      <span id="info-support">
-        <p>
-          <span class="criteria-options-meaning">Support: </span>Quality of documentation and how much online support is available for troubleshooting.
-        </p>
-        <hr>
-        <p>
-          <span class="criteria-options-meaning">Very Important: </span>Must have a huge online community.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Moderately Important: </span>Should provide some help on develop's networking websites.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Not Important: </span>Official documentation is enough.
-        </p>
-      </span>
-
-      <span id="info-future">
-        <p>
-          <span class="criteria-options-meaning">Future: </span>How long framework will survive in market.
-        </p>
-        <hr>
-        <p>
-          <span class="criteria-options-meaning">Very Important: </span>I am sure about my app's long life.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Moderately Important: </span>Not sure.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Not Important: </span>I will be able to switch framework if needed.
-        </p>
-      </span>
-
-      <span id="info-performance">
-        <p>
-          <span class="criteria-options-meaning">Performance: </span>How fast framework executes user requests.
-        </p>
-        <hr>
-        <p>
-          <span class="criteria-options-meaning">Very Important: </span>Fastest possible (large data sets).
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Moderately Important: </span>Should be fast.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Not Important: </span>Doesn't need to fetch or render a lot of data on page.
-        </p>
-      </span>
-
-      <span id="info-customizability">
-        <p>
-          <span class="criteria-options-meaning">Customizability: </span>Support for custom selection of libraries for different components (Model/View/Controller) of application.
-        </p>
-        <hr>
-        <p>
-          <span class="criteria-options-meaning">Very Important: </span>I want to be able to choose or change any component anytime.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Moderately Important: </span>Should be flexible at least in the beginning of project.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Not Important: </span>I am not so techy. Framework should provide everything.
-        </p>
-      </span>
-
-      <span id="info-readability">
-        <p>
-          <span class="criteria-options-meaning">Readability: </span>How natural / human readable is framework's language.
-        </p>
-        <hr>
-        <p>
-          <span class="criteria-options-meaning">Very Important: </span>Easiest framework for switching code between developers.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Moderately Important: </span>Should be fairly easy on eyes.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Not Important: </span>Complexity doesn't matter.
-        </p>
-      </span>
-
-      <span id="info-framework-size">
-        <p>
-          <span class="criteria-options-meaning">Framework Size: </span>Size in KiloBytes which framework will add to project. For example, Angular 2 = 566K.
-        </p>
-        <hr>
-        <p>
-          <span class="criteria-options-meaning">Very Important: </span>Must have least possible download time for end user.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Moderately Important: </span>Should not be the largest.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Not Important: </span>Doesn't matter.
-        </p>
-      </span>
-
-      <span id="info-time-in-hand">
-        <p>
-          <span class="criteria-options-meaning">Time in Hand: </span>Available time for development.
-        </p>
-        <hr>
-        <p>
-          <span class="criteria-options-meaning">No Time Constraint: </span>Enough time for team to learn.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Routine: </span>Can not spend long time to learn.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Urgent: </span>Absolutely no time to learn.
-        </p>
-      </span>
-
-      <span id="info-language">
-        <p>
-          <span class="criteria-options-meaning">Language: </span>Supported  ECMAScript (ES) version or its superset.
-        </p>
-        <hr>
-        <p>
-          <span class="criteria-options-meaning">ES6: </span>Do not need TypeScript.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">TypeScript: </span>Requires built in TypeScript compatibility.
-        </p>
-      </span>
-
-      <span id="info-app-size">
-        <p>
-          <span class="criteria-options-meaning">App Size: </span>How big do you think your application might become?
-        </p>
-        <hr>
-        <p>
-          <span class="criteria-options-meaning">Big: </span>My website will beat facebook.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Medium: </span>Enterprise level application.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Small: </span>Personal project.
-        </p>
-      </span>
-
-      <span id="info-learning-curve">
-        <p>
-          <span class="criteria-options-meaning">Learning Curve: </span>How long will it take to learn framework.
-        </p>
-        <hr>
-        <p>
-          <span class="criteria-options-meaning">Very Important: </span>Must be the easiest one.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Moderately Important: </span>Should be fairly simple.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Not Important: </span>Doesn't matter. (smart developers  and time is available)
-        </p>
-      </span>
-
-      <span id="info-standards-complaint">
-        <p>
-          <span class="criteria-options-meaning">Standards Complaint: </span>W3C web components support.
-        </p>
-        <hr>
-        <p>
-          <span class="criteria-options-meaning">Very Important: </span>Must work without any dependencies or polyfills.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Moderately Important: </span>Can have polyfills.
-        </p>
-        <p>
-          <span class="criteria-options-meaning">Not Important: </span>No such requirement.
-        </p>
-      </span>
-
-    </div>
-
-    <nav class="navbar navbar-default navbar-static-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">JavaScript Framework Filter</a>
-        </div>
-        <div class="" id="bs-example-navbar-collapse-2">
-          <ul class="nav navbar-nav navbar-right">
-            <li class=""><span class="glyphicon glyphicon-ban-circle hidden-xs clear-data clear-button-disabled tooltips" data-tooltip-content="#clear-results" aria-hidden="true" v-on:click="checkFormStatus()"></span></li>
-            <li class="recommend-framework-mobile"><a href="#" data-toggle="modal" data-target="#requestFrameworkFormModal">Recommend Framework</a></li>
-            <li class=""><span class="glyphicon glyphicon-ban-circle hidden-lg hidden-md hidden-sm pull-right clear-data-mobile clear-button-disabled tooltips" data-tooltip-content="#clear-results" aria-hidden="true" v-on:click="checkFormStatus()"></span></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Modal -->
-    <div class="modal fade" id="requestFrameworkFormModal" tabindex="-1" role="dialog" aria-labelledby="requestFrameworkFormModalLabel" data-backdrop="static" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title text-center" id="requestFrameworkFormModalLabel">Recommend Framework for Comparison</h4>
-          </div>
-          <form action="https://formspree.io/faizan.sg@gmail.com" method="post">
-            <div class="modal-body">
-              <div class="form-group">
-                <label for="frameworkName">Framework Name</label>
-                <input v-model="recommendedFrameworkByUser" type="text" class="form-control" id="frameworkName" placeholder="Framework Name" name="Framework Name" required>
-              </div>
-              <div class="form-group">
-                <label for="optionalMessage">Message <span class="optional-message">(Optional)</span></label>
-                <textarea v-model="emailFormOptionalMessage" class="form-control" rows="3" id="optionalMessage" placeholder="Message" name="Message"></textarea>
-              </div>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal" v-on:click="clearFormFields()">Close</button>
-              <button type="button" class="btn btn-success" v-on:click="sendMail(recommendedFrameworkByUser, emailFormOptionalMessage)">Submit Recommendation</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- Modal Clear Form Confirmation -->
-    <div class="modal fade" id="clearFormConfirmationModal" tabindex="-1" role="dialog" aria-labelledby="requestFrameworkFormModalLabel" data-backdrop="static" aria-hidden="true">
-      <div class="modal-dialog modal-sm" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title text-center" id="requestFrameworkFormModalLabel2">Clear Form</h4>
-          </div>
-          <div class="modal-body">
-            <p>Are you sure you want to clear the form?</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-success" v-on:click="clearForm(0)">Clear Form</button>
-          </div>
-        </div>
-      </div>
-    </div>
+    <Tooltips-Template></Tooltips-Template>
+    <Navigation-Bar v-bind:check-form-status=checkFormStatus v-bind:clear-form=clearForm></Navigation-Bar>
 
     <div class="row whole-page">
 
-      <div class="floating-form">
-        <a class="contact-opener" href="https://goo.gl/forms/6sakUAormUq3IkU43" target="_blank">Feedback</a>
+      <div class="feedback">
+        <a href="https://goo.gl/forms/6sakUAormUq3IkU43" target="_blank">Feedback</a>
       </div>
 
       <div class="col-sm-6 col-md-6 col-lg-6">
@@ -644,7 +340,7 @@
     </div>
 
     <div id="footer">
-      <a class="git-link" href="https://goo.gl/forms/6sakUAormUq3IkU43" target="_blank">Feedback</a>
+      <a href="https://goo.gl/forms/6sakUAormUq3IkU43" target="_blank">Feedback</a>
     </div>
 
   </div>
@@ -654,11 +350,17 @@
 <script>
 
   import Accordion from './Accordion'
+  import TooltipsTemplate from './Tooltips-Templates'
+  import NavigationBar from './Navigation-Bar'
 
   export default {
 
+    name: 'Framework-Filter',
+
     components: {
-      Accordion
+      Accordion,
+      TooltipsTemplate,
+      NavigationBar,
     },
 
     beforeMount(){
@@ -711,8 +413,8 @@
 
     data () {
       return {
-        recommendedFrameworkByUser: this.recommendedFrameworkByUser,
-        emailFormOptionalMessage: this.emailFormOptionalMessage,
+        recommendedFrameworkByUser: '',
+        emailFormOptionalMessage: '',
         scalability: '',
         modularity: '',
         backwardsCompatibility: '',
@@ -2402,39 +2104,6 @@
         console.API.clear();
       },
 
-      sendMail: function (recommendedFrameworkByUser, optionalMessage)
-      {
-        if($('#frameworkName')[0].checkValidity())
-        {
-          $.ajax({
-            url: "https://formspree.io/faizan.sg@gmail.com",
-            method: "POST",
-            data:
-              {
-                'Recommended Framework': recommendedFrameworkByUser,
-                'Message': optionalMessage,
-                _subject: recommendedFrameworkByUser
-              },
-            dataType: "json"
-          });
-
-          $("#requestFrameworkFormModal").modal('hide');
-          toastr.success('Thank you for the recommendation.', 'Email Sent', {timeOut: 3000});
-        }
-        else
-        {
-          toastr.warning('Please provide a framework name.', 'Required', {timeOut: 3000});
-        }
-
-        this.clearFormFields();
-
-      },
-
-      clearFormFields: function () {
-        this.recommendedFrameworkByUser = '';
-        this.emailFormOptionalMessage = '';
-      },
-
       checkFormStatus: function () {
         if(this.formEdited) {
           $("#clearFormConfirmationModal").modal('show');
@@ -2457,7 +2126,7 @@
         $('.clear-data-mobile').addClass('clear-button-disabled');
         this.formEdited = false;
         $("#clearFormConfirmationModal").modal('hide');
-      },
+      }
 
     }
   }
@@ -2481,68 +2150,9 @@
     font-size: medium;
   }
 
-  .tooltipster-sidetip.tooltipster-shadow.tooltipster-shadow-customized .tooltipster-content {
-    font-family: 'Quicksand', sans-serif;
-    letter-spacing: 1px;
-    line-height: 1.5em;
-  }
-
-  .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th
-  {
-    color: #595959;
-  }
-
-  table.collapse.in {
-    display: table;
-  }
-
-  .tooltip_templates { display: none; }
-
-  .panel-heading a{
-    text-decoration: none;
-    color: deepskyblue;
-  }
-
-  .clear-data
-  {
-    font-size: 20px;
-    cursor: pointer;
-    color: darkred;
-    margin: 15px 25px 0 0;
-    border-right: 1px solid lightgrey;
-    padding-right: 35px;
-  }
-
-  .clear-data-mobile
-  {
-    font-size: 20px;
-    cursor: pointer;
-    color: darkred;
-    margin: -30px 15px 0 0;
-  }
-
-  .clear-button-disabled
-  {
-    color: lightgrey;
-    cursor: default;
-  }
-
   .form-group {
     margin-bottom: 16px;
     color: #595959;
-  }
-
-  .optional-message
-  {
-    font-size: smaller;
-    font-weight: lighter;
-    font-style: italic;
-  }
-
-  .criteria-options-meaning
-  {
-    color: black;
-    font-style: italic;
   }
 
   .form-horizontal .control-label{
@@ -2560,7 +2170,7 @@
     font-style: italic;
   }
 
-  .floating-form {
+  .feedback {
     position: fixed;
     transform: rotate(-90deg);
     right: -32px;
@@ -2573,11 +2183,11 @@
     background: linear-gradient(to bottom,#2D77A2 5%,deepskyblue 100%);
   }
 
-  .contact-opener {
+  .feedback a {
     color: #fff;
   }
 
-  .floating-form a:hover, .floating-form a:focus
+  .feedback a:hover, .feedback a:focus
   {
     color: #fff;
     text-decoration: none;
@@ -2588,7 +2198,7 @@
     display: none;
   }
 
-  .git-link
+  #footer a
   {
     text-decoration: none;
     color: black;
@@ -2602,13 +2212,8 @@
   }
 
   @media screen and (max-width: 767px){
-    .floating-form {
+    .feedback {
       display: none;
-    }
-
-    .recommend-framework-mobile
-    {
-      width: 70%;
     }
 
     #footer {
