@@ -501,544 +501,145 @@
         </form>
       </div>
 
-
-      <!--Accordion Start-->
-
-      <div class="col-sm-6 col-md-6 col-lg-6">
-        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-          <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingOne">
-              <h4 class="panel-title">
-                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="test-accordion-style">
-                  Angular 2
-                  <span class="total-percentage">
-                                        {{this.totalPercentageAngular}}%
-                                    </span>
-                </a>
-              </h4>
-            </div>
-            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-              <div class="panel-body">
-                <table class="table table-striped table-hover test-table-style">
-                  <tbody>
-                  <tr>
-                    <th>Scalability</th>
-                    <td class="col-xs-1 col-sm-2 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularScalabilityLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularScalabilityMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularScalabilityHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Modularity</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularModularityLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularModularityMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularModularityHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Backwards Compatibility</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularBackwardsCompatibilityLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularBackwardsCompatibilityMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularBackwardsCompatibilityHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Testability</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularTestabilityLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularTestabilityMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularTestabilityHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Support</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularSupportLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularSupportMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularSupportHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Future</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularFutureLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularFutureMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularFutureHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Performance</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularPerformanceLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularPerformanceMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularPerformanceHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Customizability</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularCustomizabilityLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularCustomizabilityMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularCustomizabilityHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Readability</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularReadabilityLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularReadabilityMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularReadabilityHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Framework Size</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularFrameworkSizeLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularFrameworkSizeMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularFrameworkSizeHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Time in hand</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularTimeInHandLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularTimeInHandMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularTimeInHandHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Language</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularLanguageLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularLanguageMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularLanguageHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>App Size</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularAppSizeLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularAppSizeMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularAppSizeHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Learning Curve</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularLearningCurveLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularLearningCurveMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularLearningCurveHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Standards Complaint</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="angularStandardsComplaintLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="angularStandardsComplaintMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="angularStandardsComplaintHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-          <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingTwo">
-              <h4 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  React
-                  <span class="total-percentage">
-                    {{this.totalPercentageReact}}%
-                  </span>
-                </a>
-              </h4>
-            </div>
-            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-              <div class="panel-body">
-
-                <table class="table table-striped table-hover">
-                  <tbody>
-                  <tr>
-                    <th>Scalability</th>
-                    <td class="col-xs-1 col-sm-2 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactScalabilityLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactScalabilityMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactScalabilityHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Modularity</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactModularityLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactModularityMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactModularityHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Backwards Compatibility</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactBackwardsCompatibilityLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactBackwardsCompatibilityMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactBackwardsCompatibilityHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Testability</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactTestabilityLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactTestabilityMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactTestabilityHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Support</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactSupportLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactSupportMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactSupportHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Future</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactFutureLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactFutureMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactFutureHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Performance</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactPerformanceLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactPerformanceMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactPerformanceHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Customizability</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactCustomizabilityLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactCustomizabilityMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactCustomizabilityHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Readability</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactReadabilityLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactReadabilityMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactReadabilityHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Framework Size</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactFrameworkSizeLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactFrameworkSizeMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactFrameworkSizeHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Time in hand</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactTimeInHandLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactTimeInHandMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactTimeInHandHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Language</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactLanguageLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactLanguageMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactLanguageHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>App Size</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactAppSizeLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactAppSizeMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactAppSizeHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Learning Curve</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactLearningCurveLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactLearningCurveMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactLearningCurveHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Standards Complaint</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="reactStandardsComplaintLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="reactStandardsComplaintMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="reactStandardsComplaintHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  </tbody>
-                </table>
-
-              </div>
-            </div>
-          </div>
-          <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingThree">
-              <h4 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Vue 2
-                  <span class="total-percentage">
-                    {{this.totalPercentageVue}}%
-                  </span>
-                </a>
-              </h4>
-            </div>
-            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-              <div class="panel-body">
-
-                <table class="table table-striped table-hover">
-                  <tbody>
-                  <tr>
-                    <th>Scalability</th>
-                    <td class="col-xs-1 col-sm-2 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueScalabilityLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueScalabilityMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueScalabilityHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Modularity</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueModularityLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueModularityMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueModularityHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Backwards Compatibility</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueBackwardsCompatibilityLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueBackwardsCompatibilityMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueBackwardsCompatibilityHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Testability</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueTestabilityLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueTestabilityMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueTestabilityHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Support</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueSupportLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueSupportMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueSupportHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Future</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueFutureLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueFutureMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueFutureHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Performance</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vuePerformanceLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vuePerformanceMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vuePerformanceHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Customizability</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueCustomizabilityLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueCustomizabilityMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueCustomizabilityHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Readability</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueReadabilityLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueReadabilityMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueReadabilityHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Framework Size</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueFrameworkSizeLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueFrameworkSizeMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueFrameworkSizeHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Time in hand</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueTimeInHandLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueTimeInHandMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueTimeInHandHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Language</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueLanguageLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueLanguageMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueLanguageHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>App Size</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueAppSizeLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueAppSizeMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueAppSizeHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Learning Curve</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueLearningCurveLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueLearningCurveMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueLearningCurveHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>Standards Complaint</th>
-                    <td class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" :style="vueStandardsComplaintLow"></div>
-                        <div class="progress-bar progress-bar-success progress-bar-striped" :style="vueStandardsComplaintMid"></div>
-                        <div class="progress-bar progress-bar-info progress-bar-striped active" :style="vueStandardsComplaintHigh"></div>
-                      </div>
-                    </td>
-                  </tr>
-                  </tbody>
-                </table>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="important-note-about-total-percentage">
-          <h4 class="important-note-title">Important Note</h4>
-          <p class="criteria-description-in-tooltip important-note">Percentage shows overall result, which <span class="criteria-options-meaning">doesn't necessarily mean</span> that the higher the percentage the higher the suitability.</p>
-          <p class="criteria-description-in-tooltip important-note">Please check <span class="criteria-options-meaning">individual results</span> for most important criteria for your project.</p>
-
-          <br>
-
-          <h4 class="important-note-title">Criteria Strength Bar</h4>
-          <p class="criteria-description-in-tooltip important-note"><span class="criteria-options-meaning" style="color: #d9534f;">RED: </span>Not important for user <span class="criteria-options-meaning">OR</span> Weak support in framework.</p>
-          <p class="criteria-description-in-tooltip important-note"><span class="criteria-options-meaning" style="color: #5cb85c;">GREEN: </span>Moderately important for user <span class="criteria-options-meaning">OR</span> Moderate support in framework.</p>
-          <p class="criteria-description-in-tooltip important-note"><span class="criteria-options-meaning" style="color: #5bc0de;">BLUE: </span>Very important for user <span class="criteria-options-meaning">AND</span> Strong support in framework.</p>
-        </div>
-
-      </div>
-
-
-      <!--Accordion End-->
+      <Accordion v-bind:total-percentage-angular=totalPercentageAngular
+                 v-bind:total-percentage-react=totalPercentageReact
+                 v-bind:total-percentage-vue=totalPercentageVue
+                 v-bind:angular-scalability-low=angularScalabilityLow
+                 v-bind:angular-scalability-mid=angularScalabilityMid
+                 v-bind:angular-scalability-high=angularScalabilityHigh
+                 v-bind:angular-modularity-low=angularModularityLow
+                 v-bind:angular-modularity-mid=angularModularityMid
+                 v-bind:angular-modularity-high=angularModularityHigh
+                 v-bind:angular-backwards-compatibility-low=angularBackwardsCompatibilityLow
+                 v-bind:angular-backwards-compatibility-mid=angularBackwardsCompatibilityMid
+                 v-bind:angular-backwards-compatibility-high=angularBackwardsCompatibilityHigh
+                 v-bind:angular-testability-low=angularTestabilityLow
+                 v-bind:angular-testability-mid=angularTestabilityMid
+                 v-bind:angular-testability-high=angularTestabilityHigh
+                 v-bind:angular-support-low=angularSupportLow
+                 v-bind:angular-support-mid=angularSupportMid
+                 v-bind:angular-support-high=angularSupportHigh
+                 v-bind:angular-future-low=angularFutureLow
+                 v-bind:angular-future-mid=angularFutureMid
+                 v-bind:angular-future-high=angularFutureHigh
+                 v-bind:angular-performance-low=angularPerformanceLow
+                 v-bind:angular-performance-mid=angularPerformanceMid
+                 v-bind:angular-performance-high=angularPerformanceHigh
+                 v-bind:angular-customizability-low=angularCustomizabilityLow
+                 v-bind:angular-customizability-mid=angularCustomizabilityMid
+                 v-bind:angular-customizability-high=angularCustomizabilityHigh
+                 v-bind:angular-readability-low=angularReadabilityLow
+                 v-bind:angular-readability-mid=angularReadabilityMid
+                 v-bind:angular-readability-high=angularReadabilityHigh
+                 v-bind:angular-framework-size-low=angularFrameworkSizeLow
+                 v-bind:angular-framework-size-mid=angularFrameworkSizeMid
+                 v-bind:angular-framework-size-high=angularFrameworkSizeHigh
+                 v-bind:angular-time-in-hand-low=angularTimeInHandLow
+                 v-bind:angular-time-in-hand-mid=angularTimeInHandMid
+                 v-bind:angular-time-in-hand-high=angularTimeInHandHigh
+                 v-bind:angular-language-low=angularLanguageLow
+                 v-bind:angular-language-mid=angularLanguageMid
+                 v-bind:angular-language-high=angularLanguageHigh
+                 v-bind:angular-app-size-low=angularAppSizeLow
+                 v-bind:angular-app-size-mid=angularAppSizeMid
+                 v-bind:angular-app-size-high=angularAppSizeHigh
+                 v-bind:angular-learning-curve-low=angularLearningCurveLow
+                 v-bind:angular-learning-curve-mid=angularLearningCurveMid
+                 v-bind:angular-learning-curve-high=angularLearningCurveHigh
+                 v-bind:angular-standards-complaint-low=angularStandardsComplaintLow
+                 v-bind:angular-standards-complaint-mid=angularStandardsComplaintMid
+                 v-bind:angular-standards-complaint-high=angularStandardsComplaintHigh
+                 v-bind:react-scalability-low=reactScalabilityLow
+                 v-bind:react-scalability-mid=reactScalabilityMid
+                 v-bind:react-scalability-high=reactScalabilityHigh
+                 v-bind:react-modularity-low=reactModularityLow
+                 v-bind:react-modularity-mid=reactModularityMid
+                 v-bind:react-modularity-high=reactModularityHigh
+                 v-bind:react-backwards-compatibility-low=reactBackwardsCompatibilityLow
+                 v-bind:react-backwards-compatibility-mid=reactBackwardsCompatibilityMid
+                 v-bind:react-backwards-compatibility-high=reactBackwardsCompatibilityHigh
+                 v-bind:react-testability-low=reactTestabilityLow
+                 v-bind:react-testability-mid=reactTestabilityMid
+                 v-bind:react-testability-high=reactTestabilityHigh
+                 v-bind:react-support-low=reactSupportLow
+                 v-bind:react-support-mid=reactSupportMid
+                 v-bind:react-support-high=reactSupportHigh
+                 v-bind:react-future-low=reactFutureLow
+                 v-bind:react-future-mid=reactFutureMid
+                 v-bind:react-future-high=reactFutureHigh
+                 v-bind:react-performance-low=reactPerformanceLow
+                 v-bind:react-performance-mid=reactPerformanceMid
+                 v-bind:react-performance-high=reactPerformanceHigh
+                 v-bind:react-customizability-low=reactCustomizabilityLow
+                 v-bind:react-customizability-mid=reactCustomizabilityMid
+                 v-bind:react-customizability-high=reactCustomizabilityHigh
+                 v-bind:react-readability-low=reactReadabilityLow
+                 v-bind:react-readability-mid=reactReadabilityMid
+                 v-bind:react-readability-high=reactReadabilityHigh
+                 v-bind:react-framework-size-low=reactFrameworkSizeLow
+                 v-bind:react-framework-size-mid=reactFrameworkSizeMid
+                 v-bind:react-framework-size-high=reactFrameworkSizeHigh
+                 v-bind:react-time-in-hand-low=reactTimeInHandLow
+                 v-bind:react-time-in-hand-mid=reactTimeInHandMid
+                 v-bind:react-time-in-hand-high=reactTimeInHandHigh
+                 v-bind:react-language-low=reactLanguageLow
+                 v-bind:react-language-mid=reactLanguageMid
+                 v-bind:react-language-high=reactLanguageHigh
+                 v-bind:react-app-size-low=reactAppSizeLow
+                 v-bind:react-app-size-mid=reactAppSizeMid
+                 v-bind:react-app-size-high=reactAppSizeHigh
+                 v-bind:react-learning-curve-low=reactLearningCurveLow
+                 v-bind:react-learning-curve-mid=reactLearningCurveMid
+                 v-bind:react-learning-curve-high=reactLearningCurveMid
+                 v-bind:react-standards-complaint-low=reactStandardsComplaintLow
+                 v-bind:react-standards-complaint-mid=reactStandardsComplaintMid
+                 v-bind:react-standards-complaint-high=reactStandardsComplaintHigh
+                 v-bind:vue-scalability-low=vueScalabilityLow
+                 v-bind:vue-scalability-mid=vueScalabilityMid
+                 v-bind:vue-scalability-high=vueScalabilityHigh
+                 v-bind:vue-modularity-low=vueModularityLow
+                 v-bind:vue-modularity-mid=vueModularityMid
+                 v-bind:vue-modularity-high=vueModularityHigh
+                 v-bind:vue-backwards-compatibility-low=vueBackwardsCompatibilityLow
+                 v-bind:vue-backwards-compatibility-mid=vueBackwardsCompatibilityMid
+                 v-bind:vue-backwards-compatibility-high=vueBackwardsCompatibilityHigh
+                 v-bind:vue-testability-low=vueTestabilityLow
+                 v-bind:vue-testability-mid=vueTestabilityMid
+                 v-bind:vue-testability-high=vueTestabilityHigh
+                 v-bind:vue-support-low=vueSupportLow
+                 v-bind:vue-support-mid=vueSupportMid
+                 v-bind:vue-support-high=vueSupportHigh
+                 v-bind:vue-future-low=vueFutureLow
+                 v-bind:vue-future-mid=vueFutureMid
+                 v-bind:vue-future-high=vueFutureHigh
+                 v-bind:vue-performance-low=vuePerformanceLow
+                 v-bind:vue-performance-mid=vuePerformanceMid
+                 v-bind:vue-performance-high=vuePerformanceHigh
+                 v-bind:vue-customizability-low=vueCustomizabilityLow
+                 v-bind:vue-customizability-mid=vueCustomizabilityMid
+                 v-bind:vue-customizability-high=vueCustomizabilityHigh
+                 v-bind:vue-readability-low=vueReadabilityLow
+                 v-bind:vue-readability-mid=vueReadabilityMid
+                 v-bind:vue-readability-high=vueReadabilityHigh
+                 v-bind:vue-framework-size-low=vueFrameworkSizeLow
+                 v-bind:vue-framework-size-mid=vueFrameworkSizeMid
+                 v-bind:vue-framework-size-high=vueFrameworkSizeHigh
+                 v-bind:vue-time-in-hand-low=vueTimeInHandLow
+                 v-bind:vue-time-in-hand-mid=vueTimeInHandMid
+                 v-bind:vue-time-in-hand-high=vueTimeInHandHigh
+                 v-bind:vue-language-low=vueLanguageLow
+                 v-bind:vue-language-mid=vueLanguageMid
+                 v-bind:vue-language-high=vueLanguageHigh
+                 v-bind:vue-app-size-low=vueAppSizeLow
+                 v-bind:vue-app-size-mid=vueAppSizeMid
+                 v-bind:vue-app-size-high=vueAppSizeHigh
+                 v-bind:vue-learning-curve-low=vueLearningCurveLow
+                 v-bind:vue-learning-curve-mid=vueLearningCurveMid
+                 v-bind:vue-learning-curve-high=vueLearningCurveMid
+                 v-bind:vue-standards-complaint-low=vueStandardsComplaintLow
+                 v-bind:vue-standards-complaint-mid=vueStandardsComplaintMid
+                 v-bind:vue-standards-complaint-high=vueStandardsComplaintHigh>
+      </Accordion>
 
     </div>
 
@@ -1052,7 +653,14 @@
 
 <script>
 
+  import Accordion from './Accordion'
+
   export default {
+
+    components: {
+      Accordion
+    },
+
     beforeMount(){
 
       $(function () {
@@ -1101,7 +709,6 @@
 
     },
 
-    name: 'hello',
     data () {
       return {
         recommendedFrameworkByUser: this.recommendedFrameworkByUser,
@@ -1127,54 +734,6 @@
         totalPercentageReact: 0,
         totalPercentageVue: 0,
         formEdited: false,
-
-        angularScalabilityPercentage: 0,
-        angularModularityPercentage: 0,
-        angularBackwardsCompatibilityPercentage: 0,
-        angularTestabilityPercentage: 0,
-        angularSupportPercentage: 0,
-        angularFuturePercentage: 0,
-        angularPerformancePercentage: 0,
-        angularCustomizabilityPercentage: 0,
-        angularReadabilityPercentage: 0,
-        angularFrameworkSizePercentage: 0,
-        angularTimeInHandPercentage: 0,
-        angularLanguagePercentage: 0,
-        angularAppSizePercentage: 0,
-        angularLearningCurvePercentage: 0,
-        angularStandardsComplaintPercentage: 0,
-
-        reactScalabilityPercentage: 0,
-        reactModularityPercentage: 0,
-        reactBackwardsCompatibilityPercentage: 0,
-        reactTestabilityPercentage: 0,
-        reactSupportPercentage: 0,
-        reactFuturePercentage: 0,
-        reactPerformancePercentage: 0,
-        reactCustomizabilityPercentage: 0,
-        reactReadabilityPercentage: 0,
-        reactFrameworkSizePercentage: 0,
-        reactTimeInHandPercentage: 0,
-        reactLanguagePercentage: 0,
-        reactAppSizePercentage: 0,
-        reactLearningCurvePercentage: 0,
-        reactStandardsComplaintPercentage: 0,
-
-        vueScalabilityPercentage: 0,
-        vueModularityPercentage: 0,
-        vueBackwardsCompatibilityPercentage: 0,
-        vueTestabilityPercentage: 0,
-        vueSupportPercentage: 0,
-        vueFuturePercentage: 0,
-        vuePerformancePercentage: 0,
-        vueCustomizabilityPercentage: 0,
-        vueReadabilityPercentage: 0,
-        vueFrameworkSizePercentage: 0,
-        vueTimeInHandPercentage: 0,
-        vueLanguagePercentage: 0,
-        vueAppSizePercentage: 0,
-        vueLearningCurvePercentage: 0,
-        vueStandardsComplaintPercentage: 0,
 
         angularScalabilityLow: this.angularScalabilityLow,
         angularScalabilityMid: this.angularScalabilityMid,
@@ -1669,42 +1228,41 @@
     },
 
     methods:{
-        frameworkFilter: function (selectedCriteria, userSelection)
+      frameworkFilter: function (selectedCriteria, userSelection)
+      {
+        $('.clear-data').removeClass('clear-button-disabled');
+        $('.clear-data-mobile').removeClass('clear-button-disabled');
+        this.formEdited = true;
+        let fdParent = this.frameworksData;
+        let weightPerCriteria = this.getWeightPerCriteria(this.totalCriteria);
+        let maxCriteriaScore = 3 * weightPerCriteria;
+
+        for (let keyParent in fdParent)
         {
-          $('.clear-data').removeClass('clear-button-disabled');
-          $('.clear-data-mobile').removeClass('clear-button-disabled');
-          this.formEdited = true;
-          let fdParent = this.frameworksData;
-          let weightPerCriteria = this.getWeightPerCriteria(this.totalCriteria);
-          let maxCriteriaScore = 3 * weightPerCriteria;
-
-          for (let keyParent in fdParent)
+          if (fdParent.hasOwnProperty(keyParent))
           {
-            if (fdParent.hasOwnProperty(keyParent))
+            let framework = keyParent;
+            let fdChild = fdParent[keyParent];
+
+            for (let keyChild in fdChild)
             {
-              let framework = keyParent;
-              let fdChild = fdParent[keyParent];
-
-              for (let keyChild in fdChild)
+              if (fdChild.hasOwnProperty(keyChild))
               {
-                if (fdChild.hasOwnProperty(keyChild))
-                {
-                  let fdSubChild = fdChild[keyChild];
+                let fdSubChild = fdChild[keyChild];
 
-                  if (keyChild === selectedCriteria) {
+                if (keyChild === selectedCriteria) {
 
-                    fdSubChild["goalMet"] = this.calculateGoalMet(framework, selectedCriteria, userSelection, fdSubChild['strength']);
-                    fdSubChild["score"] = fdSubChild["goalMet"] * weightPerCriteria;
-                    fdSubChild["percentage"] = Math.round(fdSubChild["score"] / (maxCriteriaScore) * 100);
-                    this.setIndividualPercentage(framework, selectedCriteria, fdSubChild["percentage"]);
-                  }
+                  fdSubChild["goalMet"] = this.calculateGoalMet(framework, selectedCriteria, userSelection, fdSubChild['strength']);
+                  fdSubChild["score"] = fdSubChild["goalMet"] * weightPerCriteria;
+                  fdSubChild["percentage"] = Math.round(fdSubChild["score"] / (maxCriteriaScore) * 100);
+                  this.setIndividualPercentage(framework, selectedCriteria, fdSubChild["percentage"]);
                 }
               }
             }
           }
+        }
 
-          this.setMeanTotalScore(maxCriteriaScore, this.language);
-  //                this.generateReport();
+        this.setMeanTotalScore(maxCriteriaScore, this.language);
       },
 
       setIndividualPercentage: function (currentFramework, currentCriteria, currentCriteriaPercentage)
@@ -2892,7 +2450,6 @@
           let that = this;
           setTimeout(function () {
             that.clearForm(count);
-            console.log("akshdioa sdiouh aiosuh dioauh iosuhda")
           }, 500);
         }
 
@@ -2902,60 +2459,10 @@
         $("#clearFormConfirmationModal").modal('hide');
       },
 
-//      generateReport: function () {
-//                let PDFDocument = require('pdfkit');
-//                let blobStream = require('blob-stream');
-//
-//                // create a document and pipe to a blob
-//                let doc = new PDFDocument();
-//                let stream = doc.pipe(blobStream());
-//
-//// draw some text
-//                doc.fontSize(25)
-//                    .text('Here is some vector graphics...', 100, 80);
-//
-//// some vector graphics
-//                doc.save()
-//                    .moveTo(100, 150)
-//                    .lineTo(100, 250)
-//                    .lineTo(200, 250)
-//                    .fill("#FF3300");
-//
-//                doc.circle(280, 200, 50)
-//                    .fill("#6600FF");
-//
-//// an SVG path
-//                doc.scale(0.6)
-//                    .translate(470, 130)
-//                    .path('M 250,75 L 323,301 131,161 369,161 177,301 z')
-//                    .fill('red', 'even-odd')
-//                    .restore();
-//
-//// and some justified text wrapped into columns
-//                doc.text('And here is some wrapped text...', 100, 300)
-//                    .font('Times-Roman', 13)
-//                    .moveDown()
-//                    .text(lorem, {
-//                        width: 412,
-//                        align: 'justify',
-//                        indent: 30,
-//                        columns: 2,
-//                        height: 300,
-//                        ellipsis: true
-//                    });
-//
-//// end and display the document in the iframe to the right
-//                doc.end();
-//                stream.on('finish', function() {
-//                    iframe.src = stream.toBlobURL('application/pdf');
-//                });
-//      }
-
     }
   }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
 
   .whole-page
@@ -2964,14 +2471,6 @@
     margin: 0 auto;
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 2px;
-  }
-
-  .total-percentage
-  {
-    float: right;
-    color: darkgreen;
-    cursor: default;
-    pointer-events: none;
   }
 
   .criteria-description-in-tooltip
@@ -3002,11 +2501,6 @@
   .panel-heading a{
     text-decoration: none;
     color: deepskyblue;
-  }
-
-  .progress
-  {
-    margin-bottom: 0;
   }
 
   .clear-data
@@ -3049,25 +2543,6 @@
   {
     color: black;
     font-style: italic;
-  }
-
-  .important-note-about-total-percentage
-  {
-    margin-bottom: 75px;
-  }
-
-  .important-note
-  {
-    margin-left: 15px;
-    font-size: 14px;
-    letter-spacing: 1.5px;
-  }
-
-  .important-note-title
-  {
-    font-size: 16px;
-    text-decoration: underline;
-    text-decoration-color: cornflowerblue;
   }
 
   .form-horizontal .control-label{

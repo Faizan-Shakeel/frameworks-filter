@@ -1,20 +1,18 @@
 <template>
   <div id="app">
-    <!--<img src="./assets/logo.png">-->
-    <!--<h1>Frameworks Filter</h1>-->
 
-    <hello></hello>
+    <Framework-Filter></Framework-Filter>
 
   </div>
 </template>
 
 <script>
-  import Hello from './components/Framework-Filter'
+  import FrameworkFilter from './components/Framework-Filter'
 
   export default {
     name: 'app',
     components: {
-      Hello,
+      FrameworkFilter
     }
   }
 </script>
