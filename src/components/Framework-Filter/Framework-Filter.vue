@@ -389,26 +389,6 @@
           .resize(positionFooter)
       });
 
-      $(function () {
-        $('.tooltips').tooltipster({
-          theme: ['tooltipster-shadow', 'tooltipster-shadow-customized'],
-          delay: 0,
-          maxWidth: 500,
-          side: "left",
-          trigger: 'custom',
-          triggerOpen: {
-            mouseenter: true,
-            tap: true,
-            delayTouch: 0,
-          },
-          triggerClose: {
-            scroll: true,
-            tap: true,
-            mouseleave: true,
-          }
-        });
-      });
-
     },
 
     data () {
@@ -2093,16 +2073,16 @@
         return 100 / totalNumberOfCriteria;
       },
 
-      clearConsole: function () {
-        if (typeof console._commandLineAPI !== 'undefined') {
-          console.API = console._commandLineAPI; //chrome
-        } else if (typeof console._inspectorCommandLineAPI !== 'undefined') {
-          console.API = console._inspectorCommandLineAPI; //Safari
-        } else if (typeof console.clear !== 'undefined') {
-          console.API = console;
-        }
-        console.API.clear();
-      },
+//      clearConsole: function () {
+//        if (typeof console._commandLineAPI !== 'undefined') {
+//          console.API = console._commandLineAPI; //chrome
+//        } else if (typeof console._inspectorCommandLineAPI !== 'undefined') {
+//          console.API = console._inspectorCommandLineAPI; //Safari
+//        } else if (typeof console.clear !== 'undefined') {
+//          console.API = console;
+//        }
+//        console.API.clear();
+//      },
 
       checkFormStatus: function () {
         if(this.formEdited) {
@@ -2144,10 +2124,19 @@
 
   .criteria-description-in-tooltip
   {
+    width: 3%;
     color: darkgray;
     margin: 10px 0 0 -15px;
     cursor: default;
     font-size: medium;
+  }
+
+  .criteria-description-in-tooltip:hover
+  {
+    color: #595959;
+    margin: 5px 0 0 -19px;
+    /*cursor: default;*/
+    font-size: x-large;
   }
 
   .form-group {

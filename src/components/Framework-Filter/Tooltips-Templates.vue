@@ -253,6 +253,31 @@
 
     name: 'Tooltips-Templates',
 
+    beforeMount(){
+
+      $(function () {
+        $('.tooltips').tooltipster({
+          theme: ['tooltipster-shadow', 'tooltipster-shadow-customized'],
+          delay: 0,
+          maxWidth: 500,
+          side: "left",
+          trigger: 'custom',
+          triggerOpen: {
+            mouseenter: true,
+            tap: true,
+            delayTouch: 0,
+          },
+          triggerClose: {
+            scroll: true,
+            tap: true,
+            mouseleave: true,
+          }
+        });
+      });
+
+    },
+
+
     data () {
       return {
       }

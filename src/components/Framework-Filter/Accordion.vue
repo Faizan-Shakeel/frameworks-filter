@@ -522,15 +522,15 @@
 
     <div class="important-note-about-total-percentage">
       <h4 class="important-note-title">Important Note</h4>
-      <p class="criteria-description-in-tooltip important-note">Percentage shows overall result, which <span class="criteria-options-meaning">doesn't necessarily mean</span> that the higher the percentage the higher the suitability.</p>
-      <p class="criteria-description-in-tooltip important-note">Please check <span class="criteria-options-meaning">individual results</span> for most important criteria for your project.</p>
+      <p class="important-note">Percentage shows overall result, which <span class="criteria-options-meaning">doesn't necessarily mean</span> that the higher the percentage the higher the suitability.</p>
+      <p class="important-note">Please check <span class="criteria-options-meaning">individual results</span> for most important criteria for your project.</p>
 
       <br>
 
       <h4 class="important-note-title">Criteria Strength Bar</h4>
-      <p class="criteria-description-in-tooltip important-note"><span class="criteria-options-meaning" style="color: #d9534f;">RED: </span>Not important for user <span class="criteria-options-meaning">OR</span> Weak support in framework.</p>
-      <p class="criteria-description-in-tooltip important-note"><span class="criteria-options-meaning" style="color: #5cb85c;">GREEN: </span>Moderately important for user <span class="criteria-options-meaning">OR</span> Moderate support in framework.</p>
-      <p class="criteria-description-in-tooltip important-note"><span class="criteria-options-meaning" style="color: #5bc0de;">BLUE: </span>Very important for user <span class="criteria-options-meaning">AND</span> Strong support in framework.</p>
+      <p class="important-note"><span class="criteria-options-meaning" style="color: #d9534f;">RED: </span>Not important for user <span class="criteria-options-meaning">OR</span> Weak support in framework.</p>
+      <p class="important-note"><span class="criteria-options-meaning" style="color: #5cb85c;">GREEN: </span>Moderately important for user <span class="criteria-options-meaning">OR</span> Moderate support in framework.</p>
+      <p class="important-note"><span class="criteria-options-meaning" style="color: #5bc0de;">BLUE: </span>Very important for user <span class="criteria-options-meaning">AND</span> Strong support in framework.</p>
     </div>
 
   </div>
@@ -734,6 +734,8 @@
     margin-left: 15px;
     font-size: 14px;
     letter-spacing: 1.5px;
+    color: darkgray;
+    cursor: default;
   }
 
   .important-note-title
