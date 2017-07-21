@@ -7,9 +7,7 @@
 
     <div class="row whole-page">
 
-      <div class="feedback">
-        <a href="https://goo.gl/forms/6sakUAormUq3IkU43" target="_blank">Feedback</a>
-      </div>
+      <a class="feedback" href="https://goo.gl/forms/6sakUAormUq3IkU43" target="_blank">Feedback</a>
 
       <div class="col-sm-6 col-md-6 col-lg-6">
 
@@ -2135,7 +2133,6 @@
   {
     color: #595959;
     margin: 5px 0 0 -19px;
-    /*cursor: default;*/
     font-size: x-large;
   }
 
@@ -2167,16 +2164,13 @@
     padding: 10px 10px 5px 10px;
     letter-spacing: 2px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.43);
-    cursor: pointer;
     border-radius: 5px 5px 0px 0px;
     background: linear-gradient(to bottom,#2D77A2 5%,deepskyblue 100%);
-  }
-
-  .feedback a {
     color: #fff;
+    z-index: 1;
   }
 
-  .feedback a:hover, .feedback a:focus
+  .feedback:hover, .feedback:focus
   {
     color: #fff;
     text-decoration: none;
